@@ -8,7 +8,7 @@
              <div class="col-12 col-lg-9 col-xl-8">
                 <div class="widget-newsletter">
                    <div class="widget-content">
-                      <p>Sign up for industry alerts,<br>insights from Equita.</p>
+                      <p>Sign up for industry alerts,<br>insights from {{config('app.name')}}.</p>
                       <form class="form-newsletter mailchimp">
                          <input class="form-control" type="email" name="email" placeholder="Your Email Address">
                          <input class="btn btn--primary" type="submit" value="sign up!">
@@ -28,7 +28,7 @@
                    <h5>about</h5>
                 </div>
                 <div class="widget-content">
-                   <p>Equita is a representative logistics operator providing full range of service in the sphere of customs cargo and transportation worldwide.</p>
+                   <p>{{config('app.name')}} is a representative logistics operator providing full range of service in the sphere of customs cargo and transportation worldwide.</p>
                    <div class="module module-social"><a class="share-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"> </i></a><a class="share-instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a><a class="share-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></div>
                 </div>
              </div>
@@ -81,7 +81,7 @@
     <div class="footer-bottom">
        <div class="row">
           <div class="col-md-12 col-md-12 text--center footer-copyright">
-             <div class="copyright"><span>&copy; Equita, With Love by</span><a href="../user/zytheme/portfolio.html"> Zytheme.com</a></div>
+             <div class="copyright"><span>&copy; {{config('app.name')}}, With Love by</span><a href="../user/zytheme/portfolio.html"> Zytheme.com</a></div>
           </div>
        </div>
     </div>

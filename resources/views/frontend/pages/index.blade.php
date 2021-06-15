@@ -39,7 +39,7 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/3.jpg" alt="Background"></div>
+             <div class="bg-section"><img src="assets/images/sliders/3.png" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -54,7 +54,7 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/4.jpg" alt="Background"></div>
+             <div class="bg-section"><img src="assets/images/sliders/4.png" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -75,33 +75,35 @@
     <div class="container">
        <div class="row no-gutters">
           <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
-             <i class="thumb-icon flaticon-002-warehouse"></i>
+             <i class="thumb-icon flaticon-004-trailer-1 "></i>
              <div class="thumb-body">
                 <p>sustainable </p>
-                <h3> <a href="service-warehouse.html">warehousing services</a></h3>
+                <h3> <a href="#">Transportation services</a></h3>
              </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-             <i class="thumb-icon flaticon-035-plane"></i>
+            <i class="thumb-icon flaticon-010-cargo"> </i>
+            <div class="thumb-body">
+               <p>innovative</p>
+               <h3> <a href="#">Shipping Agency services</a></h3>
+            </div>
+         </div>
+          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
+             <i class="thumb-icon flaticon-032-connection"></i>
              <div class="thumb-body">
                 <p>reliable</p>
-                <h3> <a href="service-air-freight.html">air freight services</a></h3>
+                <h3> <a href="#">Business commercial</a></h3>
              </div>
           </div>
+
           <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-             <i class="thumb-icon flaticon-010-cargo"> </i>
-             <div class="thumb-body">
-                <p>innovative</p>
-                <h3> <a href="service-ocean-freight.html">ocean freight services</a></h3>
-             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-             <i class="thumb-icon flaticon-004-trailer-1"></i>
+             <i class="thumb-icon flaticon-033-checklist"></i>
              <div class="thumb-body">
                 <p>flexible</p>
-                <h3> <a href="service-road-freight.html"> road freight services</a></h3>
+                <h3> <a href="#">Custom clearance</a></h3>
              </div>
           </div>
+
        </div>
     </div>
  </section>
@@ -116,26 +118,30 @@
                 <div class="counter">
                    <div class="counter-icon"> <i class="flaticon-018-packaging"></i></div>
                    <div class="counter-num">
-                      <span class="counting">9,612</span>
-                      <p>m</p>
+                      <span class="counting">1000</span>
+                      <p></p>
                    </div>
                    <div class="counter-name">
-                      <h6>delivered goods</h6>
+                      <h6>Projects</h6>
                    </div>
                 </div>
              </div>
           </div>
           <div class="col-12 col-lg-7">
              <div class="heading heading-3">
-                <p class="heading-subtitle">Providing Full Range Of Transportation Worldwide.</p>
-                <h2 class="heading-title">Reliable Logistic & Transport Solutions Saves Your Time!</h2>
+                <p class="heading-subtitle">Providing Full Range Of Transportation.</p>
+                <h2 class="heading-title">ABOUT SINOTRANS</h2>
              </div>
              <div class="about-block">
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="block-left">
-                         <p>Equita Group is a representative logistics operator providing full range of service in the sphere of customs clearance transportation worldwide for any cargo</p>
-                         <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising the latest communications, tracking and combined with experience through integrated supply chain solutions!</p>
+                         <p class="text-justify">{{config('app.name')}} is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
+                         <p class="text-justify">
+                            Since 2014 Sinotrans Pakistan, offers road transportation, heavy lifting, and oversize transport, customs clearance, ship agency, owners’ husbandry, warehousing, Containerised and breakbulk as well ocean freight booking services to trade points such as Karachi Port, Port Qasim and Gwadar.
+
+                        </p>
+                        <p><button type="button"</p>
                       </div>
                    </div>
                    <div class="col-12 col-lg-5">
@@ -154,17 +160,17 @@
              </div>
              <div class="signature-block">
                 <div class="signature-body">
-                   <h6>john peter</h6>
-                   <p>founder</p>
+                   <h6>Mr. Babar Badat</h6>
+                   <p>Chairman</p>
                 </div>
-                <img src="assets/images/signature/1.png" alt="signature">
+                {{-- <img src="#" alt="signature"> --}}
              </div>
           </div>
        </div>
     </div>
  </section>
  <section class="cta bg-overlay bg-overlay-dark2" id="cta-1">
-    <div class="bg-section"><img src="assets/images/cta/1.jpg" alt="background"></div>
+    <div class="bg-section"><img src="assets/images/cta/1.png" alt="background"></div>
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-6">
@@ -402,7 +408,7 @@
           </div>
           <div class="col-12 col-lg-6 offset-lg-1">
              <div class="prief-set">
-                <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, Equita drives sustainable competitive advantages to some of Australia's largest companies.</p>
+                <p>We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personnel, utilising communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, {{config('app.name')}} drives sustainable competitive advantages to some of Australia's largest companies.</p>
                 <ul class="advantages-list">
                    <li><i class="fas fa-check-circle"></i> Quality Control System</li>
                    <li><i class="fas fa-check-circle"></i> Unrivalled workmanship</li>
@@ -560,7 +566,7 @@
                 <div class="heading heading-5 text-center">
                    <p class="heading-subtitle">join us today</p>
                    <h2 class="heading-title">our partners</h2>
-                   <p class="heading-desc">Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, Equita drives sustainable competitive advantages to some of Australia's largest companies.</p>
+                   <p class="heading-desc">Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, {{config('app.name')}} drives sustainable competitive advantages to some of Australia's largest companies.</p>
                 </div>
              </div>
           </div>
@@ -602,7 +608,7 @@
                          <div class="testimonial-img"><img src="assets/images/testimonial/3.jpg" alt="Testimonial Author"></div>
                          <div class="testimonial-content">
                             <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>Equita Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
+                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
                             <div class="testimonial-meta">
                                <h4>John R Peter</h4>
                                <p>movein</p>
@@ -618,7 +624,7 @@
                          <div class="testimonial-img"><img src="assets/images/testimonial/4.jpg" alt="Testimonial Author"></div>
                          <div class="testimonial-content">
                             <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>Equita Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
+                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
                             <div class="testimonial-meta">
                                <h4>James Wane</h4>
                                <p>James Wane</p>
@@ -634,7 +640,7 @@
                          <div class="testimonial-img"><img src="assets/images/testimonial/3.jpg" alt="Testimonial Author"></div>
                          <div class="testimonial-content">
                             <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>Equita Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
+                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
                             <div class="testimonial-meta">
                                <h4>Marko Smith</h4>
                                <p>Aify Agency</p>

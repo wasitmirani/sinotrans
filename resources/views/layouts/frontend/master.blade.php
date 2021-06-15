@@ -15,32 +15,19 @@
       <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
    </head>
    <body>
-      <div class="preloader">
-         <div class="loader-spinner">
-            <div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-            </div>
-         </div>
-      </div>
+
       <div class="wrapper clearfix" id="wrapperParallax">
 
         @include('layouts.frontend.components.navbar')
 
-        @yield('content')
+          @yield('content')
 
          @include('layouts.frontend.components.footer')
 
          <div class="backtop" id="back-to-top"><i class="fas fa-chevron-up"></i></div>
       </div>
       <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-      <script src="assets/js/vendor.min.js"></script>
-      <script src="assets/js/functions.js"></script>
+      <script src="{{asset('assets/js/vendor.min.js')}}"></script>
+      <script src="{{asset('assets/js/functions.js')}}"></script>
    </body>
 </html>

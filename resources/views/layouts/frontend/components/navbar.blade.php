@@ -1,7 +1,7 @@
 <header class="header header-1 header-transparent" id="navbar-spy">
     <nav class="navbar navbar-expand-lg  navbar-bordered navbar-sticky" id="primary-menu">
        <div class="container">
-          <a class="navbar-brand" href="index.html"><img class="logo logo-light" src="assets/images/logo/logo-light.png" alt="Equita Logo"><img class="logo logo-dark" src="assets/images/logo/logo-dark.png" alt="Equita Logo"></a>
+          <a class="navbar-brand" href="{{route('index')}}"><img class="logo logo-light" src="assets/images/logo/logo-light.png" style="width: 90px;height: 82px;" alt="{{config('app.name')}} Logo"><img class="logo logo-dark" src="assets/images/logo/logo-dark.png"  style="width: 90px;height: 82px;" alt="{{config('app.name')}} Logo"></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarContent">
              <ul class="navbar-nav ml-auto">
@@ -15,8 +15,6 @@
                       <li class="nav-item"><a href="page-core.html"><span>core values</span></a></li>
                       <li class="nav-item"><a href="page-team.html"><span>leadership team</span></a></li>
                       <li class="nav-item"><a href="page-locations.html"><span>global locations</span></a></li>
-                      <li class="nav-item"><a href="page-gallery.html"><span>our gallery</span></a></li>
-                      <li class="nav-item"><a href="page-awards.html"><span>awards &amp; recognition</span></a></li>
                       <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li>
                    </ul>
                 </li>
@@ -28,23 +26,23 @@
                             <div class="col col-md-6">
                                <h5 class="menu-head">transport services</h5>
                                <ul>
-                                  <li class="nav-item"><a href="service-warehouse.html"><span>warehousing</span></a></li>
-                                  <li class="nav-item"><a href="service-air-freight.html"><span>air freight</span></a></li>
-                                  <li class="nav-item"><a href="service-ocean-freight.html"><span>ocean freight</span></a></li>
-                                  <li class="nav-item"><a href="service-road-freight.html"><span>road freight</span></a></li>
-                                  <li class="nav-item"><a href="service-supply.html"><span>supply chain</span></a></li>
-                                  <li class="nav-item"><a href="service-packaging.html"><span>packaging</span></a></li>
+                                  <li class="nav-item"><a href="#"><span>Transportation</span></a></li>
+                                  <li class="nav-item"><a href="#"><span>Shipping Agency</span></a></li>
+                                  <li class="nav-item"><a href="#"><span>Business commercial</span></a></li>
+                                  <li class="nav-item"><a href="#"><span>Custom clearance</span></a></li>
+                                  <li class="nav-item"><a href="#"><span>WareHousing Solutions                                </span></a></li>
                                </ul>
                             </div>
                             <div class="col col-md-6">
                                <h5 class="menu-head">industry solutions</h5>
                                <ul>
-                                  <li class="nav-item"><a href="industry-retail.html"><span>retail &amp; consumer</span></a></li>
-                                  <li class="nav-item"><a href="industry-science.html"><span>sciences &amp; healthcare</span></a></li>
-                                  <li class="nav-item"><a href="industry-chemical.html"><span>industrial &amp; chemical</span></a></li>
-                                  <li class="nav-item"><a href="industry-power.html"><span>power generation</span></a></li>
-                                  <li class="nav-item"><a href="industry-food.html"><span>food &amp; beverage</span></a></li>
-                                  <li class="nav-item"><a href="industry-oil.html"><span>oil &amp; gas</span></a></li>
+                                  <li class="nav-item"><a href="industry-retail.html"><span>consumer &amp; retail</span></a></li>
+                                  <li class="nav-item"><a href="industry-science.html"><span>oil &amp; energy</span></a></li>
+                                  <li class="nav-item"><a href="industry-chemical.html"><span>automative</span></a></li>
+                                  <li class="nav-item"><a href="industry-power.html"><span>communications &amp; hightech</span></a></li>
+                                  <li class="nav-item"><a href="industry-food.html"><span>chemicals</span></a></li>
+                                  <li class="nav-item"><a href="industry-oil.html"><span>events</span></a></li>
+                                <li class="nav-item"><a href="industry-oil.html"><span>construction</span></a></li>
                                </ul>
                             </div>
                          </div>
