@@ -1,24 +1,24 @@
 <header class="header header-1 header-transparent" id="navbar-spy">
     <nav class="navbar navbar-expand-lg  navbar-bordered navbar-sticky" id="primary-menu">
        <div class="container">
-          <a class="navbar-brand" href="{{route('index')}}"><img class="logo logo-light" src="assets/images/logo/logo-light.png" style="width: 90px;height: 82px;" alt="{{config('app.name')}} Logo"><img class="logo logo-dark" src="assets/images/logo/logo-dark.png"  style="width: 90px;height: 82px;" alt="{{config('app.name')}} Logo"></a>
+          <a class="navbar-brand" href="{{route('index')}}"><img class="logo logo-light" src="{{asset('assets/images/logo/logo-light.png')}}"  alt="{{config('app.name')}} Logo"><img class="logo logo-dark" src="{{asset('assets/images/logo/logo-dark.png')}}"   alt="{{config('app.name')}} Logo"></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarContent">
              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                   <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Home</span></a>
+                <li class="nav-item {{request()->routeIs('index') ? 'active' : ''}}">
+                   <a class="dropdown-toggle" href="{{route('index')}}" ><span>Home</span></a>
                 </li>
-                <li class="nav-item has-dropdown">
+                <li class="nav-item has-dropdown  {{request()->routeIs('company*') ? 'active' : ''}}">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>company</span></a>
                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="page-about.html"><span>about us</span></a></li>
+                      <li class="nav-item   {{request()->routeIs('company.about-us') ? 'current' : ''}} "><a href="{{route('company.about-us')}}"><span>about us</span></a></li>
                       <li class="nav-item"><a href="page-core.html"><span>core values</span></a></li>
                       <li class="nav-item"><a href="page-team.html"><span>leadership team</span></a></li>
                       <li class="nav-item"><a href="page-locations.html"><span>global locations</span></a></li>
                       <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li>
                    </ul>
                 </li>
-                <li class="nav-item has-dropdown mega-dropdown">
+                <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>services</span></a>
                    <ul class="dropdown-menu">
                       <li>

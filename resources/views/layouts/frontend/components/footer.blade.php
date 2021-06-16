@@ -3,7 +3,7 @@
        <div class="container">
           <div class="row">
              <div class="col-12 col-lg-3 col-xl-4">
-                <div class="footer-logo"><img class="footer-logo" src="assets/images/logo/logo-light.png" alt="logo"></div>
+                <div class="footer-logo"><img class="footer-logo" src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo"></div>
              </div>
              <div class="col-12 col-lg-9 col-xl-8">
                 <div class="widget-newsletter">
@@ -81,7 +81,7 @@
     <div class="footer-bottom">
        <div class="row">
           <div class="col-md-12 col-md-12 text--center footer-copyright">
-             <div class="copyright"><span>&copy; {{config('app.name')}}, With Love by</span><a href="../user/zytheme/portfolio.html"> Zytheme.com</a></div>
+             <div class="copyright"><span>&copy; {{date('Y')}}  {{config('app.name')}} Limited All Rights Reserved </span><a href="#"></a></div>
           </div>
        </div>
     </div>
