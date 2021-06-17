@@ -74,20 +74,28 @@
  <section class="services-bar" id="servicesBar">
     <div class="container">
        <div class="row no-gutters">
-          <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
+        <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
+            <i class="thumb-icon flaticon-010-cargo"> </i>
+            <div class="thumb-body">
+               <p>innovative</p>
+               <h3> <a href="#">Shipping Agency services</a></h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
+            <i class="thumb-icon flaticon-033-checklist"></i>
+            <div class="thumb-body">
+               <p>flexible</p>
+               <h3> <a href="#">Custom clearance</a></h3>
+            </div>
+         </div>
+          <div class="col-12 col-md-6 col-lg-3 services-bar-card ">
              <i class="thumb-icon flaticon-004-trailer-1 "></i>
              <div class="thumb-body">
                 <p>sustainable </p>
                 <h3> <a href="#">Transportation services</a></h3>
              </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-            <i class="thumb-icon flaticon-010-cargo"> </i>
-            <div class="thumb-body">
-               <p>innovative</p>
-               <h3> <a href="#">Shipping Agency services</a></h3>
-            </div>
-         </div>
+
           <div class="col-12 col-md-6 col-lg-3 services-bar-card">
              <i class="thumb-icon flaticon-032-connection"></i>
              <div class="thumb-body">
@@ -96,13 +104,7 @@
              </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-             <i class="thumb-icon flaticon-033-checklist"></i>
-             <div class="thumb-body">
-                <p>flexible</p>
-                <h3> <a href="#">Custom clearance</a></h3>
-             </div>
-          </div>
+
 
        </div>
     </div>
@@ -119,7 +121,7 @@
           <div class="col-12 col-lg-6">
              <div class="heading heading-2 heading-light">
                 <p class="heading-subtitle">Dedicated Customer Teams & An Agile Services</p>
-                <h2 class="heading-title">Global Logistics Partner To World’s Famous Brands For Over 25 Years!</h2>
+                <h2 class="heading-title">Global Logistics Partner To World’s Famous Brands!</h2>
              </div>
           </div>
           <div class="col-12 col-lg-6">
@@ -131,90 +133,16 @@
           </div>
           <div class="col-12">
              <div class="contact-panel">
-                <div class="contact-types"> <a class="button quote-btn" href="javascript:void(0)" data-form="quoteFormActive"> <i class="flaticon-020-order"> </i><span>request a quote</span></a><a class="button track-btn active" href="javascript:void(0)" data-form="trackFormActive"> <i class="flaticon-009-shipping-1"> </i><span>track &amp; trace</span></a></div>
+                <div class="contact-types">
+                    <a class="button quote-btn active" href="javascript:void(0)" data-form="quoteFormActive"> <i class="flaticon-020-order"> </i><span>get in touch</span></a>
+                    <a class="button track-btn " href="javascript:void(0)" data-form="trackFormActive"> <i class="flaticon-009-shipping-1"> </i><span>track &amp; trace</span></a></div>
                 <div class="contact-card">
-                   <div class="contact-body trackFormActive">
+                   <div class="contact-body quoteFormActive">
                       <div class="row">
                          <div class="col-12 col-lg-8">
-                            <form class="contactForm quote-form mb-0" method="post" action="assets/php/contact.php">
-                               <h5 class="card-heading">personal data</h5>
-                               <div class="row">
-                                  <div class="col-12 col-md-12 col-lg-4">
-                                     <input class="form-control" type="text" name="contact-name" placeholder="Name" required="">
-                                  </div>
-                                  <div class="col-12 col-md-6 col-lg-4">
-                                     <input class="form-control" type="text" name="contact-email" placeholder="Email" required="">
-                                  </div>
-                                  <div class="col-12 col-md-6 col-lg-4">
-                                     <input class="form-control" type="text" name="contact-phone" placeholder="Phone" required="">
-                                  </div>
-                               </div>
-                               <h5 class="card-heading">shipment data</h5>
-                               <div class="row">
-                                  <div class="col-12 col-lg-4">
-                                     <div class="select-container">
-                                        <select class="form-control">
-                                           <option value="default">freight type</option>
-                                           <option value="AL">freight type 1</option>
-                                           <option value="AK">freight type 2</option>
-                                        </select>
-                                     </div>
-                                  </div>
-                                  <div class="col-12 col-md-6 col-lg-4">
-                                     <input class="form-control" type="text" name="contact-city" placeholder="city of departure" required="">
-                                  </div>
-                                  <div class="col-12 col-md-6 col-lg-4">
-                                     <input class="form-control" type="text" name="contact-destination" placeholder="delivery city" required="">
-                                  </div>
-                                  <div class="col-12 col-lg-4">
-                                     <div class="select-container">
-                                        <select class="form-control">
-                                           <option value="default">incoterms</option>
-                                           <option value="AL">incoterms 1</option>
-                                           <option value="AK">incoterms 2</option>
-                                        </select>
-                                     </div>
-                                  </div>
-                                  <div class="col-12 col-md-2">
-                                     <input class="form-control" type="text" name="contact-weight" placeholder="weight" required="">
-                                  </div>
-                                  <div class="col-12 col-md-2">
-                                     <input class="form-control" type="text" name="contact-height" placeholder="height" required="">
-                                  </div>
-                                  <div class="col-12 col-md-2">
-                                     <input class="form-control" type="text" name="contact-width" placeholder="width" required="">
-                                  </div>
-                                  <div class="col-12 col-md-2">
-                                     <input class="form-control" type="text" name="contact-length" placeholder="length" required="">
-                                  </div>
-                                  <div class="col-12">
-                                     <div class="custom-radio-group">
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline1" name="customRadioInline1">
-                                           <label for="customRadioInline1">fragile</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline2" name="customRadioInline1">
-                                           <label for="customRadioInline2">express delivery</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline3" name="customRadioInline1">
-                                           <label for="customRadioInline3">insurance</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline4" name="customRadioInline1">
-                                           <label for="customRadioInline4">packaging</label>
-                                        </div>
-                                     </div>
-                                  </div>
-                                  <div class="col-12">
-                                     <input class="btn btn--secondary btn--block" type="submit" value="Request A Quote">
-                                  </div>
-                                  <div class="col-12">
-                                     <div class="contact-result"></div>
-                                  </div>
-                               </div>
-                            </form>
+
+                            @livewire('contactus')
+
                             <form class="contactForm track-form mb-0" method="post" action="assets/php/contact.php">
                                <h5 class="card-heading">personal data</h5>
                                <div class="row">
@@ -259,6 +187,8 @@
                                </div>
                             </form>
                          </div>
+
+
                          <div class="col-12 col-lg-4">
                             <div class="apply-card widget widget-reservation">
                                <img src="assets/images/contact/1.jpg" alt="Background Image">
@@ -302,37 +232,35 @@
        </div>
        <div class="row">
           <div class=" col-sm-6 col-md-6 col-lg-4">
-             <div class="feature-panel bg-white">
-                <div class="feature-icon"><i class="flaticon-035-plane"></i></div>
-                <div class="feature-content">
-                   <i class="flaticon-035-plane"></i>
-                   <h4>air freight<br>services</h4>
-                   <p>We can provide with the comprehensive service in the sphere of urgent, valuable, fragile or any cargoes conscientious accelerated delivery by air.</p>
-                   <a href="javascript:void(0)"><i class="icon-arrow-right"></i> read more</a>
-                </div>
-             </div>
+            @component('frontend.components.serviceCard',
+            [
+                'icon'=>'flaticon-010-cargo',
+                'name'=>'ocean freigh',
+                'link'=>'#',
+                'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
+            ])
+            @endcomponent
           </div>
           <div class=" col-sm-6 col-md-6 col-lg-4">
-             <div class="feature-panel bg-white">
-                <div class="feature-icon"><i class="flaticon-010-cargo"></i></div>
-                <div class="feature-content">
-                   <i class="flaticon-010-cargo"></i>
-                   <h4>ocean freight<br>services</h4>
-                   <p>We provides with the types of basic conditions International sea transportation is implemented by our partners’ the largest ocean carriers.</p>
-                   <a href="javascript:void(0)"><i class="icon-arrow-right"></i> read more</a>
-                </div>
-             </div>
+            @component('frontend.components.serviceCard',
+            [
+                'icon'=>'flaticon-010-cargo',
+                'name'=>'ship agency',
+                'link'=>'#',
+                'short_description'=>'Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times.'
+            ])
+            @endcomponent
           </div>
+          {{-- CUSTOM CLEARANCE --}}
           <div class=" col-sm-6 col-md-6 col-lg-4">
-             <div class="feature-panel bg-white">
-                <div class="feature-icon"><i class="flaticon-004-trailer-1"></i></div>
-                <div class="feature-content">
-                   <i class="flaticon-004-trailer-1"></i>
-                   <h4>road freight<br>services</h4>
-                   <p>We provides a wide range of transportation services including quality international road transportation of cargoes &amp; goods arriving from the ports</p>
-                   <a href="javascript:void(0)"><i class="icon-arrow-right"></i> read more</a>
-                </div>
-             </div>
+            @component('frontend.components.serviceCard',
+            [
+                'icon'=>'flaticon-033-checklist',
+                'name'=>'custom clearance',
+                'link'=>'#',
+                'short_description'=>'To ensure timely commitment and safe delivery of the cargo, our top in-house custom clearance department has hands-on experience in handling every aspect of the customs clearance processes, be it communicating with the custom officials or offering consultancy services.'
+            ])
+            @endcomponent
           </div>
        </div>
        <div class="more-features">
@@ -340,6 +268,43 @@
        </div>
     </div>
  </section>
+ <section class="about about-2 about-5" id="about-5">
+    <div class="container">
+       <div class="row">
+          <div class="col-12 col-lg-5">
+             <div class="heading heading-9">
+                <p class="heading-subtitle">full sustainable cargo solutions!</p>
+                <h2 class="heading-title">WHY SINOTRANS LIMITED?</h2>
+             </div>
+             <div class="about-block">
+                <div class="block-left">
+                   <p>Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services.  Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.</p>
+                   <p>The unbeatable combination of our technology, service and people for our diverse customer base has made us a leading integrated logistics service provider in Pakistan with a reputation for multi-modal project cargo success backed by proven innovative logistics solutions and service excellence.</p>
+
+                </div>
+             </div>
+             <div class="signature-block">
+                <div class="signature-body">
+                    <a href="{{route('why-sinotrans')}}"><i class="icon-arrow-right"></i> read more</a>
+                </div>
+             </div>
+          </div>
+          <div class="col-12 col-lg-6 offset-lg-1">
+             <div class="about-img abput-img-text">
+                <div class="about-img-warp">
+                   <div class="bg-section"><img class="img-fluid" src="assets/images/about/2.jpg" alt="about Image"></div>
+                </div>
+                <div class="about-card">
+                   <h6>Flexibile, Improved & Accelerated Solutions!</h6>
+                   <p>Providing full range of service in the sphere transportation worldwide.</p>
+                   <a href="javascript:void(0)"><i class="icon-arrow-right"></i> our borchure</a>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+
  <section class="cta cta-3 bg-theme" id="cta-3">
     <div class="container">
        <div class="row">

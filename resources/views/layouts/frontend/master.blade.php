@@ -14,6 +14,7 @@
       <link href="../css2.css?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
       <link href="{{asset('/assets/css/vendor.min.css')}}" rel="stylesheet">
       <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
+      @livewireStyles
    </head>
    <body>
 
@@ -31,5 +32,7 @@
      <script src="{{asset('assets/js/vendor/jquery-3.4.1.min.js')}}"></script>
       <script src="{{asset('assets/js/vendor.min.js')}}"></script>
       <script src="{{asset('assets/js/functions.js')}}"></script>
+
+      @livewireScripts
    </body>
 </html>

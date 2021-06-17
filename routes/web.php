@@ -23,4 +23,5 @@ Route::get('/',[FrontEndController::class,'index'])->name('index');
 Route::prefix('company')->name('company.')->group(function () {
     Route::get('/about-us',[FrontEndController::class,'about'])->name('about-us');
 });
+Route::get('/why-sinotrans',[FrontEndController::class,'why-sinotrans'])->name('why-sinotrans');
 
