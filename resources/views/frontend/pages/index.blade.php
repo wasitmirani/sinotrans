@@ -272,22 +272,10 @@
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-5">
-             <div class="heading heading-9">
-                <p class="heading-subtitle">full sustainable cargo solutions!</p>
-                <h2 class="heading-title">WHY SINOTRANS LIMITED?</h2>
-             </div>
-             <div class="about-block">
-                <div class="block-left">
-                   <p>Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services.  Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.</p>
-                   <p>The unbeatable combination of our technology, service and people for our diverse customer base has made us a leading integrated logistics service provider in Pakistan with a reputation for multi-modal project cargo success backed by proven innovative logistics solutions and service excellence.</p>
+              @component('frontend.components.whyus')
 
-                </div>
-             </div>
-             <div class="signature-block">
-                <div class="signature-body">
-                    <a href="{{route('why-sinotrans')}}"><i class="icon-arrow-right"></i> read more</a>
-                </div>
-             </div>
+              @endcomponent
+
           </div>
           <div class="col-12 col-lg-6 offset-lg-1">
              <div class="about-img abput-img-text">
@@ -297,7 +285,7 @@
                 <div class="about-card">
                    <h6>Flexibile, Improved & Accelerated Solutions!</h6>
                    <p>Providing full range of service in the sphere transportation worldwide.</p>
-                   <a href="javascript:void(0)"><i class="icon-arrow-right"></i> our borchure</a>
+                   <a href="{{route('services.all')}}"><i class="icon-arrow-right"></i> our services</a>
                 </div>
              </div>
           </div>

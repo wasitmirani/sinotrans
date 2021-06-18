@@ -23,4 +23,44 @@ class ServicesController extends Controller
         SEOTools::twitter()->setSite('@'.url('/'));
         SEOTools::jsonLd()->addImage(url('/').'/images/logo/logo-dark.png');
     }
+
+    function bindServices($title,$description,$icon,$sub_item){
+        return[
+            'title'=>$title,
+            'description'=>$description,
+            'icon'=>$icon,
+            'sub_item'=>$sub_item,
+        ];
+    }
+
+    public function ServicesList(){
+        return [
+            $this->bindServices(
+                'Ocean Freigh',
+                'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.
+                 Working with us means benefitting from our flexible, fully integrated multi-model logistic solutions, competitive rates and quick transit times. Our all-inclusive ocean freight service utilizes the most efficient routes to ensure your cargo reaches its destination safely and on time.
+                 We also provide full cargo routing proposals, including advice on cargo stowage, and securing for out of gauge, heavy and otherwise ‘exceptional’ cargoes. We also offer comprehensive route surveys for complex movements where necessary.',
+                 'flaticon-010-cargo',
+                 [
+                    'Conventional shipping',
+                    'Ro-Ro services worldwide',
+                    'FCL/LCL Service',
+                    'Heavy Lift and Oversized Cargo',
+                    'Stevedoring Services',
+                    'Potline Giver Service',
+                 ],
+            ),
+            $this->bindServices(
+                'SHIP AGENCY',
+                'Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times. Our experienced and dedicated team provides outstanding handling of all types of cargos including heavy lifts and oversized project cargos, as well as communication and knowledge of ports and compliance requirements at all Pakistani ports. Our success has always been our ability to anticipate and adapt and therefore keep our pace with our customers’ needs and demands.',
+                'flaticon-010-cargo',
+                 [
+                    'Inward Outward',
+                    '
+'
+                 ],
+            ),
+
+        ];
+    }
 }
