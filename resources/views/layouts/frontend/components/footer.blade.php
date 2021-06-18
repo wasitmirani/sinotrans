@@ -8,7 +8,7 @@
              <div class="col-12 col-lg-9 col-xl-8">
                 <div class="widget-newsletter">
                    <div class="widget-content">
-                      <p>Sign up for industry alerts,<br>insights from {{config('app.name')}}.</p>
+                      <p>Sign up for industry alerts,<br>insights from sinotrans.</p>
                       <form class="form-newsletter mailchimp">
                          <input class="form-control" type="email" name="email" placeholder="Your Email Address">
                          <input class="btn btn--primary" type="submit" value="sign up!">
@@ -28,7 +28,7 @@
                    <h5>about</h5>
                 </div>
                 <div class="widget-content">
-                   <p>{{config('app.name')}} is a representative logistics operator providing full range of service in the sphere of customs cargo and transportation worldwide.</p>
+                   <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
                    <div class="module module-social"><a class="share-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"> </i></a><a class="share-instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a><a class="share-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></div>
                 </div>
              </div>
@@ -81,7 +81,7 @@
     <div class="footer-bottom">
        <div class="row">
           <div class="col-md-12 col-md-12 text--center footer-copyright">
-             <div class="copyright"><span>&copy; {{date('Y')}}  {{config('app.name')}} Limited All Rights Reserved </span><a href="#"></a></div>
+             <div class="copyright"><span>&copy; {{date('Y')}}  {{config('app.name')}}  All Rights Reserved </span><a href="#"></a></div>
           </div>
        </div>
     </div>

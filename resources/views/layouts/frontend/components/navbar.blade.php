@@ -19,7 +19,7 @@
                    </ul>
                 </li>
                 <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
-                   <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>services</span></a>
+                   <a class="dropdown-toggle" href="{{route('services.all')}}" data-toggle="dropdown"><span>services</span></a>
                    <ul class="dropdown-menu">
                       <li>
                          <div class="row">

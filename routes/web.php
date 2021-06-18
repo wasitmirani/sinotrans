@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontEndController;
+use App\Http\Controllers\ServicesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +25,8 @@ Route::prefix('company')->name('company.')->group(function () {
     Route::get('/about-us',[FrontEndController::class,'about'])->name('about-us');
 });
 Route::get('/why-sinotrans',[FrontEndController::class,'why-sinotrans'])->name('why-sinotrans');
+Route::prefix('services')->name('services.')->group(function () {
+    Route::get('/',[ServicesController::class,'services'])->name('all');
+});
+
 
