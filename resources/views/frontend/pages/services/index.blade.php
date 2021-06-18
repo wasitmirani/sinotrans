@@ -65,21 +65,56 @@
                           <p class="text-justify">Sinotrans Logistics Pakistan is a holistic logistic solutions provider, aiming to provide door to-door services to meet every one of our customers’ logistical needs; All as part of the group recognized worldwide for its portfolio of high-profile clients, projects and offering 360-degree services. Our extensive network of cargo agents expertly handles air and ocean cargo in one seamless transaction. Our range of services includes.</p>
 
                        </div>
-                       <div class="entry-bio entry-bio-2">
-                          <h5>stats &amp; charts </h5>
-                          <div class="row">
-                             <div class="col-12 col-lg-6">
-                                <p>Our mix of company-owned and contractor assets allows us to retain optimal levels of control whilst expanding our reach to over 96% of towns in Australia. With 40 years of LTL experience, we are now a trusted LTL freight provider for shippers of all sizes and commodity types.</p>
-                                <p>
-                                   Our LTL service extends to all states and territories, and includes multiple per-week services to places many others only serve occasionally, including Darwin, Alice Springs, Newman, Mt. Isa, Launceston and Burnie.
-                                </p>
-                                <p>
-                                   We pride ourselves on providing the best transport and shipping services currently available in Australia. Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience, ensure all freight is are shipped.
-                                </p>
-                             </div>
-                             <div class="col-12 col-lg-6"> <img class="entry-chart" src="assets/images/chart/chart-2.png" alt="Chart image"></div>
-                          </div>
-                       </div>
+                       <section class="features" id="features-1" style="padding-top: 0px;padding-bottom: 0px;">
+
+                           <div class="heading heading-4">
+                            <div class="row">
+                                <div class=" col-sm-10 col-md-10 col-lg-6">
+                                  @component('frontend.components.serviceCard',
+                                  [
+                                      'icon'=>'flaticon-010-cargo',
+                                      'name'=>'ocean freigh',
+                                      'link'=>route('services.ocean.freigh'),
+                                      'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
+                                  ])
+                                  @endcomponent
+                                </div>
+                                <div class=" col-sm-10 col-md-10 col-lg-6">
+                                    @component('frontend.components.serviceCard',
+                                    [
+                                        'icon'=>'flaticon-010-cargo',
+                                        'name'=>'Ship Agency',
+                                        'link'=>route('services.ship.agency'),
+                                        'short_description'=>'Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times.'
+                                    ])
+                                    @endcomponent
+                                </div>
+
+                                <div class=" col-sm-10 col-md-10 col-lg-6">
+                                    @component('frontend.components.serviceCard',
+                                    [
+                                        'icon'=>'flaticon-033-checklist',
+                                        'name'=>'Custom Clearance',
+                                        'link'=>route('services.custom.clearance'),
+                                        'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
+                                    ])
+                                    @endcomponent
+                                </div>
+
+                                <div class=" col-sm-10 col-md-10 col-lg-6">
+                                    @component('frontend.components.serviceCard',
+                                    [
+                                        'icon'=>'flaticon-004-trailer-1',
+                                        'name'=>'Road Transport ',
+                                        'link'=>route('services.road.transport'),
+                                        'short_description'=>'Our experience as a road logistics specialist, in combination with an efficient transport network is what makes us a major global intermodal player.'
+                                    ])
+                                    @endcomponent
+                                </div>
+                            </div>
+                           </div>
+
+                       </section>
                        <div class="entry-bio enty-bio-3">
                           <h5>Life At Sinotrans</h5>
                           <p class="text-justify">At Sinotrans Pakistan, our commitment to creating a diverse and inclusive workplace, as well as provide handsomely for our people, means they not only work, but have the opportunity to learn and grow with us as well. At Sinotrans Pakistan we aim to change lives we strongly believe in the constant growth of each individual.</p>
