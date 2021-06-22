@@ -9,7 +9,7 @@
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/1.jpg" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('/assets/images/sliders/1.jpg')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -17,7 +17,11 @@
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h1 class="slide-headline">full sustainable<br>cargo solutions!</h1>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                         <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+
+
+                        @component('frontend.components.silderLinks')
+
+                        @endcomponent
                       </div>
                    </div>
                 </div>
@@ -32,7 +36,9 @@
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">Air Freight That<br>Saves Your Time!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                         <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                         @component('frontend.components.silderLinks')
+
+                         @endcomponent
                       </div>
                    </div>
                 </div>
@@ -47,7 +53,9 @@
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">innovation sea<br>transportation!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                         <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                         @component('frontend.components.silderLinks')
+
+                         @endcomponent
                       </div>
                    </div>
                 </div>
@@ -62,7 +70,9 @@
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">your flexible<br>road directions!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
-                         <div class="slide-buttons"><a class="btn btn--primary" href="javascript:void(0)">more about us</a><a class="btn btn--white" href="javascript:void(0)">our services</a></div>
+                         @component('frontend.components.silderLinks')
+
+                         @endcomponent
                       </div>
                    </div>
                 </div>
@@ -78,31 +88,31 @@
             <i class="thumb-icon flaticon-010-cargo"> </i>
             <div class="thumb-body">
                <p>innovative</p>
-               <h3> <a href="#">Shipping Agency services</a></h3>
+               <h3> <a href="{{route('services.ocean.freigh')}}">Ocean Freight services</a></h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 services-bar-card ">
+            <i class="thumb-icon flaticon-010-cargo"> </i>
+            <div class="thumb-body">
+               <p>innovative</p>
+               <h3> <a href="{{route('services.ship.agency')}}">Ship Agency services</a></h3>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 services-bar-card">
             <i class="thumb-icon flaticon-033-checklist"></i>
             <div class="thumb-body">
                <p>flexible</p>
-               <h3> <a href="#">Custom clearance</a></h3>
+               <h3> <a href="{{route('services.custom.clearance')}}">Custom clearance</a></h3>
             </div>
          </div>
           <div class="col-12 col-md-6 col-lg-3 services-bar-card ">
              <i class="thumb-icon flaticon-004-trailer-1 "></i>
              <div class="thumb-body">
                 <p>sustainable </p>
-                <h3> <a href="#">Transportation services</a></h3>
+                <h3> <a href="{{route('services.road.transport')}}">Road Transport services</a></h3>
              </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-3 services-bar-card">
-             <i class="thumb-icon flaticon-032-connection"></i>
-             <div class="thumb-body">
-                <p>reliable</p>
-                <h3> <a href="#">Business commercial</a></h3>
-             </div>
-          </div>
 
 
 

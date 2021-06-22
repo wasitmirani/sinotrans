@@ -22,9 +22,28 @@ class ServicesController extends Controller
         $this->setSeo($title,$des);
         return view('frontend.pages.services.oceanFreigh');
     }
+
+    public function shipAgency(){
+        $title="Ship Agency";
+        $des="Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times. Our experienced and dedicated team provides outstanding handling of all types of cargos including heavy lifts and oversized project cargos, as well as communication and knowledge of ports and compliance requirements at all Pakistani ports. Our success has always been our ability to anticipate and adapt and therefore keep our pace with our customers’ needs and demands.";
+        $this->setSeo($title,$des);
+        return view('frontend.pages.services.shipAgency');
+    }
+    public function customClearance(){
+        $title="Custom Clearance ";
+        $des="To ensure timely commitment and safe delivery of the cargo, our top in-house custom clearance department has hands-on experience in handling every aspect of the customs clearance processes, be it communicating with the custom officials or offering consultancy services.";
+        $this->setSeo($title,$des);
+        return view('frontend.pages.services.customClearance');
+    }
+    public function roadTransport(){
+        $title="Road Transport";
+        $des="Our experience as a road logistics specialist, in combination with an efficient transport network is what makes us a major global intermodal player. We offer effective and reliable transportation solutions ranging from a Containerised breakbulk and heavy lift, full truckload, and Less-Than-Truckload movement. Furthermore, with a proprietary fleet of specialized extendible trailers for heavy and oversized movement we can ensure that even your heaviest cargo can be moved quickly and safely, no matter the dimension and bulk. In addition, having an inhouse workshop and maintenance experts allows us to provide on location repair and maintenance services, significantly reducing lead time and extending adaptability.";
+        $this->setSeo($title,$des);
+        return view('frontend.pages.services.roadTransport');
+    }
     public function setSeo($title,$description){
         SEOTools::setTitle($title." | ".config('app.name'));
-        SEOTools::setDescription($description);
+        SEOTools::setDescription(config('app.name')." ".$description);
         SEOTools::setCanonical(url()->current());
         SEOTools::opengraph()->addProperty('type', 'articles');
         SEOTools::twitter()->setSite('@'.url('/'));
