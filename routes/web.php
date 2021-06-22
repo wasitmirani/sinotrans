@@ -31,6 +31,7 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/ship-agency-service',[ServicesController::class,'shipAgency'])->name('ship.agency');
     Route::get('/custom-clearance-service',[ServicesController::class,'customClearance'])->name('custom.clearance');
     Route::get('/road-transport-service',[ServicesController::class,'roadTransport'])->name('road.transport');
+    Route::get('/warehouse-service',[ServicesController::class,'wareHouse'])->name('ware.house');
 });
 
 

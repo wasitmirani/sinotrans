@@ -24,13 +24,13 @@
                       <li>
                          <div class="row">
                             <div class="col col-md-6">
-                               <h5 class="menu-head">transport services</h5>
+                               <h5 class="menu-head">Services</h5>
                                <ul>
-                                  <li class="nav-item"><a href="#"><span>Transportation</span></a></li>
-                                  <li class="nav-item"><a href="#"><span>Shipping Agency</span></a></li>
-                                  <li class="nav-item"><a href="#"><span>Business commercial</span></a></li>
-                                  <li class="nav-item"><a href="#"><span>Custom clearance</span></a></li>
-                                  <li class="nav-item"><a href="#"><span>WareHousing Solutions                                </span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freigh</span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.ship.agency') ? 'current' : ''}}"><a href="{{route('services.ship.agency')}}"><span>Ship Agency</span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.custom.clearance') ? 'current' : ''}}"><a href="{{route('services.custom.clearance')}}"><span>Custom Clearance</span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.road.transport') ? 'current' : ''}}"><a href="{{route('services.road.transport')}}"><span>Road Transport</span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.ware.house') ? 'current' : ''}}"><a href="{{route('services.ware.house')}}"><span>Warehousing</span></a></li>
                                </ul>
                             </div>
                             <div class="col col-md-6">

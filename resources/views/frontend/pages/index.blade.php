@@ -264,7 +264,7 @@
           </div>
        </div>
        <div class="more-features">
-          <p>Logistic & Transport Solutions Saves Your Time. <a href="javascript:void(0)">Find your solution </a></p>
+          <p>Logistic & Transport Solutions Saves Your Time. <a href="{{route('services.all')}}">Find your solution </a></p>
        </div>
     </div>
  </section>

@@ -1,5 +1,6 @@
 
 @extends('layouts.frontend.master')
+
 @section('content')
 
 
@@ -15,7 +16,7 @@
     <div class="title-heading">
     <h1>Services</h1>
     </div>
-        @component('frontend.components.Breadcam',['back_link'=>'Company','active_link'=>'Services'])
+        @component('frontend.components.Breadcam',[ 'active_link'=>'Services'])
 
         @endcomponent
 
@@ -33,27 +34,17 @@
                  <div class="sidebar sidebar-case-study">
                     <div class="widget widget-categories">
                        <div class="widget-title">
-                          <h5>transport services</h5>
+                          <h5>services</h5>
                        </div>
                        <div class="widget-content">
                           <ul class="list-unstyled">
-                             <li><a href="javascript:void(0)">warehouse</a></li>
-                             <li><a href="javascript:void(0)">air freight</a></li>
-                             <li><a href="javascript:void(0)">ocean freight</a></li>
-                             <li><a href="javascript:void(0)">road freight</a></li>
-                             <li><a href="javascript:void(0)">supply chain</a></li>
-                             <li><a href="javascript:void(0)">packaging</a></li>
+                            @component('frontend.components.servicesList')
+
+                            @endcomponent
                           </ul>
                        </div>
                     </div>
-                    <div class="widget widget-reservation">
-                       <img src="assets/images/blog/sidebar/reservation.jpg" alt="Background Image">
-                       <div class="widget-content">
-                          <h5>Dedicated Customer Teams & Agile Services</h5>
-                          <p>Our worldwide presence ensures the timeliness, cost efficiency compliance adherence required to ensure your production timelines are met.</p>
-                          <a class="btn btn--transparent btn--inverse btn--block" href="javascript:void(0)">Schedule An Appointment</a>
-                       </div>
-                    </div>
+
 
                  </div>
               </div>
@@ -100,7 +91,6 @@
                                     ])
                                     @endcomponent
                                 </div>
-
                                 <div class=" col-sm-10 col-md-10 col-lg-6">
                                     @component('frontend.components.serviceCard',
                                     [
@@ -111,6 +101,18 @@
                                     ])
                                     @endcomponent
                                 </div>
+                                <div class=" col-sm-10 col-md-10 col-lg-6">
+                                    @component('frontend.components.serviceCard',
+                                    [
+                                        'icon'=>'flaticon-002-warehouse',
+                                        'name'=>'Warehousing',
+                                        'link'=>route('services.ware.house'),
+                                        'short_description'=>'When it comes to the movement of goods across suppliers, vendors, and customers, efficiency and traceability are of vital importance. That’s why our flexible warehousing and distribution solutions offer real-time cargo track and trace along with dedicated, shared, and refer warehousing and distribution facilities.'
+                                    ])
+                                    @endcomponent
+                                </div>
+
+
                             </div>
                            </div>
 

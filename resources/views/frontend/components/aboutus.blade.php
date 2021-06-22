@@ -9,7 +9,7 @@
                 <div class="counter">
                    <div class="counter-icon"> <i class="flaticon-018-packaging"></i></div>
                    <div class="counter-num">
-                      <span class="counting">1000</span>
+                      <span >1000</span>
                       <p></p>
                    </div>
                    <div class="counter-name">
