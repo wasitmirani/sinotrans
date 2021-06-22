@@ -497,71 +497,20 @@
     </div>
  </section>
  <section class="testimonial testimonial-3 bg-overlay bg-overlay-theme">
-    <div class="bg-section"> <img src="assets/images/background/1.jpg" alt="background-img"></div>
+    <div class="bg-section"> <img src="assets/images/background/2.png" alt="background-img"></div>
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-6">
              <div class="heading heading-light heading-6">
-                <p class="heading-subtitle">what our clients say!</p>
+                <p class="heading-subtitle"></p>
                 <h2 class="heading-title">
-                   Individually Assess <br>Each Plan And Offer <br>Optimal Solutions!
+                    Latest Equipment
                 </h2>
-                <p class="heading-desc">Serving an impressive list of long-term clients with experience and expertise in multiple industries.</p>
-                <a class="btn btn--transparent btn--inverse" href="javascript:void(0)">our services</a>
+                <p class="heading-desc">Having proprietary equipment give us huge advantage over other players, reducing dependency on other links in the chain, a value Chinese client particularly appreciate.  It also it allows us to provide an unmatched level of service control by offering us near total command of projects logistics thanks our team of experts.</p>
+                <a class="btn btn--transparent btn--inverse" href="{{route('services.all')}}">our services</a>
              </div>
           </div>
-          <div class="col-12 col-lg-6">
-             <div class="carousel owl-carousel carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="40" data-loop="true" data-speed="800">
-                <div class="testimonial-panel">
-                   <div class="testimonial-panel-warp">
-                      <div class="testimonial-icon"><i class="icon-Quote-Icon"></i></div>
-                      <div class="testimonial-body">
-                         <div class="testimonial-img"><img src="assets/images/testimonial/3.jpg" alt="Testimonial Author"></div>
-                         <div class="testimonial-content">
-                            <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
-                            <div class="testimonial-meta">
-                               <h4>John R Peter</h4>
-                               <p>movein</p>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-                <div class="testimonial-panel">
-                   <div class="testimonial-panel-warp">
-                      <div class="testimonial-icon"><i class="icon-Quote-Icon"></i></div>
-                      <div class="testimonial-body">
-                         <div class="testimonial-img"><img src="assets/images/testimonial/4.jpg" alt="Testimonial Author"></div>
-                         <div class="testimonial-content">
-                            <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
-                            <div class="testimonial-meta">
-                               <h4>James Wane</h4>
-                               <p>James Wane</p>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-                <div class="testimonial-panel">
-                   <div class="testimonial-panel-warp">
-                      <div class="testimonial-icon"><i class="icon-Quote-Icon"></i></div>
-                      <div class="testimonial-body">
-                         <div class="testimonial-img"><img src="assets/images/testimonial/3.jpg" alt="Testimonial Author"></div>
-                         <div class="testimonial-content">
-                            <div class="testimonial-rating"><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i><i class="icon-Star-1"></i></div>
-                            <p>{{config('app.name')}} Logistics International customer service is some of the best we have ever had with ocean we like to ship as much as possible with you all.</p>
-                            <div class="testimonial-meta">
-                               <h4>Marko Smith</h4>
-                               <p>Aify Agency</p>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
+
        </div>
     </div>
  </section>

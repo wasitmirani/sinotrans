@@ -148,29 +148,7 @@
                         </div>
 
                      </div>
-                       <div class="accordion accordion-2" id="accordion01">
-                          <div class="heading">
-                             <h4 class="heading-title">key benefits</h4>
-                          </div>
-                          <div class="card">
-                             <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-1">Which Plan Is Right For Me? </a></div>
-                             <div class="collapse" id="collapse01-1" data-parent="#accordion01">
-                                <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to provide sensitive information online.</div>
-                             </div>
-                          </div>
-                          <div class="card">
-                             <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-2">Do I have to commit to a contract? </a></div>
-                             <div class="collapse" id="collapse01-2" data-parent="#accordion01">
-                                <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to provide sensitive information online.</div>
-                             </div>
-                          </div>
-                          <div class="card active-acc">
-                             <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-3">What Payment Methods Are Available? </a></div>
-                             <div class="collapse show" id="collapse01-3" data-parent="#accordion01">
-                                <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to provide sensitive information online.</div>
-                             </div>
-                          </div>
-                       </div>
+
                        <div class="case-study case-study-1">
                           <div class="heading">
                              <h4 class="heading-title">case studies </h4>

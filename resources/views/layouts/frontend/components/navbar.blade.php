@@ -12,7 +12,7 @@
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>company</span></a>
                    <ul class="dropdown-menu">
                       <li class="nav-item   {{request()->routeIs('company.about-us') ? 'current' : ''}} "><a href="{{route('company.about-us')}}"><span>about us</span></a></li>
-                      <li class="nav-item"><a href="page-core.html"><span>core values</span></a></li>
+                      <li class="nav-item"><a href="{{route('why-sinotrans')}}"><span>Why Sinotrans Limited? </span></a></li>
                       <li class="nav-item"><a href="page-team.html"><span>leadership team</span></a></li>
                       <li class="nav-item"><a href="page-locations.html"><span>global locations</span></a></li>
                       <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li>

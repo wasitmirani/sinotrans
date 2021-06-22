@@ -41,6 +41,13 @@ class ServicesController extends Controller
         $this->setSeo($title,$des);
         return view('frontend.pages.services.roadTransport');
     }
+
+    public function wareHouse(){
+        $title="Warehousing";
+        $des="When it comes to the movement of goods across suppliers, vendors, and customers, efficiency and traceability are of vital importance. That’s why our flexible warehousing and distribution solutions offer real-time cargo track and trace along with dedicated, shared, and refer warehousing and distribution facilities. In addition, all our warehouses are equipped with leading edge warehouse management systems, making it easier for real time cargo track and trace.";
+        $this->setSeo($title,$des);
+        return view('frontend.pages.services.wareHouse');
+    }
     public function setSeo($title,$description){
         SEOTools::setTitle($title." | ".config('app.name'));
         SEOTools::setDescription(config('app.name')." ".$description);
