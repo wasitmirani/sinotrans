@@ -30,7 +30,7 @@
         <div class="row">
         <div class="col-12 col-lg-5">
         <div class="heading heading-9">
-        <p class="heading-subtitle">Providing Full Range Of Transportation Worldwide.</p>
+        <p class="heading-subtitle">Providing Full Range Of Transportation .</p>
         <h2 class="heading-title">Why Sinotrans Limited?</h2>
         </div>
         <div class="about-block">
@@ -52,11 +52,11 @@
         <div class="col-12 col-lg-6 offset-lg-1">
         <div class="about-img abput-img-text">
         <div class="about-img-warp">
-        <div class="bg-section"><img class="img-fluid" src="assets/images/about/2.jpg" alt="about Image"></div>
+        <div class="bg-section"><img class="img-fluid" src="{{asset('/assets/images/about/2.jpg')}}" alt="about Image"></div>
         </div>
         <div class="about-card">
         <h6>Flexibile, Improved & Accelerated Solutions!</h6>
-        <p>Providing full range of service in the sphere transportation worldwide.</p><a href="javascript:void(0)"><i class="icon-arrow-right"></i> our borchure</a>
+        <p>Providing full range of service in the sphere transportation .</p><a href="javascript:void(0)"><i class="icon-arrow-right"></i> our borchure</a>
         </div>
         </div>
         </div>

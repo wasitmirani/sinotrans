@@ -16,7 +16,7 @@
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h1 class="slide-headline">full sustainable<br>cargo solutions!</h1>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
+                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
 
 
                         @component('frontend.components.silderLinks')
@@ -35,7 +35,7 @@
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">Air Freight That<br>Saves Your Time!</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
+                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
@@ -52,7 +52,7 @@
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">innovation sea<br>transportation!</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
+                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
@@ -69,7 +69,7 @@
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
                          <h2 class="slide-headline">your flexible<br>road directions!</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.</p>
+                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
@@ -246,7 +246,7 @@
             [
                 'icon'=>'flaticon-010-cargo',
                 'name'=>'ocean freigh',
-                'link'=>'#',
+                'link'=>route('services.ocean.freigh'),
                 'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
             ])
             @endcomponent
@@ -256,7 +256,7 @@
             [
                 'icon'=>'flaticon-010-cargo',
                 'name'=>'ship agency',
-                'link'=>'#',
+                'link'=>route('services.ship.agency'),
                 'short_description'=>'Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times.'
             ])
             @endcomponent
@@ -267,7 +267,7 @@
             [
                 'icon'=>'flaticon-033-checklist',
                 'name'=>'custom clearance',
-                'link'=>'#',
+                'link'=>route('services.custom.clearance'),
                 'short_description'=>'To ensure timely commitment and safe delivery of the cargo, our top in-house custom clearance department has hands-on experience in handling every aspect of the customs clearance processes, be it communicating with the custom officials or offering consultancy services.'
             ])
             @endcomponent
@@ -294,7 +294,7 @@
                 </div>
                 <div class="about-card">
                    <h6>Flexibile, Improved & Accelerated Solutions!</h6>
-                   <p>Providing full range of service in the sphere transportation worldwide.</p>
+                   <p>Providing full range of service in the sphere transportation .</p>
                    <a href="{{route('services.all')}}"><i class="icon-arrow-right"></i> our services</a>
                 </div>
              </div>
@@ -305,8 +305,8 @@
 
  <section class="cta cta-3 bg-theme" id="cta-3">
     <div class="container">
-       <div class="row">
-          <div class="col-12 col-lg-5">
+       <div class="row justify-content-center">
+          <div class="col-12 col-lg-12">
              <div class="heading heading-2 heading-light">
                 <p class="heading-subtitle">Directions, That Matter!</p>
                 <h2 class="heading-title">What Gives Us Our Strength?</h2>
@@ -315,7 +315,7 @@
           <div class="col-12 col-lg-6 offset-lg-1">
           <div class="prief-set">
 
-            <p>Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
+            {{-- <p>Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p> --}}
           </div>
           </div>
           <div class="col-12 col-lg-10 offset-lg-1">
@@ -552,7 +552,7 @@
                    </div>
                    <div class="entry-date"><span class="month">jan 23</span><span class="date">2021</span></div>
                    <div class="entry-bio">
-                      <p>Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything, provide visibility and traceability needed for...</p>
+                      <p>Global provider connected products for consumers, and enterprises , supply chain control is everything, provide visibility and traceability needed for...</p>
                    </div>
                    <div class="entry-more"> <a href="javascript:void(0)">Read more</a></div>
                 </div>

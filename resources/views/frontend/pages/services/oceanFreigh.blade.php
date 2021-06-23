@@ -73,7 +73,7 @@
                           <div class="row">
                               @component('frontend.components.pointsList',['title'=>'Conventional shipping'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Ro-Ro services worldwide'])
+                              @component('frontend.components.pointsList',['title'=>'Ro-Ro services '])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'FCL/LCL Service'])
                               @endcomponent

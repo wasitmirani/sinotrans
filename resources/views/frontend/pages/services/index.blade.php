@@ -53,7 +53,7 @@
                     <div class="entry-content">
                        <div class="entry-bio">
                           <h5>Services</h5>
-                          <p class="text-justify">Sinotrans Logistics Pakistan is a holistic logistic solutions provider, aiming to provide door to-door services to meet every one of our customers’ logistical needs; All as part of the group recognized worldwide for its portfolio of high-profile clients, projects and offering 360-degree services. Our extensive network of cargo agents expertly handles air and ocean cargo in one seamless transaction. Our range of services includes.</p>
+                          <p class="text-justify">Sinotrans Logistics Pakistan is a holistic logistic solutions provider, aiming to provide door to-door services to meet every one of our customers’ logistical needs; All as part of the group recognized  for its portfolio of high-profile clients, projects and offering 360-degree services. Our extensive network of cargo agents expertly handles air and ocean cargo in one seamless transaction. Our range of services includes.</p>
 
                        </div>
                        <section class="features" id="features-1" style="padding-top: 0px;padding-bottom: 0px;">

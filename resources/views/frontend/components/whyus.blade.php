@@ -11,6 +11,6 @@
  </div>
  <div class="signature-block">
     <div class="signature-body">
-        <a href="{{route('why-sinotrans')}}"><i class="icon-arrow-right"></i> read more</a>
+        <a href="{{route('company.why-sinotrans')}}"><i class="icon-arrow-right"></i> read more</a>
     </div>
  </div>

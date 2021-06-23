@@ -67,7 +67,14 @@
                 </div>
 
 
+
+
                 {{-- <img src="#" alt="signature"> --}}
+             </div>
+             <div class="row">
+                <span class="mt-4">{{config('app.name')}}</span>
+
+            </div><img style="width: 80px;" src="{{asset('/assets/images/logo/logo-dark.png')}}" alt="{{config('app.name')}}">
              </div>
           </div>
        </div>

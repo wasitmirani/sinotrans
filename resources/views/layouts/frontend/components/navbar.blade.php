@@ -12,10 +12,10 @@
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>company</span></a>
                    <ul class="dropdown-menu">
                       <li class="nav-item   {{request()->routeIs('company.about-us') ? 'current' : ''}} "><a href="{{route('company.about-us')}}"><span>about us</span></a></li>
-                      <li class="nav-item"><a href="{{route('why-sinotrans')}}"><span>Why Sinotrans Limited? </span></a></li>
-                      <li class="nav-item"><a href="page-team.html"><span>leadership team</span></a></li>
-                      <li class="nav-item"><a href="page-locations.html"><span>global locations</span></a></li>
-                      <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li>
+                      <li class="nav-item {{request()->routeIs('company.why-sinotrans') ? 'current' : ''}} "><a href="{{route('company.why-sinotrans')}}"><span>Why Sinotrans Limited? </span></a></li>
+                      <li class="nav-item {{request()->routeIs('company.our.strength') ? 'current' : ''}}"><a href="{{route('company.our.strength')}}"><span>Our Strength</span></a></li>
+                      <li class="nav-item {{request()->routeIs('map') ? 'current' : ''}}"><a href="{{route('map')}}"><span>map location</span></a></li>
+                      {{-- <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li> --}}
                    </ul>
                 </li>
                 <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
@@ -63,17 +63,17 @@
                 <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="request-quote.html"><span>request a quote</span></a></li>
+                      <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>request a quote</span></a></li>
                       <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
                       <li class="nav-item"><a href="find-location.html"><span>find a location</span></a></li>
                       <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li>
                    </ul>
                 </li>
-                <li class="nav-item"><a href="contact.html"><span>contact</span></a></li>
+                <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>contact</span></a></li>
              </ul>
              <div class="module-container">
                 <div class="module module-search float-left">
-                   <div class="module-icon search-icon"><i class="icon-search"></i><span class="title">search</span></div>
+                   {{-- <div class="module-icon search-icon"><i class="icon-search"></i><span class="title">search</span></div> --}}
                    <div class="module-content module-fullscreen module-search-box">
                       <div class="pos-vertical-center">
                          <div class="container">
@@ -90,7 +90,7 @@
                       <a class="module-cancel" href="javascript:void(0)"><i class="fas fa-times"></i></a>
                    </div>
                 </div>
-                <div class="module-contact"><a class="btn btn--primary" href="javascript:void(0)">request a quote</a></div>
+                <div class="module-contact"><a class="btn btn--primary" href="{{route('contact')}}">request a quote</a></div>
                 <div class="module module-language">
                    <div class="selected"><span>en </span><i class="fas fa-chevron-down"></i></div>
                    <div class="lang-list">

@@ -24,8 +24,14 @@ Route::get('/',[FrontEndController::class,'index'])->name('index');
 Route::prefix('company')->name('company.')->group(function () {
     Route::get('/about-us',[FrontEndController::class,'about'])->name('about-us');
     Route::get('/about-us',[FrontEndController::class,'about'])->name('about-us');
+    Route::get('/why-sinotrans',[FrontEndController::class,'whySinotrans'])->name('why-sinotrans');
+    Route::get('our-strength',[FrontEndController::class,'ourStrength'])->name('our.strength');
 });
-Route::get('/why-sinotrans',[FrontEndController::class,'whySinotrans'])->name('why-sinotrans');
+
+
+Route::get('/map',[FrontEndController::class,'mapPak'])->name('map');
+Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact');
+
 Route::prefix('services')->name('services.')->group(function () {
     Route::get('/',[ServicesController::class,'services'])->name('all');
     Route::get('/ocean-freigh-service',[ServicesController::class,'oceanFreigh'])->name('ocean.freigh');
