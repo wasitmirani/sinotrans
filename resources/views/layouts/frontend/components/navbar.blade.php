@@ -90,15 +90,15 @@
                       <a class="module-cancel" href="javascript:void(0)"><i class="fas fa-times"></i></a>
                    </div>
                 </div>
-                <div class="module-contact"><a class="btn btn--primary" href="{{route('contact')}}">request a quote</a></div>
-                <div class="module module-language">
+                {{-- <div class="module-contact"><a class="btn btn--primary" href="{{route('contact')}}">request a quote</a></div> --}}
+                {{-- <div class="module module-language">
                    <div class="selected"><span>en </span><i class="fas fa-chevron-down"></i></div>
                    <div class="lang-list">
                       <ul>
                          <li> <a href="javascript:void(0)">english</a></li>
                       </ul>
                    </div>
-                </div>
+                </div> --}}
              </div>
           </div>
        </div>
