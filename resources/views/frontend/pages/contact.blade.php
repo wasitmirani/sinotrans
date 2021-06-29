@@ -44,25 +44,7 @@
              </div>
           </div>
           <div class="col-12 col-lg-8">
-             <form class="contactForm" method="post" action="assets/php/contact.php">
-                <div class="row">
-                   <div class="col-12 col-lg-4">
-                      <input class="form-control" type="text" name="contact-name" placeholder="name" required="">
-                   </div>
-                   <div class="col-12 col-lg-4">
-                      <input class="form-control" type="text" name="contact-email" placeholder="email" required="">
-                   </div>
-                   <div class="col-12 col-lg-4">
-                      <input class="form-control" type="text" name="contact-website" placeholder="website" required="">
-                   </div>
-                   <div class="col-12">
-                      <textarea class="form-control" name="contact-message" cols="30" rows="2" placeholder="message" required=""></textarea>
-                   </div>
-                   <div class="col-12">
-                      <input class="btn btn--primary" type="submit" value="Submit">
-                   </div>
-                </div>
-             </form>
+            @livewire('contactus')
           </div>
        </div>
     </div>

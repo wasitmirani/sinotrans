@@ -31,6 +31,7 @@ Route::prefix('company')->name('company.')->group(function () {
 
 Route::get('/map',[FrontEndController::class,'mapPak'])->name('map');
 Route::get('/contact-us',[FrontEndController::class,'contact'])->name('contact');
+Route::post('/contactus',[FrontEndController::class,'contactUs'])->name('contactus');
 
 Route::prefix('services')->name('services.')->group(function () {
     Route::get('/',[ServicesController::class,'services'])->name('all');

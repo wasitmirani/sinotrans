@@ -38,12 +38,12 @@
                 </div>
                 <div class="widget-content">
                    <ul>
-                      <li><a href="javascript:void(0)">warehouse</a></li>
-                      <li><a href="javascript:void(0)">air freight</a></li>
-                      <li><a href="javascript:void(0)">ocean freight</a></li>
-                      <li><a href="javascript:void(0)">road freight</a></li>
-                      <li><a href="javascript:void(0)">supply chain</a></li>
-                      <li><a href="javascript:void(0)">packaging</a></li>
+                      <li><a href="{{route('services.ocean.freigh')}}">Ocean Freight</a></li>
+                      <li><a href="{{route('services.ship.agency')}}">Ship Agency</a></li>
+                      <li><a href="{{route('services.custom.clearance')}}">Custom Clearance </a></li>
+                      <li><a href="{{route('services.ware.house')}}">Warehousing</a></li>
+                      <li><a href="{{route('services.road.transport')}}">Road Transport </a></li>
+
                    </ul>
                 </div>
              </div>
@@ -53,12 +53,14 @@
                 </div>
                 <div class="widget-content">
                    <ul>
-                      <li><a href="javascript:void(0)">retail & consumer</a></li>
-                      <li><a href="javascript:void(0)">sciences & healthcare</a></li>
-                      <li><a href="javascript:void(0)">industrial & chemical</a></li>
-                      <li><a href="javascript:void(0)">power generation</a></li>
-                      <li><a href="javascript:void(0)">food & peverage</a></li>
-                      <li><a href="javascript:void(0)">oil & gas</a></li>
+                     
+                      <li ><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
+                      <li ><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
+                      <li ><a href="javascript:void(0)"><span>automative</span></a></li>
+                      <li ><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
+                      <li ><a href="javascript:void(0)"><span>chemicals</span></a></li>
+                      <li ><a href="javascript:void(0)"><span>events</span></a></li>
+                     <li ><a href="javascript:void(0)"><span>construction</span></a></li>
                    </ul>
                 </div>
              </div>

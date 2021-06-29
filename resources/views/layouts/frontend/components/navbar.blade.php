@@ -36,13 +36,13 @@
                             <div class="col col-md-6">
                                <h5 class="menu-head">industry solutions</h5>
                                <ul>
-                                  <li class="nav-item"><a href="industry-retail.html"><span>consumer &amp; retail</span></a></li>
-                                  <li class="nav-item"><a href="industry-science.html"><span>oil &amp; energy</span></a></li>
-                                  <li class="nav-item"><a href="industry-chemical.html"><span>automative</span></a></li>
-                                  <li class="nav-item"><a href="industry-power.html"><span>communications &amp; hightech</span></a></li>
-                                  <li class="nav-item"><a href="industry-food.html"><span>chemicals</span></a></li>
-                                  <li class="nav-item"><a href="industry-oil.html"><span>events</span></a></li>
-                                <li class="nav-item"><a href="industry-oil.html"><span>construction</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>automative</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>chemicals</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>events</span></a></li>
+                                 <li class="nav-item"><a href="javascript:void(0)"><span>construction</span></a></li>
                                </ul>
                             </div>
                          </div>
@@ -52,21 +52,21 @@
                 <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>news &amp; media</span></a>
                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="blog-grid-fullwidth.html"><span>our blog</span></a></li>
-                      <li class="nav-item"><a href="blog-single-sidebar.html"><span>single blog post</span></a></li>
-                      <li class="nav-item"><a href="page-our-services.html"><span>our services</span></a></li>
-                      <li class="nav-item"><a href="case-studies-grid.html"><span>case studies grid</span></a></li>
-                      <li class="nav-item"><a href="case-studies-standard.html"><span>case studies standard</span></a></li>
-                      <li class="nav-item"><a href="case-study-single.html"><span>single case study</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>our blog</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>single blog post</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>our services</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>case studies grid</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>case studies standard</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>single case study</span></a></li>
                    </ul>
                 </li>
                 <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
                    <ul class="dropdown-menu">
                       <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>request a quote</span></a></li>
-                      <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
+                      {{-- <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
                       <li class="nav-item"><a href="find-location.html"><span>find a location</span></a></li>
-                      <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li>
+                      <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li> --}}
                    </ul>
                 </li>
                 <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>contact</span></a></li>

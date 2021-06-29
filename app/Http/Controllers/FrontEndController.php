@@ -32,6 +32,9 @@ class FrontEndController extends Controller
         return view('frontend.pages.whySinotrans');
     }
     public function contact(){
+        $title="Contact Us";
+        $des="Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.";
+        $this->setSeo( $title, $des);
         return view('frontend.pages.contact');
     }
     public function ourStrength(){
