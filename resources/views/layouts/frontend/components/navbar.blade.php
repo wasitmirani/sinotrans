@@ -26,7 +26,7 @@
                             <div class="col col-md-6">
                                <h5 class="menu-head">Services</h5>
                                <ul>
-                                  <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freigh</span></a></li>
+                                  <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freight</span></a></li>
                                   <li class="nav-item {{request()->routeIs('services.ship.agency') ? 'current' : ''}}"><a href="{{route('services.ship.agency')}}"><span>Ship Agency</span></a></li>
                                   <li class="nav-item {{request()->routeIs('services.custom.clearance') ? 'current' : ''}}"><a href="{{route('services.custom.clearance')}}"><span>Custom Clearance</span></a></li>
                                   <li class="nav-item {{request()->routeIs('services.road.transport') ? 'current' : ''}}"><a href="{{route('services.road.transport')}}"><span>Road Transport</span></a></li>
@@ -63,7 +63,7 @@
                 <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
                    <ul class="dropdown-menu">
-                      <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>request a quote</span></a></li>
+
                       {{-- <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
                       <li class="nav-item"><a href="find-location.html"><span>find a location</span></a></li>
                       <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li> --}}

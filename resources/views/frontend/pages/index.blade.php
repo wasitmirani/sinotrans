@@ -245,7 +245,7 @@
             @component('frontend.components.serviceCard',
             [
                 'icon'=>'flaticon-010-cargo',
-                'name'=>'ocean freigh',
+                'name'=>'ocean Freight',
                 'link'=>route('services.ocean.freigh'),
                 'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
             ])

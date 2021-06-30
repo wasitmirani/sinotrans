@@ -35,7 +35,7 @@ Route::post('/contactus',[FrontEndController::class,'contactUs'])->name('contact
 
 Route::prefix('services')->name('services.')->group(function () {
     Route::get('/',[ServicesController::class,'services'])->name('all');
-    Route::get('/ocean-freigh-service',[ServicesController::class,'oceanFreigh'])->name('ocean.freigh');
+    Route::get('/ocean-freight-service',[ServicesController::class,'oceanFreigh'])->name('ocean.freigh');
     Route::get('/ship-agency-service',[ServicesController::class,'shipAgency'])->name('ship.agency');
     Route::get('/custom-clearance-service',[ServicesController::class,'customClearance'])->name('custom.clearance');
     Route::get('/road-transport-service',[ServicesController::class,'roadTransport'])->name('road.transport');
