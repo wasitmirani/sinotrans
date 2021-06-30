@@ -3,7 +3,7 @@
        <div class="container">
           <div class="row">
              <div class="col-12 col-lg-3 col-xl-4">
-                <div class="footer-logo"><img class="footer-logo" src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo"></div>
+                <div class="footer-logo" ><img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo"></div>
              </div>
              <div class="col-12 col-lg-9 col-xl-8">
                 <div class="widget-newsletter">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="widget-content">
                    <ul>
-                     
+
                       <li ><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
                       <li ><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
                       <li ><a href="javascript:void(0)"><span>automative</span></a></li>
