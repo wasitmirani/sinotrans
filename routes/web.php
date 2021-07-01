@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\FrontEndController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +45,12 @@ Route::prefix('services')->name('services.')->group(function () {
 });
 
 
+
+
+Route::prefix('dashboard')->name('dashboard.')->group(function () {
+    Route::get('/',[DashboardController::class,'index'])->name('home');
+    Route::get('/projects',[ProjectController::class,'projects'])->name('projects');
+    Route::get('/project/create/',[ProjectController::class,'create'])->name('create.project');
+    Route::post('/project/store/',[ProjectController::class,'store'])->name('create.store');
+
+});

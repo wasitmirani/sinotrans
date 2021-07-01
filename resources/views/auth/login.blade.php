@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -67,6 +67,57 @@
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+@endsection --}}
+
+@extends('layouts.backend.authmaster')
+
+@section('content')
+<div class="row no-gutters">
+    <div class="col-xl-12">
+        <div class="auth-form">
+            <div class="text-center mb-3">
+                <a href="index.html"><img src="{{asset('/assets/images/logo/logo-dark.png')}}" style="width: 300px;" alt=""></a>
+            </div>
+            <h4 class="text-center mb-4">Sign in your account</h4>
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
+                <div class="form-group">
+                    <label class="mb-1"><strong>E-Mail Address</strong></label>
+                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                    @error('email')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                </div>
+                <div class="form-group">
+                    <label class="mb-1"><strong>Password</strong></label>
+                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                </div>
+                <div class="form-row d-flex justify-content-between mt-4 mb-2">
+                    <div class="form-group">
+                       <div class="custom-control custom-checkbox ml-1">
+                            <input type="checkbox" class="custom-control-input" id="basic_checkbox_1">
+                            <label class="custom-control-label" for="basic_checkbox_1">Remember my preference</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-block">Sign Me In</button>
+                </div>
+            </form>
+
         </div>
     </div>
 </div>
