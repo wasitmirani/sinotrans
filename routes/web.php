@@ -51,6 +51,7 @@ Route::prefix('dashboard')->name('dashboard.')->group(function () {
     Route::get('/',[DashboardController::class,'index'])->name('home');
     Route::get('/projects',[ProjectController::class,'projects'])->name('projects');
     Route::get('/project/create/',[ProjectController::class,'create'])->name('create.project');
-    Route::post('/project/store/',[ProjectController::class,'store'])->name('create.store');
+    Route::any('/project/store/',[ProjectController::class,'store'])->name('project.store');
+    Route::get('/industries',[ProjectController::class,'industries'])->name('industries');
 
 });

@@ -69,6 +69,12 @@
                       <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li> --}}
                    </ul>
                 </li>
+                @auth
+                <li class="nav-item {{request()->routeIs('home') ? 'active' : ''}}">
+                    <a class="dropdown-toggle" href="{{route('home')}}" ><span>Dashboard</span></a>
+                 </li>
+                @endauth
+
                 <li class="nav-item {{request()->routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}"><span>contact</span></a></li>
              </ul>
              <div class="module-container">

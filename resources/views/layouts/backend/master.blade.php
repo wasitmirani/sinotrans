@@ -35,6 +35,7 @@
     <!--**********************************
         Main wrapper start
     ***********************************-->
+    <div id="app">
     <div id="main-wrapper">
 
         <!--**********************************
@@ -137,7 +138,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © Designed &amp; {{config('app.name')}} <a href="{{url('/')}}" target="_blank"></a> {{date('Y')}}</p>
+                <p>Copyright ©  By {{config('app.name')}} <a href="{{url('/')}}" target="_blank"></a> {{date('Y')}}</p>
             </div>
         </div>
         <!--**********************************
@@ -153,6 +154,7 @@
         ***********************************-->
 
 	</div>
+    </div>
     <!--**********************************
         Main wrapper end
     ***********************************-->
@@ -164,6 +166,8 @@
 
     @livewireScripts
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{asset('/vendor/global/global.min.js')}}"></script>
 	<script src="{{asset('/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
 	<script src="{{asset('/vendor/chart.js/Chart.bundle.min.js')}}"></script>

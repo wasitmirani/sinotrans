@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Industry;
 use Illuminate\Http\Request;
 
 class ProjectController extends Controller
@@ -14,5 +15,13 @@ class ProjectController extends Controller
     public function create(){
 
         return view('backend.pages.project.create');
+    }
+
+    public function industries(){
+        $industries=Industry::all();
+        return response()->json(['industries' => $industries]);
+    }
+public function store(Request $request){
+        dd($request->all());
     }
 }
