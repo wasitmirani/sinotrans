@@ -30,8 +30,7 @@
     </div>
     </div>
  </section>
-
-    <section class="service-single case-study case-study-2 pb-70" id="service-single">
+<section class="service-single case-study case-study-2 pb-70" id="service-single">
         <div class="container">
            <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-0">
