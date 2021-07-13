@@ -31,7 +31,6 @@
     </div>
  </section>
 
-
     <section class="service-single case-study case-study-2 pb-70" id="service-single">
         <div class="container">
            <div class="row">
