@@ -20,10 +20,10 @@
                 <p>Dedicated Customer Teams &amp; An Agile Services</p>
              </div>
              <div class="title-heading">
-                <h1>Ocean Freigh Service</h1>
+                <h1>Ocean Freight Service</h1>
              </div>
              @component('frontend.components.Breadcam',
-             ['back_link'=>'Services','back_url'=>route('services.all'),'active_link'=>'Ocean Freigh Service'])
+             ['back_link'=>'Services','back_url'=>route('services.all'),'active_link'=>'Ocean Freight Service'])
              @endcomponent
           </div>
        </div>

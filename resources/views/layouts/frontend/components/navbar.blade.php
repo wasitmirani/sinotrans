@@ -52,23 +52,20 @@
                 <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>news &amp; media</span></a>
                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a href="javascript:void(0)"><span>our blog</span></a></li>
-                      <li class="nav-item"><a href="javascript:void(0)"><span>single blog post</span></a></li>
-                      <li class="nav-item"><a href="javascript:void(0)"><span>our services</span></a></li>
-                      <li class="nav-item"><a href="javascript:void(0)"><span>case studies grid</span></a></li>
-                      <li class="nav-item"><a href="javascript:void(0)"><span>case studies standard</span></a></li>
-                      <li class="nav-item"><a href="javascript:void(0)"><span>single case study</span></a></li>
+                      <li class="nav-item"><a href="javascript:void(0)"><span>our blogs</span></a></li>
+
+                      <li class="nav-item"><a href="javascript:void(0)"><span>case studies </span></a></li>
                    </ul>
                 </li>
-                <li class="nav-item has-dropdown">
+                {{-- <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
                    <ul class="dropdown-menu">
 
-                      {{-- <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
+                      <li class="nav-item"><a href="track-shipment.html"><span>track &amp; trace</span></a></li>
                       <li class="nav-item"><a href="find-location.html"><span>find a location</span></a></li>
-                      <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li> --}}
+                      <li class="nav-item"><a href="faqs.html"><span>help &amp; fAQs</span></a></li>
                    </ul>
-                </li>
+                </li> --}}
                 @auth
                 <li class="nav-item {{request()->routeIs('home') ? 'active' : ''}}">
                     <a class="dropdown-toggle" href="{{route('home')}}" ><span>Dashboard</span></a>
