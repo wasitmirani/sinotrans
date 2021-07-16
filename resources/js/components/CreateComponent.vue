@@ -15,10 +15,16 @@
                                     <input type="text" required v-model="title" name="title" class="form-control input-default " placeholder="Project Title">
                                 </div>
                                  <div class="form-group col-4">
-                                       <select class="form-control default-select" v-model="industry_id">
-                                                <option v-for="item in industries" :key="item.id" :value="item.id"> {{item.name}}</option>
+                                         <b-form-select
+                                                v-model="industry_id"
+                                                :options="industries"
+                                                class="mb-3"
+                                                value-field="id"
+                                                text-field="name"
+                                                disabled-field="notEnabled"
+                                                ></b-form-select>
 
-                                     </select>
+
                                 </div>
                                 <div class="form-group col-4">
                                     <div class="input-group">
@@ -31,7 +37,7 @@
                                                 drop-placeholder="Drop file here..."
                                                 ></b-form-file>
 
-                                            <!-- <label class="custom-file-label">Choose Thumbnail</label> -->
+
 
                                     </div>
                                 </div>
@@ -80,13 +86,15 @@ export default {
              let formdata = new FormData();
              formdata.append("title",this.title);
              formdata.append("thumbnail",this.thumbnail);
+             formdata.append("industry_id",this.industry_id);
              formdata.append("content",this.content);
 
-                axios.post("/dashboard/project/store/",formdata).then((res)=>{
+                axios.post("/dashboard/project/store",formdata).then((res)=>{
 
                     setTimeout(() => {
                           Vue.$toast.success("New Project has been created",{duration:1500});
                     }, 1500);
+                   window.location.href="/dashboard/projects";
                 });
         }
     },
