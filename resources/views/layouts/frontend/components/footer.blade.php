@@ -1,3 +1,14 @@
+@push('styles')
+<style>
+    .footer {
+    background-color: #00003f;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+</style>
+    
+@endpush
+
 <footer class="footer footer-1">
     <div class="footer-top">
        <div class="container">
@@ -71,8 +82,8 @@
                 <div class="widget-content">
                    <p>If you have any questions or need help, feel free to contact with our team.</p>
                    <ul>
-                      <li class="phone"><a href="tel:+01061245741"><i class="fas fa-phone-alt"></i> 01061245741</a></li>
-                      <li class="address"><a href="javascript:void(0)">2307 Beverley Rd Brooklyn, New York 11226 United States.</a></li>
+                      <li class="phone text-light"><a href="tel:+92(021) 35642730"><i class="fas fa-phone-alt"></i> +92(021) 35642730</a></li>
+                      <li class="address"><a href="javascript:void(0)">3rd Floor, Bahria Complex 3, Lalazar, MT Khan Road, Service Road, Naval Officers Residential Estate 1 Naval Officers Colony, Karachi, Karachi City, Sindh,Pakistan.</a></li>
                    </ul>
                 </div>
              </div>
