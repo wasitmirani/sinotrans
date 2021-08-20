@@ -242,7 +242,7 @@ function (_Emitter) {
         /**
          * If not `null` defines how many files this Dropzone handles. If it exceeds,
          * the event `maxfilesexceeded` will be called. The dropzone element gets the
-         * class `dz-max-files-reached` accordingly so you can provide visual feedback.
+         * class `dlab-max-files-reached` accordingly so you can provide visual feedback.
          */
         maxFilesize: 256,
 
@@ -533,12 +533,12 @@ function (_Emitter) {
         params: function params(files, xhr, chunk) {
           if (chunk) {
             return {
-              dzuuid: chunk.file.upload.uuid,
-              dzchunkindex: chunk.index,
-              dztotalfilesize: chunk.file.size,
-              dzchunksize: this.options.chunkSize,
-              dztotalchunkcount: chunk.file.upload.totalChunkCount,
-              dzchunkbyteoffset: chunk.index * this.options.chunkSize
+              dlabuuid: chunk.file.upload.uuid,
+              dlabchunkindex: chunk.index,
+              dlabtotalfilesize: chunk.file.size,
+              dlabchunksize: this.options.chunkSize,
+              dlabtotalchunkcount: chunk.file.upload.totalChunkCount,
+              dlabchunkbyteoffset: chunk.index * this.options.chunkSize
             };
           }
         },
@@ -574,7 +574,7 @@ function (_Emitter) {
         fallback: function fallback() {
           // This code should pass in IE7... :(
           var messageElement;
-          this.element.className = "".concat(this.element.className, " dz-browser-not-supported");
+          this.element.className = "".concat(this.element.className, " dlab-browser-not-supported");
           var _iteratorNormalCompletion2 = true;
           var _didIteratorError2 = false;
           var _iteratorError2 = undefined;
@@ -583,9 +583,9 @@ function (_Emitter) {
             for (var _iterator2 = this.element.getElementsByTagName("div")[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
               var child = _step2.value;
 
-              if (/(^| )dz-message($| )/.test(child.className)) {
+              if (/(^| )dlab-message($| )/.test(child.className)) {
                 messageElement = child;
-                child.className = "dz-message"; // Removes the 'dz-default' class
+                child.className = "dlab-message"; // Removes the 'dlab-default' class
 
                 break;
               }
@@ -606,7 +606,7 @@ function (_Emitter) {
           }
 
           if (!messageElement) {
-            messageElement = Dropzone.createElement("<div class=\"dz-message\"><span></span></div>");
+            messageElement = Dropzone.createElement("<div class=\"dlab-message\"><span></span></div>");
             this.element.appendChild(messageElement);
           }
 
@@ -718,7 +718,7 @@ function (_Emitter) {
          *       .innerHTML
          *
          */
-        previewTemplate: "<div class=\"dz-preview dz-file-preview\">\n  <div class=\"dz-image\"><img data-dz-thumbnail /></div>\n  <div class=\"dz-details\">\n    <div class=\"dz-size\"><span data-dz-size></span></div>\n    <div class=\"dz-filename\"><span data-dz-name></span></div>\n  </div>\n  <div class=\"dz-progress\"><span class=\"dz-upload\" data-dz-uploadprogress></span></div>\n  <div class=\"dz-error-message\"><span data-dz-errormessage></span></div>\n  <div class=\"dz-success-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Check</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M23.5,31.8431458 L17.5852419,25.9283877 C16.0248253,24.3679711 13.4910294,24.366835 11.9289322,25.9289322 C10.3700136,27.4878508 10.3665912,30.0234455 11.9283877,31.5852419 L20.4147581,40.0716123 C20.5133999,40.1702541 20.6159315,40.2626649 20.7218615,40.3488435 C22.2835669,41.8725651 24.794234,41.8626202 26.3461564,40.3106978 L43.3106978,23.3461564 C44.8771021,21.7797521 44.8758057,19.2483887 43.3137085,17.6862915 C41.7547899,16.1273729 39.2176035,16.1255422 37.6538436,17.6893022 L23.5,31.8431458 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\" stroke-opacity=\"0.198794158\" stroke=\"#747474\" fill-opacity=\"0.816519475\" fill=\"#FFFFFF\"></path>\n      </g>\n    </svg>\n  </div>\n  <div class=\"dz-error-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Error</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g stroke=\"#747474\" stroke-opacity=\"0.198794158\" fill=\"#FFFFFF\" fill-opacity=\"0.816519475\">\n          <path d=\"M32.6568542,29 L38.3106978,23.3461564 C39.8771021,21.7797521 39.8758057,19.2483887 38.3137085,17.6862915 C36.7547899,16.1273729 34.2176035,16.1255422 32.6538436,17.6893022 L27,23.3431458 L21.3461564,17.6893022 C19.7823965,16.1255422 17.2452101,16.1273729 15.6862915,17.6862915 C14.1241943,19.2483887 14.1228979,21.7797521 15.6893022,23.3461564 L21.3431458,29 L15.6893022,34.6538436 C14.1228979,36.2202479 14.1241943,38.7516113 15.6862915,40.3137085 C17.2452101,41.8726271 19.7823965,41.8744578 21.3461564,40.3106978 L27,34.6568542 L32.6538436,40.3106978 C34.2176035,41.8744578 36.7547899,41.8726271 38.3137085,40.3137085 C39.8758057,38.7516113 39.8771021,36.2202479 38.3106978,34.6538436 L32.6568542,29 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\"></path>\n        </g>\n      </g>\n    </svg>\n  </div>\n</div>",
+        previewTemplate: "<div class=\"dlab-preview dlab-file-preview\">\n  <div class=\"dlab-image\"><img data-dlab-thumbnail /></div>\n  <div class=\"dlab-details\">\n    <div class=\"dlab-size\"><span data-dlab-size></span></div>\n    <div class=\"dlab-filename\"><span data-dlab-name></span></div>\n  </div>\n  <div class=\"dlab-progress\"><span class=\"dlab-upload\" data-dlab-uploadprogress></span></div>\n  <div class=\"dlab-error-message\"><span data-dlab-errormessage></span></div>\n  <div class=\"dlab-success-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Check</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M23.5,31.8431458 L17.5852419,25.9283877 C16.0248253,24.3679711 13.4910294,24.366835 11.9289322,25.9289322 C10.3700136,27.4878508 10.3665912,30.0234455 11.9283877,31.5852419 L20.4147581,40.0716123 C20.5133999,40.1702541 20.6159315,40.2626649 20.7218615,40.3488435 C22.2835669,41.8725651 24.794234,41.8626202 26.3461564,40.3106978 L43.3106978,23.3461564 C44.8771021,21.7797521 44.8758057,19.2483887 43.3137085,17.6862915 C41.7547899,16.1273729 39.2176035,16.1255422 37.6538436,17.6893022 L23.5,31.8431458 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\" stroke-opacity=\"0.198794158\" stroke=\"#747474\" fill-opacity=\"0.816519475\" fill=\"#FFFFFF\"></path>\n      </g>\n    </svg>\n  </div>\n  <div class=\"dlab-error-mark\">\n    <svg width=\"54px\" height=\"54px\" viewBox=\"0 0 54 54\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>Error</title>\n      <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g stroke=\"#747474\" stroke-opacity=\"0.198794158\" fill=\"#FFFFFF\" fill-opacity=\"0.816519475\">\n          <path d=\"M32.6568542,29 L38.3106978,23.3461564 C39.8771021,21.7797521 39.8758057,19.2483887 38.3137085,17.6862915 C36.7547899,16.1273729 34.2176035,16.1255422 32.6538436,17.6893022 L27,23.3431458 L21.3461564,17.6893022 C19.7823965,16.1255422 17.2452101,16.1273729 15.6862915,17.6862915 C14.1241943,19.2483887 14.1228979,21.7797521 15.6893022,23.3461564 L21.3431458,29 L15.6893022,34.6538436 C14.1228979,36.2202479 14.1241943,38.7516113 15.6862915,40.3137085 C17.2452101,41.8726271 19.7823965,41.8744578 21.3461564,40.3106978 L27,34.6568542 L32.6538436,40.3106978 C34.2176035,41.8744578 36.7547899,41.8726271 38.3137085,40.3137085 C39.8758057,38.7516113 39.8771021,36.2202479 38.3106978,34.6538436 L32.6568542,29 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z\"></path>\n        </g>\n      </g>\n    </svg>\n  </div>\n</div>",
         // END OPTIONS
         // (Required by the dropzone documentation parser)
 
@@ -732,26 +732,26 @@ function (_Emitter) {
          */
         // Those are self explanatory and simply concern the DragnDrop.
         drop: function drop(e) {
-          return this.element.classList.remove("dz-drag-hover");
+          return this.element.classList.remove("dlab-drag-hover");
         },
         dragstart: function dragstart(e) {},
         dragend: function dragend(e) {
-          return this.element.classList.remove("dz-drag-hover");
+          return this.element.classList.remove("dlab-drag-hover");
         },
         dragenter: function dragenter(e) {
-          return this.element.classList.add("dz-drag-hover");
+          return this.element.classList.add("dlab-drag-hover");
         },
         dragover: function dragover(e) {
-          return this.element.classList.add("dz-drag-hover");
+          return this.element.classList.add("dlab-drag-hover");
         },
         dragleave: function dragleave(e) {
-          return this.element.classList.remove("dz-drag-hover");
+          return this.element.classList.remove("dlab-drag-hover");
         },
         paste: function paste(e) {},
         // Called whenever there are no files left in the dropzone anymore, and the
         // dropzone should be displayed as if in the initial state.
         reset: function reset() {
-          return this.element.classList.remove("dz-started");
+          return this.element.classList.remove("dlab-started");
         },
         // Called when a file is added to the queue
         // Receives `file`
@@ -759,7 +759,7 @@ function (_Emitter) {
           var _this2 = this;
 
           if (this.element === this.previewsContainer) {
-            this.element.classList.add("dz-started");
+            this.element.classList.add("dlab-started");
           }
 
           if (this.previewsContainer) {
@@ -772,7 +772,7 @@ function (_Emitter) {
             var _iteratorError3 = undefined;
 
             try {
-              for (var _iterator3 = file.previewElement.querySelectorAll("[data-dz-name]")[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+              for (var _iterator3 = file.previewElement.querySelectorAll("[data-dlab-name]")[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
                 var node = _step3.value;
                 node.textContent = file.name;
               }
@@ -796,7 +796,7 @@ function (_Emitter) {
             var _iteratorError4 = undefined;
 
             try {
-              for (var _iterator4 = file.previewElement.querySelectorAll("[data-dz-size]")[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
+              for (var _iterator4 = file.previewElement.querySelectorAll("[data-dlab-size]")[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
                 node = _step4.value;
                 node.innerHTML = this.filesize(file.size);
               }
@@ -816,7 +816,7 @@ function (_Emitter) {
             }
 
             if (this.options.addRemoveLinks) {
-              file._removeLink = Dropzone.createElement("<a class=\"dz-remove\" href=\"javascript:undefined;\" data-dz-remove>".concat(this.options.dictRemoveFile, "</a>"));
+              file._removeLink = Dropzone.createElement("<a class=\"dlab-remove\" href=\"javascript:undefined;\" data-dlab-remove>".concat(this.options.dictRemoveFile, "</a>"));
               file.previewElement.appendChild(file._removeLink);
             }
 
@@ -844,7 +844,7 @@ function (_Emitter) {
             var _iteratorError5 = undefined;
 
             try {
-              for (var _iterator5 = file.previewElement.querySelectorAll("[data-dz-remove]")[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
+              for (var _iterator5 = file.previewElement.querySelectorAll("[data-dlab-remove]")[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
                 var removeLink = _step5.value;
                 removeLink.addEventListener("click", removeFileEvent);
               }
@@ -876,13 +876,13 @@ function (_Emitter) {
         // Receives `file` and `dataUrl`
         thumbnail: function thumbnail(file, dataUrl) {
           if (file.previewElement) {
-            file.previewElement.classList.remove("dz-file-preview");
+            file.previewElement.classList.remove("dlab-file-preview");
             var _iteratorNormalCompletion6 = true;
             var _didIteratorError6 = false;
             var _iteratorError6 = undefined;
 
             try {
-              for (var _iterator6 = file.previewElement.querySelectorAll("[data-dz-thumbnail]")[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {
+              for (var _iterator6 = file.previewElement.querySelectorAll("[data-dlab-thumbnail]")[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {
                 var thumbnailElement = _step6.value;
                 thumbnailElement.alt = file.name;
                 thumbnailElement.src = dataUrl;
@@ -903,7 +903,7 @@ function (_Emitter) {
             }
 
             return setTimeout(function () {
-              return file.previewElement.classList.add("dz-image-preview");
+              return file.previewElement.classList.add("dlab-image-preview");
             }, 1);
           }
         },
@@ -911,7 +911,7 @@ function (_Emitter) {
         // Receives `file` and `message`
         error: function error(file, message) {
           if (file.previewElement) {
-            file.previewElement.classList.add("dz-error");
+            file.previewElement.classList.add("dlab-error");
 
             if (typeof message !== "String" && message.error) {
               message = message.error;
@@ -922,7 +922,7 @@ function (_Emitter) {
             var _iteratorError7 = undefined;
 
             try {
-              for (var _iterator7 = file.previewElement.querySelectorAll("[data-dz-errormessage]")[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
+              for (var _iterator7 = file.previewElement.querySelectorAll("[data-dlab-errormessage]")[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
                 var node = _step7.value;
                 node.textContent = message;
               }
@@ -948,7 +948,7 @@ function (_Emitter) {
         // Receives `file`
         processing: function processing(file) {
           if (file.previewElement) {
-            file.previewElement.classList.add("dz-processing");
+            file.previewElement.classList.add("dlab-processing");
 
             if (file._removeLink) {
               return file._removeLink.innerHTML = this.options.dictCancelUpload;
@@ -966,7 +966,7 @@ function (_Emitter) {
             var _iteratorError8 = undefined;
 
             try {
-              for (var _iterator8 = file.previewElement.querySelectorAll("[data-dz-uploadprogress]")[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
+              for (var _iterator8 = file.previewElement.querySelectorAll("[data-dlab-uploadprogress]")[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
                 var node = _step8.value;
                 node.nodeName === 'PROGRESS' ? node.value = progress : node.style.width = "".concat(progress, "%");
               }
@@ -998,7 +998,7 @@ function (_Emitter) {
         // Receives `file`
         success: function success(file) {
           if (file.previewElement) {
-            return file.previewElement.classList.add("dz-success");
+            return file.previewElement.classList.add("dlab-success");
           }
         },
         successmultiple: function successmultiple() {},
@@ -1015,7 +1015,7 @@ function (_Emitter) {
           }
 
           if (file.previewElement) {
-            return file.previewElement.classList.add("dz-complete");
+            return file.previewElement.classList.add("dlab-complete");
           }
         },
         completemultiple: function completemultiple() {},
@@ -1214,8 +1214,8 @@ function (_Emitter) {
         this.element.setAttribute("enctype", "multipart/form-data");
       }
 
-      if (this.element.classList.contains("dropzone") && !this.element.querySelector(".dz-message")) {
-        this.element.appendChild(Dropzone.createElement("<div class=\"dz-default dz-message\"><button class=\"dz-button\" type=\"button\">".concat(this.options.dictDefaultMessage, "</button></div>")));
+      if (this.element.classList.contains("dropzone") && !this.element.querySelector(".dlab-message")) {
+        this.element.appendChild(Dropzone.createElement("<div class=\"dlab-default dlab-message\"><button class=\"dlab-button\" type=\"button\">".concat(this.options.dictDefaultMessage, "</button></div>")));
       }
 
       if (this.clickableElements.length) {
@@ -1232,7 +1232,7 @@ function (_Emitter) {
             _this3.hiddenFileInput.setAttribute("multiple", "multiple");
           }
 
-          _this3.hiddenFileInput.className = "dz-hidden-input";
+          _this3.hiddenFileInput.className = "dlab-hidden-input";
 
           if (_this3.options.acceptedFiles !== null) {
             _this3.hiddenFileInput.setAttribute("accept", _this3.options.acceptedFiles);
@@ -1404,7 +1404,7 @@ function (_Emitter) {
           events: {
             "click": function click(evt) {
               // Only the actual dropzone or the message element should trigger file selection
-              if (clickableElement !== _this3.element || evt.target === _this3.element || Dropzone.elementInside(evt.target, _this3.element.querySelector(".dz-message"))) {
+              if (clickableElement !== _this3.element || evt.target === _this3.element || Dropzone.elementInside(evt.target, _this3.element.querySelector(".dlab-message"))) {
                 _this3.hiddenFileInput.click(); // Forward the click
 
               }
@@ -1508,7 +1508,7 @@ function (_Emitter) {
         return existingFallback;
       }
 
-      var fieldsString = "<div class=\"dz-fallback\">";
+      var fieldsString = "<div class=\"dlab-fallback\">";
 
       if (this.options.dictFallbackText) {
         fieldsString += "<p>".concat(this.options.dictFallbackText, "</p>");
@@ -1613,7 +1613,7 @@ function (_Emitter) {
       var _this4 = this;
 
       this.clickableElements.forEach(function (element) {
-        return element.classList.remove("dz-clickable");
+        return element.classList.remove("dlab-clickable");
       });
       this.removeEventListeners();
       this.disabled = true;
@@ -1626,7 +1626,7 @@ function (_Emitter) {
     value: function enable() {
       delete this.disabled;
       this.clickableElements.forEach(function (element) {
-        return element.classList.add("dz-clickable");
+        return element.classList.add("dlab-clickable");
       });
       return this.setupEventListeners();
     } // Returns a nicely formatted filesize
@@ -1655,7 +1655,7 @@ function (_Emitter) {
       }
 
       return "<strong>".concat(selectedSize, "</strong> ").concat(this.options.dictFileSizeUnits[selectedUnit]);
-    } // Adds or removes the `dz-max-files-reached` class from the form.
+    } // Adds or removes the `dlab-max-files-reached` class from the form.
 
   }, {
     key: "_updateMaxFilesReachedClass",
@@ -1665,9 +1665,9 @@ function (_Emitter) {
           this.emit('maxfilesreached', this.files);
         }
 
-        return this.element.classList.add("dz-max-files-reached");
+        return this.element.classList.add("dlab-max-files-reached");
       } else {
-        return this.element.classList.remove("dz-max-files-reached");
+        return this.element.classList.remove("dlab-max-files-reached");
       }
     }
   }, {

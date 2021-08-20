@@ -1,4 +1,4 @@
-
+"use strict"
 
 var themeOptionArr = {
 			typography: '',
@@ -12,7 +12,7 @@ var themeOptionArr = {
 			sidebarPosition: '',
 			headerPosition: '',
 			containerLayout: '',
-			direction: '',
+			//direction: '',
 		};
 		
 		
@@ -69,109 +69,115 @@ function deleteAllCookie(reload = true)
 	
 	"use strict"
 	
-	var direction =  getUrlParams('dir');
+	//var direction =  getUrlParams('dir');
 	var theme =  getUrlParams('theme');
 	
 	/* Dz Theme Demo Settings  */
 	
-	var dezThemeSet0 = { /* Default Theme */
+	var dlabThemeSet0 = { /* Default Theme */
 		typography: "poppins",
 		version: "light",
 		layout: "vertical",
-		headerBg: "color_1",
 		primary: "color_1",
+		headerBg: "color_1",
 		navheaderBg: "color_1",
 		sidebarBg: "color_1",
 		sidebarStyle: "full",
 		sidebarPosition: "fixed",
 		headerPosition: "fixed",
 		containerLayout: "full",
-		direction: direction
 	};
 	
-	var dezThemeSet1 = {
+	var dlabThemeSet1 = {
 		typography: "poppins",
 		version: "light",
 		layout: "vertical",
-		primary: "color_14",
+		primary: "color_3",
 		headerBg: "color_1",
-		navheaderBg: "color_14",
-		sidebarBg: "color_12",
+		navheaderBg: "color_3",
+		sidebarBg: "color_3",
 		sidebarStyle: "full",
 		sidebarPosition: "fixed",
 		headerPosition: "fixed",
 		containerLayout: "full",
-		direction: direction
 	};
 	
-	var dezThemeSet2 = {
+	var dlabThemeSet2 = {
 		typography: "poppins",
 		version: "light",
 		layout: "vertical",
-		primary: "color_4",
+		primary: "color_2",
 		headerBg: "color_1",
-		navheaderBg: "color_4",
-		sidebarBg: "color_4",
-		sidebarStyle: "full",
+		navheaderBg: "color_2",
+		sidebarBg: "color_2",
+		sidebarStyle: "mini",
 		sidebarPosition: "fixed",
 		headerPosition: "fixed",
 		containerLayout: "full",
-		direction: direction
 	};
 	
 	
-	var dezThemeSet3 = {
-		typography: "poppins",
-		version: "dark",
-		layout: "vertical",
-		primary: "color_7",
-		headerBg: "color_8",
-		navheaderBg: "color_7",
-		sidebarBg: "color_8",
-		sidebarStyle: "full",
-		sidebarPosition: "fixed",
-		headerPosition: "fixed",
-		containerLayout: "full",
-		direction: direction
-	};
-	
-	var dezThemeSet4 = {
+	var dlabThemeSet3 = {
 		typography: "poppins",
 		version: "light",
 		layout: "vertical",
-		primary: "color_15",
-		headerBg: "color_15",
-		navheaderBg: "color_15",
+		primary: "color_10",
+		headerBg: "color_10",
+		navheaderBg: "color_1",
 		sidebarBg: "color_1",
-		sidebarStyle: "full",
+		sidebarStyle: "compact",
 		sidebarPosition: "fixed",
 		headerPosition: "fixed",
 		containerLayout: "full",
-		direction: direction
 	};
 	
-	var dezThemeSet5 = {
+	var dlabThemeSet4 = {
 		typography: "poppins",
 		version: "light",
 		layout: "horizontal",
-		primary: "color_11",
+		primary: "color_15",
 		headerBg: "color_1",
 		navheaderBg: "color_1",
-		sidebarBg: "color_11",
-		sidebarStyle: "compact",
-		sidebarPosition: "static",
+		sidebarBg: "color_15",
+		sidebarStyle: "full",
+		sidebarPosition: "fixed",
 		headerPosition: "fixed",
 		containerLayout: "full",
-		direction: direction
+	};
+	
+	var dlabThemeSet5 = {
+		typography: "poppins",
+		version: "light",
+		layout: "horizontal",
+		primary: "color_9",
+		headerBg: "color_9",
+		navheaderBg: "color_9",
+		sidebarBg: "color_1",
+		sidebarStyle: "modern",
+		sidebarPosition: "fixed",
+		headerPosition: "fixed",
+		containerLayout: "full",
+	};
+	var dlabThemeSet6 = {
+		typography: "poppins",
+		version: "light",
+		layout: "vertical",
+		primary: "color_10",
+		headerBg: "color_1",
+		navheaderBg: "color_10",
+		sidebarBg: "color_1",
+		sidebarStyle: "modern",
+		sidebarPosition: "fixed",
+		headerPosition: "fixed",
+		containerLayout: "full",
 	};
 	
 		
-	function themeChange(theme, direction){
+	function themeChange(theme){
 		var themeSettings = {};
-		themeSettings = eval('dezThemeSet'+theme);
-		themeSettings.direction = direction;
-		dezSettingsOptions = themeSettings; /* For Screen Resize */
-		new dezSettings(themeSettings);
+		themeSettings = eval('dlabThemeSet'+theme);
+		dlabSettingsOptions = themeSettings; /* For Screen Resize */
+		new dlabSettings(themeSettings);
 		
 		setThemeInCookie(themeSettings);
 	}
@@ -204,36 +210,35 @@ function deleteAllCookie(reload = true)
 		{
 			jQuery.each(themeOptionArr, function(optionKey, optionValue) {
 				var optionData = getCookie(optionKey);
-				themeOptionArr[optionKey] = (optionData != '')?optionData:dezSettingsOptions[optionKey];
+				themeOptionArr[optionKey] = (optionData != '')?optionData:dlabSettingsOptions[optionKey];
 			});
 			console.log(themeOptionArr);
-			dezSettingsOptions = themeOptionArr;
-			new dezSettings(dezSettingsOptions);
+			dlabSettingsOptions = themeOptionArr;
+			new dlabSettings(dlabSettingsOptions);
 			
 			setThemeLogo();
 		}
 	}
 	
-	jQuery(document).on('click', '.dz_theme_demo', function(){
+	jQuery(document).on('click', '.dlab_theme_demo', function(){
 		var demoTheme = jQuery(this).data('theme');
 		themeChange(demoTheme, 'ltr');
 	});
 
 
-	jQuery(document).on('click', '.dz_theme_demo_rtl', function(){
+	jQuery(document).on('click', '.dlab_theme_demo_rtl', function(){
 		var demoTheme = jQuery(this).data('theme');
 		themeChange(demoTheme, 'rtl');
 	});
 	
 	
 	jQuery(window).on('load', function(){
-		direction = (direction != undefined)?direction:'ltr';
+		//direction = (direction != undefined)?direction:'ltr';
 		if(theme != undefined){
-			themeChange(theme, direction);
-		}else if(direction != undefined){
-			if(getCookie('version') == ''){	
-				themeChange(0, direction);
-			}
+			themeChange(theme);
+		}else if(getCookie('version') == ''){	
+				themeChange(0);
+			
 		}
 		
 		/* Set Theme On Page From Cookie */

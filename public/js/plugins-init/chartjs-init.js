@@ -1,12 +1,12 @@
 (function($) {
-    /* "use strict" */
+  "use strict" 
 
 	
 	/* function draw() {
 		
 	} */
 
- var dzSparkLine = function(){
+ var dlabSparkLine = function(){
 	let draw = Chart.controllers.line.__super__.draw; //draw shadow
 	
 	var screenWidth = $(window).width();
@@ -26,9 +26,9 @@
 						{
 							label: "My First dataset",
 							data: [65, 59, 80, 81, 56, 55, 40],
-							borderColor: 'rgba(54, 48, 98, 1)',
+							borderColor: 'rgba(249, 58, 11, 1)',
 							borderWidth: "0",
-							backgroundColor: 'rgba(54, 48, 98, 1)'
+							backgroundColor: 'rgba(249, 58, 11, 1)'
 						}
 					]
 				},
@@ -56,8 +56,8 @@
 			const barChart_2 = document.getElementById("barChart_2").getContext('2d');
 			//generate gradient
 			const barChart_2gradientStroke = barChart_2.createLinearGradient(0, 0, 0, 250);
-			barChart_2gradientStroke.addColorStop(0, "rgba(54, 48, 98, 1)");
-			barChart_2gradientStroke.addColorStop(1, "rgba(54, 48, 98, 0.5)");
+			barChart_2gradientStroke.addColorStop(0, "rgba(249, 58, 11, 1)");
+			barChart_2gradientStroke.addColorStop(1, "rgba(249, 58, 11, 0.5)");
 
 			barChart_2.height = 100;
 
@@ -101,16 +101,16 @@
 			const barChart_3 = document.getElementById("barChart_3").getContext('2d');
 			//generate gradient
 			const barChart_3gradientStroke = barChart_3.createLinearGradient(50, 100, 50, 50);
-			barChart_3gradientStroke.addColorStop(0, "rgba(54, 48, 98, 1)");
-			barChart_3gradientStroke.addColorStop(1, "rgba(54, 48, 98, 0.5)");
+			barChart_3gradientStroke.addColorStop(0, "rgba(249, 58, 11, 1)");
+			barChart_3gradientStroke.addColorStop(1, "rgba(249, 58, 11, 0.5)");
 
 			const barChart_3gradientStroke2 = barChart_3.createLinearGradient(50, 100, 50, 50);
-			barChart_3gradientStroke2.addColorStop(0, "rgba(216, 185, 195, 1)");
-			barChart_3gradientStroke2.addColorStop(1, "rgba(216, 185, 195, 1)");
+			barChart_3gradientStroke2.addColorStop(0, "rgba(98, 126, 234, 1)");
+			barChart_3gradientStroke2.addColorStop(1, "rgba(98, 126, 234, 1)");
 
 			const barChart_3gradientStroke3 = barChart_3.createLinearGradient(50, 100, 50, 50);
-			barChart_3gradientStroke3.addColorStop(0, "rgba(255, 62, 62, 1)");
-			barChart_3gradientStroke3.addColorStop(1, "rgba(255, 62, 62, 1)");
+			barChart_3gradientStroke3.addColorStop(0, "rgba(238, 60, 60, 1)");
+			barChart_3gradientStroke3.addColorStop(1, "rgba(238, 60, 60, 1)");
 			
 			barChart_3.height = 100;
 
@@ -224,10 +224,10 @@
 						{
 							label: "My First dataset",
 							data: [25, 20, 60, 41, 66, 45, 80],
-							borderColor: 'rgba(54, 48, 98, 1)',
+							borderColor: 'rgba(249, 58, 11, 1)',
 							borderWidth: "2",
 							backgroundColor: 'transparent',  
-							pointBackgroundColor: 'rgba(54, 48, 98, 1)'
+							pointBackgroundColor: 'rgba(249, 58, 11, 1)'
 						}
 					]
 				},
@@ -262,8 +262,8 @@
 			const lineChart_2 = document.getElementById("lineChart_2").getContext('2d');
 			//generate gradient
 			const lineChart_2gradientStroke = lineChart_2.createLinearGradient(500, 0, 100, 0);
-			lineChart_2gradientStroke.addColorStop(0, "rgba(54, 48, 98, 1)");
-			lineChart_2gradientStroke.addColorStop(1, "rgba(54, 48, 98, 0.5)");
+			lineChart_2gradientStroke.addColorStop(0, "rgba(249, 58, 11, 1)");
+			lineChart_2gradientStroke.addColorStop(1, "rgba(249, 58, 11, 0.5)");
 
 			Chart.controllers.line = Chart.controllers.line.extend({
 				draw: function () {
@@ -296,7 +296,7 @@
 							borderColor: lineChart_2gradientStroke,
 							borderWidth: "2",
 							backgroundColor: 'transparent', 
-							pointBackgroundColor: 'rgba(54, 48, 98, 0.5)'
+							pointBackgroundColor: 'rgba(249, 58, 11, 0.5)'
 						}
 					]
 				},
@@ -328,8 +328,8 @@
 			const lineChart_3 = document.getElementById("lineChart_3").getContext('2d');
 			//generate gradient
 			const lineChart_3gradientStroke1 = lineChart_3.createLinearGradient(500, 0, 100, 0);
-			lineChart_3gradientStroke1.addColorStop(0, "rgba(54, 48, 98, 1)");
-			lineChart_3gradientStroke1.addColorStop(1, "rgba(54, 48, 98, 0.5)");
+			lineChart_3gradientStroke1.addColorStop(0, "rgba(249, 58, 11, 1)");
+			lineChart_3gradientStroke1.addColorStop(1, "rgba(249, 58, 11, 0.5)");
 
 			const lineChart_3gradientStroke2 = lineChart_3.createLinearGradient(500, 0, 100, 0);
 			lineChart_3gradientStroke2.addColorStop(0, "rgba(255, 92, 0, 1)");
@@ -366,7 +366,7 @@
 							borderColor: lineChart_3gradientStroke1,
 							borderWidth: "2",
 							backgroundColor: 'transparent', 
-							pointBackgroundColor: 'rgba(54, 48, 98, 0.5)'
+							pointBackgroundColor: 'rgba(249, 58, 11, 0.5)'
 						}, {
 							label: "My First dataset",
 							data: [5, 20, 15, 41, 35, 65, 80],
@@ -490,7 +490,7 @@
 							data: [25, 20, 60, 41, 66, 45, 80],
 							borderColor: 'rgba(0, 0, 1128, .3)',
 							borderWidth: "1",
-							backgroundColor: 'rgba(54, 48, 98, .5)', 
+							backgroundColor: 'rgba(249, 58, 11, .5)', 
 							pointBackgroundColor: 'rgba(0, 0, 1128, .3)'
 						}
 					]
@@ -523,8 +523,8 @@
 			const areaChart_2 = document.getElementById("areaChart_2").getContext('2d');
 			//generate gradient
 			const areaChart_2gradientStroke = areaChart_2.createLinearGradient(0, 1, 0, 500);
-			areaChart_2gradientStroke.addColorStop(0, "rgba(255, 62, 62, 0.2)");
-			areaChart_2gradientStroke.addColorStop(1, "rgba(255, 62, 62, 0)");
+			areaChart_2gradientStroke.addColorStop(0, "rgba(238, 60, 60, 0.2)");
+			areaChart_2gradientStroke.addColorStop(1, "rgba(238, 60, 60, 0)");
 			
 			areaChart_2.height = 100;
 
@@ -582,9 +582,9 @@
 						{
 							label: "My First dataset",
 							data: [25, 20, 60, 41, 66, 45, 80],
-							borderColor: 'rgb(54, 48, 98)',
+							borderColor: 'rgb(249, 58, 11)',
 							borderWidth: "1",
-							backgroundColor: 'rgba(54, 48, 98, .5)'
+							backgroundColor: 'rgba(249, 58, 11, .5)'
 						}, 
 						{
 							label: "My First dataset",
@@ -680,15 +680,15 @@
 						data: [45, 25, 20, 10],
 						borderWidth: 0, 
 						backgroundColor: [
-							"rgba(54, 48, 98, .9)",
-							"rgba(54, 48, 98, .7)",
-							"rgba(54, 48, 98, .5)",
+							"rgba(249, 58, 11, .9)",
+							"rgba(249, 58, 11, .7)",
+							"rgba(249, 58, 11, .5)",
 							"rgba(0,0,0,0.07)"
 						],
 						hoverBackgroundColor: [
-							"rgba(54, 48, 98, .9)",
-							"rgba(54, 48, 98, .7)",
-							"rgba(54, 48, 98, .5)",
+							"rgba(249, 58, 11, .9)",
+							"rgba(249, 58, 11, .7)",
+							"rgba(249, 58, 11, .5)",
 							"rgba(0,0,0,0.07)"
 						]
 
@@ -723,14 +723,14 @@
 						borderWidth: 3, 
 						borderColor: "rgba(255,255,255,1)",
 						backgroundColor: [
-							"rgba(54, 48, 98, 1)",
-							"rgba(216, 185, 195, 1)",
-							"rgba(255, 62, 62, 1)"
+							"rgba(249, 58, 11, 1)",
+							"rgba(98, 126, 234, 1)",
+							"rgba(238, 60, 60, 1)"
 						],
 						hoverBackgroundColor: [
-							"rgba(54, 48, 98, 0.9)",
-							"rgba(216, 185, 195, .9)",
-							"rgba(255, 62, 62, .9)"
+							"rgba(249, 58, 11, 0.9)",
+							"rgba(98, 126, 234, .9)",
+							"rgba(238, 60, 60, .9)"
 						]
 
 					}],
@@ -763,9 +763,9 @@
 						data: [15, 18, 9, 6, 19],
 						borderWidth: 0, 
 						backgroundColor: [
-							"rgba(54, 48, 98, 1)",
-							"rgba(216, 185, 195, 1)",
-							"rgba(255, 62, 62, 1)",
+							"rgba(249, 58, 11, 1)",
+							"rgba(98, 126, 234, 1)",
+							"rgba(238, 60, 60, 1)",
 							"rgba(54, 147, 255, 1)",
 							"rgba(255, 92, 0, 1)"
 						]
@@ -830,12 +830,12 @@ jQuery(document).ready(function(){
 });
 	
 jQuery(window).on('load',function(){
-	dzSparkLine.load();
+	dlabSparkLine.load();
 });
 
 jQuery(window).on('resize',function(){
-	//dzSparkLine.resize();
-	setTimeout(function(){ dzSparkLine.resize(); }, 1000);
+	//dlabSparkLine.resize();
+	setTimeout(function(){ dlabSparkLine.resize(); }, 1000);
 });
 	
 })(jQuery);

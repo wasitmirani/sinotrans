@@ -1,7 +1,7 @@
 (function($) {
     "use strict"
 
-	var dzMorris = function(){
+	var dlabMorris = function(){
 		
 		var screenWidth = $(window).width();
 		
@@ -30,7 +30,7 @@
 				}],
 				resize: true,
 				redraw: true,
-				colors: ['#363062', 'rgb(255, 92, 0)', '#D8B9C3'],
+				colors: ['#f93a0b', 'rgb(255, 92, 0)', '#145650'],
 				//responsive:true,
 				
 			});
@@ -86,7 +86,7 @@
 				ykeys: ['item1'],
 				labels: ['Item 1'],
 				gridLineColor: 'transparent',
-				lineColors: ['rgb(255, 62, 62)'], //here
+				lineColors: ['rgb(238, 60, 60)'], //here
 				lineWidth: 1,
 				hideHover: 'auto',
 				pointSize: 0,
@@ -142,12 +142,12 @@
 				labels: ['Phone', 'Windows', 'Mac'],
 				pointSize: 3,
 				fillOpacity: 0,
-				pointStrokeColors: ['#FF3E3E', '#D8B9C3', '#363062'],
+				pointStrokeColors: ['#EE3C3C', '#145650', '#f93a0b'],
 				behaveLikeLine: true,
 				gridLineColor: 'transparent',
 				lineWidth: 3,
 				hideHover: 'auto',
-				lineColors: ['rgb(255, 62, 62)', 'rgb(0, 171, 197)', '#363062'],
+				lineColors: ['rgb(238, 60, 60)', 'rgb(0, 171, 197)', '#f93a0b'],
 				resize: true
 
 			});
@@ -198,7 +198,7 @@
 					xkey: 'y',
 					ykeys: ['a', 'b', 'c'],
 					labels: ['A', 'B', 'C'],
-					barColors: ['#363062', '#D8B9C3', '#ff9f00'],
+					barColors: ['#f93a0b', '#145650', '#ff9f00'],
 					hideHover: 'auto',
 					gridLineColor: 'transparent',
 					resize: true,
@@ -275,7 +275,7 @@
 				xkey: 'y',
 				ykeys: ['a', 'b'],
 				labels: ['A', 'B'],
-				barColors: ['#363062', "#F1F3F7"],
+				barColors: ['#f93a0b', "#F1F3F7"],
 				hideHover: 'auto',
 				gridLineColor: 'transparent',
 				resize: true,
@@ -332,7 +332,7 @@
 
 
 				],
-				lineColors: ['#363062', 'rgb(16, 202, 147)', 'rgb(255, 92, 0)'],
+				lineColors: ['#f93a0b', 'rgb(16, 202, 147)', 'rgb(255, 92, 0)'],
 				xkey: 'period',
 				ykeys: ['smartphone', 'windows', 'mac'],
 				labels: ['Phone', 'Windows', 'Mac'],
@@ -440,18 +440,18 @@
 	}();
 
 	jQuery(document).ready(function(){
-		dzMorris.init();
-		//dzMorris.resize();
+		dlabMorris.init();
+		//dlabMorris.resize();
 	
 	});
 		
 	jQuery(window).on('load',function(){
-		//dzMorris.init();
+		//dlabMorris.init();
 	});
 		
 	jQuery( window ).resize(function() {
-		//dzMorris.resize();
-		//dzMorris.init();
+		//dlabMorris.resize();
+		//dlabMorris.init();
 	});
    
 })(jQuery);

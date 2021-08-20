@@ -1,8 +1,8 @@
 (function($) {
-    /* "use strict" */
+    "use strict" 
 
 
- var dzVectorMap = function(){
+ var dlabVectorMap = function(){
 	
 	var screenWidth = $(window).width();
 	
@@ -99,14 +99,14 @@
 		
 	jQuery(window).on('load',function(){
 		setTimeout(function(){
-			dzVectorMap.load();
+			dlabVectorMap.load();
 		}, 1000); 
 		
 	});
 
 	jQuery(window).on('resize',function(){
 		setTimeout(function(){
-			dzVectorMap.resize();
+			dlabVectorMap.resize();
 		}, 1000); 
 		
 	});     

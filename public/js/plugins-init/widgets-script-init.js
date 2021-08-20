@@ -1,7 +1,7 @@
 (function($) {
-    /* "use strict" */
+    "use strict" 
 
- var dzChartlist = function(){
+ var dlabChartlist = function(){
 	
 	var screenWidth = $(window).width();
 	
@@ -45,9 +45,9 @@
 						{
 							label: "My First dataset",
 							data:  [35, 18, 30, 35, 40, 20, 30, 25, 22, 20, 45, 35],
-							borderColor: 'rgba(54, 48, 98, 1)',
+							borderColor: 'rgba(249, 58, 11, 1)',
 							borderWidth: "0",
-							backgroundColor: 'rgba(54, 48, 98, 1)'
+							backgroundColor: 'rgba(249, 58, 11, 1)'
 							
 						}
 					]
@@ -875,12 +875,12 @@
 				labels: ["January", "February", "March", "April", "May", "June"],
 				datasets: [{
 					label: "Sales Stats",
-					backgroundColor: "rgba(216, 185, 195, .5)",
-					borderColor: '#D8B9C3',
-					pointBackgroundColor: '#D8B9C3',
-					pointBorderColor: '#D8B9C3',
-					pointHoverBackgroundColor: '#D8B9C3',
-					pointHoverBorderColor: '#D8B9C3',
+					backgroundColor: "rgba(98, 126, 234, .5)",
+					borderColor: '#145650',
+					pointBackgroundColor: '#145650',
+					pointBorderColor: '#145650',
+					pointHoverBackgroundColor: '#145650',
+					pointHoverBorderColor: '#145650',
 					data: [0, 18, 14, 24, 16, 30]
 				}]
 			},
@@ -1086,10 +1086,10 @@
 						{
 							label: "My First dataset",
 							data: [25, 60, 30, 71, 26, 85, 50],
-							borderColor: 'rgba(54, 48, 98, 1)',
+							borderColor: 'rgba(249, 58, 11, 1)',
 							borderWidth: "2",
-							backgroundColor: 'rgba(54, 48, 98, 1)',  
-							pointBackgroundColor: 'rgba(54, 48, 98, 1)', 
+							backgroundColor: 'rgba(249, 58, 11, 1)',  
+							pointBackgroundColor: 'rgba(249, 58, 11, 1)', 
 							pointRadius: 0
 						}
 					]
@@ -1348,12 +1348,12 @@
 	});
 		
 	jQuery(window).on('load',function(){
-		dzChartlist.load();
+		dlabChartlist.load();
 	});
 
 	jQuery(window).on('resize',function(){
 		setTimeout(function(){
-			dzChartlist.resize();	
+			dlabChartlist.resize();	
 		}, 500);
 		
 	});     

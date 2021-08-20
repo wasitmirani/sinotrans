@@ -1,8 +1,8 @@
 (function($) {
-    /* "use strict" */
+   "use strict"
 
 
- var dzChartlist = function(){
+ var dlabChartlist = function(){
 	
 	var screenWidth = $(window).width();
 
@@ -14,7 +14,7 @@
 				bars: {
 					show: true,
 					lineWidth: 0,
-					fillColor: '#363062'
+					fillColor: '#f93a0b'
 				}
 			},
 			grid: {
@@ -44,14 +44,14 @@
 			bars: {
 				show: true,
 				lineWidth: 0,
-				fillColor: '#363062'
+				fillColor: '#f93a0b'
 			}
 		}, {
 			data: [[1, 5], [3, 7], [5, 10], [7, 7], [9, 9], [11, 5], [13, 4], [15, 6]],
 			bars: {
 				show: true,
 				lineWidth: 0,
-				fillColor: '#D8B9C3'
+				fillColor: '#145650'
 			}
 		}], 
 		{
@@ -84,12 +84,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#363062'
+				color: '#f93a0b'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#D8B9C3'
+				color: '#145650'
 			}
 		],
 		{
@@ -142,12 +142,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#363062'
+				color: '#f93a0b'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#D8B9C3'
+				color: '#145650'
 			}
 		],
 		{
@@ -205,12 +205,12 @@
 			{
 				data: newCust2,
 				label: 'New Customer',
-				color: '#363062'
+				color: '#f93a0b'
 			},
 			{
 				data: retCust2,
 				label: 'Returning Customer',
-				color: '#D8B9C3'
+				color: '#145650'
 			}
 		],
 		{
@@ -263,12 +263,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#363062'
+				color: '#f93a0b'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#D8B9C3'
+				color: '#145650'
 			}
 		],
 		{
@@ -322,12 +322,12 @@
 			{
 				data: newCust,
 				label: 'New Customer',
-				color: '#363062'
+				color: '#f93a0b'
 			},
 			{
 				data: retCust,
 				label: 'Returning Customer',
-				color: '#D8B9C3'
+				color: '#145650'
 			}
 		],
 		{
@@ -446,7 +446,7 @@
 		var updateInterval = 1000;
 
 		var plot4 = $.plot('#flotRealtime1', [getRandomData()], {
-			colors: ['#363062'],
+			colors: ['#f93a0b'],
 			series: {
 				lines: {
 					show: true,
@@ -511,7 +511,7 @@
 		var updateInterval = 1000;
 		
 		var plot5 = $.plot('#flotRealtime2', [getRandomData()], {
-			colors: ['#363062'],
+			colors: ['#f93a0b'],
 			series: {
 				lines: {
 					show: true,
@@ -583,11 +583,11 @@ jQuery(document).ready(function(){
 });
 	
 jQuery(window).on('load',function(){
-	dzChartlist.load();
+	dlabChartlist.load();
 });
 
 jQuery(window).on('resize',function(){
-	dzChartlist.resize();
+	dlabChartlist.resize();
 });     
 
 })(jQuery);

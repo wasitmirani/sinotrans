@@ -1,8 +1,8 @@
 (function($) {
-    /* "use strict" */
+    "use strict" 
 
 
- var dzChartlist = function(){
+ var dlabChartlist = function(){
 	
 	var screenWidth = $(window).width();
 		
@@ -885,13 +885,13 @@ jQuery(document).ready(function(){
 	
 jQuery(window).on('load',function(){
 	setTimeout(function(){
-		dzChartlist.resize();	
+		dlabChartlist.resize();	
 	}, 1000);
 });
 
 jQuery(window).on('resize',function(){
 	setTimeout(function(){
-		dzChartlist.resize();	
+		dlabChartlist.resize();	
 	}, 1000);
 	
 });     
