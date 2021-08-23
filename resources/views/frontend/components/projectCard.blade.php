@@ -5,7 +5,7 @@
           <div class="case-title">
              <h4><a href="">{{$project->title}}</a></h4>
           </div>
-          <div class="case-cat"><a href="javascript:void(0)">{{$project->industry->name}}</a></div>
+          <div class="case-cat"><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->industry->name}}</a></div>
           <div class="case-desc">
              <p>
                 {{$project->short_description}}
