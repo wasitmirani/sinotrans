@@ -56,7 +56,7 @@
         </div>
         <div class="about-card">
         <h6>Flexibile, Improved & Accelerated Solutions!</h6>
-        <p>Providing full range of service in the sphere transportation .</p><a href="javascript:void(0)"><i class="icon-arrow-right"></i> our borchure</a>
+        <p>Strong customer service orientation.</p><a href="{{route('services.all')}}"><i class="icon-arrow-right"></i> our services</a>
         </div>
         </div>
         </div>

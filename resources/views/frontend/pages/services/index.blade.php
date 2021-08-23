@@ -2,8 +2,19 @@
 @extends('layouts.frontend.master')
 
 @section('content')
-
-
+@push('styles')
+<style type="text/css">
+#wrapperParallax {
+    position: relative;
+    z-index: 1060;
+    min-height: 86vh;
+}
+ .case-study.case-study-2 {
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+</style>
+@endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
     <div class="bg-section"><img src="{{asset('assets/images/page-titles/1.png')}}" alt="Background"></div>
     <div class="container">

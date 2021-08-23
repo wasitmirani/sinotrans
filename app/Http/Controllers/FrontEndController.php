@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 use Artesaos\SEOTools\Facades\SEOTools;
+
 class FrontEndController extends Controller
 {
     //
@@ -12,7 +14,8 @@ class FrontEndController extends Controller
         $title="Sinotrans";
         $des="Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.";
         $this->setSeo( $title, $des);
-        return view('frontend.pages.index');
+        $projects=Project::with('industry')->take(9)->get();
+        return view('frontend.pages.index',compact('projects'));
     }
     public function mapPak(){
 

@@ -3,8 +3,24 @@
 
 
 @section('content')
+@push('styles')
+<style type="text/css">
+.features {
+    padding-top: 440px;
+    padding-bottom: 35px;
+}
+.cases-standard .carousel-navs .owl-nav .owl-prev {
+    left: -45px;
+    display: none;
+}
+.cases-standard .carousel-navs .owl-nav .owl-next {
+    right: -45px;
+    display: none;
 
+}
+</style>
 
+@endpush
 <section class="slider slider-1" id="slider-1">
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
@@ -28,13 +44,13 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/2.jpg" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('assets/images/sliders/2.jpg')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">Air Freight That<br>Saves Your Time!</h2>
+                         <h2 class="slide-headline">innovation sea<br>transportation!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -45,13 +61,13 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/3.png" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('assets/images/sliders/3.jpg')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">innovation sea<br>transportation!</h2>
+                         <h2 class="slide-headline">your flexible<br>road directions!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -149,7 +165,7 @@
                 <div class="contact-card">
                    <div class="contact-body quoteFormActive">
                       <div class="row">
-                         <div class="col-12 col-lg-8">
+                         <div class="col-12 col-lg-12">
 
                             @livewire('contactus')
 
@@ -199,7 +215,7 @@
                          </div>
 
 
-                         <div class="col-12 col-lg-4">
+                         {{-- <div class="col-12 col-lg-4">
                             <div class="apply-card widget widget-reservation">
                                <img src="assets/images/contact/1.jpg" alt="Background Image">
                                <div class="widget-content">
@@ -208,7 +224,7 @@
                                   <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>apply now!</a>
                                </div>
                             </div>
-                         </div>
+                         </div> --}}
                       </div>
                    </div>
                 </div>
@@ -223,25 +239,15 @@
           <div class="row">
              <div class="col-12 col-lg-6">
                 <p class="heading-subtitle">Safe & Reliable Cargo Solutions! </p>
-                <h2 class="heading-title">Managing Logistics For World’s Multinational Companies.</h2>
+                <h1>Our Services</h1>
              </div>
-             <div class="col-12 col-lg-6">
-                <p class="heading-desc">Our global logistics expertise, advanced supply chain technology & customized logistics solutions will help you analyze, develop and implement successful supply chain management strategies from end-to-end.</p>
-                <div class="actions-container">
-                   <a class="btn btn-transparent" href="javascript:void(0)">pricing & plans </a>
-                   <div class="employee-info">
-                      <div class="employee-img"> <img src="assets/images/testimonial/5.jpg" alt="image"></div>
-                      <div class="employee-body">
-                         <h6>(002) 01061245741</h6>
-                         <p>Sales Representative</p>
-                      </div>
-                   </div>
-                </div>
-             </div>
+
           </div>
        </div>
        <div class="row">
-          <div class=" col-sm-6 col-md-6 col-lg-4">
+        <div class="carousel owl-carousel carousel-navs carousel-dots" data-slide="3" data-slide-rs="1" data-autoplay="true" data-nav="true" data-dots="false" data-space="30" data-loop="true" data-speed="3000">
+            <div class="case-item">
+                <div class="case-item-warp">
             @component('frontend.components.serviceCard',
             [
                 'icon'=>'flaticon-010-cargo',
@@ -251,7 +257,10 @@
             ])
             @endcomponent
           </div>
-          <div class=" col-sm-6 col-md-6 col-lg-4">
+
+            </div>
+            <div class="case-item">
+                <div class="case-item-warp">
             @component('frontend.components.serviceCard',
             [
                 'icon'=>'flaticon-010-cargo',
@@ -261,8 +270,10 @@
             ])
             @endcomponent
           </div>
+            </div>
           {{-- CUSTOM CLEARANCE --}}
-          <div class=" col-sm-6 col-md-6 col-lg-4">
+          <div class="case-item">
+            <div class="case-item-warp">
             @component('frontend.components.serviceCard',
             [
                 'icon'=>'flaticon-033-checklist',
@@ -272,11 +283,40 @@
             ])
             @endcomponent
           </div>
+          </div>
+
+          <div class="case-item">
+            <div class="case-item-warp">
+                @component('frontend.components.serviceCard',
+                [
+                    'icon'=>'flaticon-004-trailer-1',
+                    'name'=>'Road Transport ',
+                    'link'=>route('services.road.transport'),
+                    'short_description'=>'Our experience as a road logistics specialist, in combination with an efficient transport network is what makes us a major global intermodal player.'
+                ])
+                @endcomponent
+            </div>
+          </div>
+
+          <div class="case-item">
+            <div class="case-item-warp">
+                @component('frontend.components.serviceCard',
+                [
+                    'icon'=>'flaticon-002-warehouse',
+                    'name'=>'Warehousing',
+                    'link'=>route('services.ware.house'),
+                    'short_description'=>'When it comes to the movement of goods across suppliers, vendors, and customers, efficiency and traceability are of vital importance. That’s why our flexible warehousing and distribution solutions offer real-time cargo track and trace along with dedicated, shared, and refer warehousing and distribution facilities.'
+                ])
+                @endcomponent
+            </div>
+          </div>
+        </div>
        </div>
-       <div class="more-features">
-          <p>Logistic & Transport Solutions Saves Your Time. <a href="{{route('services.all')}}">Find your solution </a></p>
-       </div>
+
     </div>
+    <div class="more-features mt-4">
+        <p>Logistic & Transport Solutions Saves Your Time. <a href="{{route('services.all')}}">Find your solution </a></p>
+     </div>
  </section>
  <section class="about about-2 about-5" id="about-5">
     <div class="container">
@@ -341,7 +381,7 @@
                    <div class="action-panel-content">
                       <div class="panel-icon"><i class="flaticon-015-scale"></i></div>
                       <div class="panel-heading">
-                         <h3>Affordable Price, Certified Forwarders</h3>
+                         <h3>Lahore Orange Line Metro </h3>
                       </div>
                       <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
                    </div>
@@ -355,7 +395,7 @@
                    <div class="action-panel-content inverted">
                       <div class="panel-icon"><i class="flaticon-017-pallet"></i></div>
                       <div class="panel-heading">
-                         <h3>Affordable Price, Certified Forwarders</h3>
+                         <h3>China Power Hub Genration Company</h3>
                       </div>
                       <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
                    </div>
@@ -373,104 +413,19 @@
              <h2 class="heading-title">featured projects</h2>
           </div>
           <div class="row">
-             <div class="col-12">
+
                 <div class="carousel owl-carousel carousel-navs carousel-dots" data-slide="3" data-slide-rs="1" data-autoplay="true" data-nav="true" data-dots="false" data-space="30" data-loop="true" data-speed="3000">
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/1.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">floride chemical factory</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">analytics</a><a href="javascript:void(0)">optimization</a></div>
-                            <div class="case-desc">
-                               <p>We understand that data is the greatest asset when it comes to analyzing and optimizing your supply chain performance.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/2.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">warehouse inventory</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">warehousing</a><a href="javascript:void(0)">distrbution</a></div>
-                            <div class="case-desc">
-                               <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/3.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">Minimize Manufacturing</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">logistics</a><a href="javascript:void(0)">analytics</a></div>
-                            <div class="case-desc">
-                               <p>Our Group has been building relationships and projects that last. Serving an impressive list of long-term.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/1.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">floride chemical factory</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">analytics</a><a href="javascript:void(0)">optimization</a></div>
-                            <div class="case-desc">
-                               <p>We understand that data is the greatest asset when it comes to analyzing and optimizing your supply chain performance.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/2.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">warehouse inventory</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">warehousing</a><a href="javascript:void(0)">distrbution</a></div>
-                            <div class="case-desc">
-                               <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="case-item">
-                      <div class="case-item-warp">
-                         <div class="case-img"><img src="assets/images/work/full/3.jpg" alt="work Item Image"></div>
-                         <div class="case-content">
-                            <div class="case-title">
-                               <h4><a href="case-study-single.html">Minimize Manufacturing</a></h4>
-                            </div>
-                            <div class="case-cat"><a href="javascript:void(0)">logistics</a><a href="javascript:void(0)">analytics</a></div>
-                            <div class="case-desc">
-                               <p>Our Group has been building relationships and projects that last. Serving an impressive list of long-term.</p>
-                            </div>
-                            <div class="case-more"><a href="case-study-single.html"><i class="icon-arrow-right"></i> explore case study</a></div>
-                         </div>
-                      </div>
-                   </div>
+                    @foreach ($projects as $project)
+                        @component('frontend.components.projectCard',['project'=>$project])
+                        @endcomponent
+                    @endforeach
+
                 </div>
-             </div>
+
           </div>
        </div>
     </div>
-    <div class="clients clients-carousel clients-1 pt-0">
+    {{-- <div class="clients clients-carousel clients-1 pt-0">
        <div class="container">
           <div class="row">
              <div class="col-12 col-lg-8 offset-lg-2">
@@ -494,7 +449,7 @@
              </div>
           </div>
        </div>
-    </div>
+    </div> --}}
  </section>
  <section class="testimonial testimonial-3 bg-overlay bg-overlay-theme">
     <div class="bg-section"> <img src="assets/images/background/2.png" alt="background-img"></div>
@@ -514,7 +469,7 @@
        </div>
     </div>
  </section>
- <section class="blog blog-grid" id="blog-1">
+ {{-- <section class="blog blog-grid" id="blog-1">
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-6 offset-lg-3">
@@ -576,7 +531,7 @@
           </div>
        </div>
     </div>
- </section>
+ </section> --}}
  <section class="map map-3" id="map-1">
  @component('frontend.components.officeLocation')
  @endcomponent

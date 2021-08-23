@@ -35,9 +35,9 @@
                    <div class="opening-hours">
                       <h6>opening hours</h6>
                       <ul class="list-unstyled">
-                         <li> <span>Monday-friday</span><span>10:00 - 18:00</span></li>
-                         <li> <span>saturday</span><span>10:00 - 14:00</span></li>
-                         <li> <span>sunday</span><span>closed</span></li>
+                         <li> <span>Monday-friday</span><span>9:00AM - 06:00PM</span></li>
+                         <li> <span>Saturday</span><span>closed</span></li>
+                         <li> <span>Sunday</span><span>closed</span></li>
                       </ul>
                    </div>
                 </div>

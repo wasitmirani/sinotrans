@@ -49,14 +49,18 @@
                       </li>
                    </ul>
                 </li>
-                <li class="nav-item has-dropdown">
+                {{-- <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>news &amp; media</span></a>
                    <ul class="dropdown-menu">
                       <li class="nav-item"><a href="javascript:void(0)"><span>our blogs</span></a></li>
 
                       <li class="nav-item"><a href="javascript:void(0)"><span>case studies </span></a></li>
                    </ul>
-                </li>
+                </li> --}}
+                <li class="nav-item ">
+                    <a class="dropdown-toggle" href="#" ><span>case studies</span></a>
+                 </li>
+
                 {{-- <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>features</span></a>
                    <ul class="dropdown-menu">

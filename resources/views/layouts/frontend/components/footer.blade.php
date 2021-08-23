@@ -6,7 +6,7 @@
     padding-bottom: 0;
 }
 </style>
-    
+
 @endpush
 
 <footer class="footer footer-1">
@@ -40,7 +40,10 @@
                 </div>
                 <div class="widget-content">
                    <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
-                   <div class="module module-social"><a class="share-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"> </i></a><a class="share-instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a><a class="share-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></div>
+                   <div class="module module-social">
+                       <a class="share-facebook" href="https://www.facebook.com/sinotranspak/"><i class="fab fa-facebook-f"> </i></a>
+
+                       <a class="share-twitter" href="https://pk.linkedin.com/company/sinotrans-logistics-pakistan-pvt-ltd"><i class="fab fa-linkedin"></i></a></div>
                 </div>
              </div>
              <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-2 footer-widget widget-links">
@@ -79,8 +82,7 @@
                 <div class="footer-widget-title">
                    <h5>quick contact</h5>
                 </div>
-                <div class="widget-content">
-                   <p>If you have any questions or need help, feel free to contact with our team.</p>
+                <div class="widget-content">o contact with our team.</p>
                    <ul>
                       <li class="phone text-light"><a href="tel:+92(021) 35642730"><i class="fas fa-phone-alt"></i> +92(021) 35642730</a></li>
                       <li class="address"><a href="javascript:void(0)">3rd Floor, Bahria Complex 3, Lalazar, MT Khan Road, Service Road, Naval Officers Residential Estate 1 Naval Officers Colony, Karachi, Karachi City, Sindh,Pakistan.</a></li>

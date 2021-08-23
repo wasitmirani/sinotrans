@@ -5,6 +5,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\FrontEndController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CaseStudiesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +45,8 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/warehouse-service',[ServicesController::class,'wareHouse'])->name('ware.house');
 });
 
+Route::get('projects',[CaseStudiesController::class,'index'])->name('projects');
+Route::get('project/{slug?}',[CaseStudiesController::class,'projectDetail'])->name('project.detail');
 
 
 
