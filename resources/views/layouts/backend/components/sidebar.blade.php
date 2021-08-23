@@ -6,7 +6,7 @@
                 <span class="nav-text">Dashboard</span>
             </a>
         </li>
-        <li><a href="3" class="" aria-expanded="false">
+        <li><a href="{{route('dashboard.projects')}}" class="" aria-expanded="false">
             <i class="flaticon-022-copy"></i>
             <span class="nav-text">Projects</span>
         </a>
@@ -33,7 +33,7 @@
         </ul>
         <div class="dropdown header-profile2 ">
             <div class="header-info2 text-center">
-                <img src="images/profile/pic1.png" alt="">
+                <img src="{{asset('images/profile/pic1.png')}}" alt="">
                 <div class="sidebar-info">
                     <div>
                         <h5 class="font-w500 mb-0">{{Auth::user()->name}}</h5>

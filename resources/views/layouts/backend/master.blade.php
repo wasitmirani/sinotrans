@@ -141,7 +141,7 @@
 
 	<!-- Dashboard 1 -->
 	<script src="{{asset('js/dashboard/dashboard-1.js')}}"></script>
-
+    @stack('scripts')
 	<script src="{{asset('vendor/owl-carousel/owl.carousel.js')}}"></script>
 	<script src="{{asset('vendor/bootstrap-datetimepicker/js/moment.js')}}"></script>
 	<script src="{{asset('vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>

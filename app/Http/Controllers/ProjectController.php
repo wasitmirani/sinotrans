@@ -11,7 +11,9 @@ class ProjectController extends Controller
 {
     //
     public function projects(){
-        return view('backend.pages.projects');
+        $projects =Project::with('industry')->get();
+
+        return view('backend.pages.projects',compact('projects'));
     }
 
     public function create(){

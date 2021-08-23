@@ -9,4 +9,20 @@ class Project extends Model
 {
     use HasFactory;
     protected $guarded=[];
+    /**
+     * Get the user that owns the Project
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function industry(){
+        return $this->belongsTo(Industry::class, 'industry_id', 'id');
+    }
+
+    public function getThumbnailAttribute($value)
+    {
+        if(!empty($value))
+        return asset('/images/projects/'.$value);
+        else
+        return $value;
+    }
 }
