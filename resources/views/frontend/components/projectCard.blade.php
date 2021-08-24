@@ -1,11 +1,18 @@
 <div class="case-item">
     <div class="case-item-warp">
-       <div class="case-img"><img src="assets/images/work/full/1.jpg" alt="work Item Image"></div>
+       <div class="case-img">
+           <img src="{{$project->thumbnail}}" alt="{{$project->slug}}" style="    height: 212px;
+           "></div>
        <div class="case-content">
           <div class="case-title">
-             <h4><a href="">{{$project->title}}</a></h4>
+             <span><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->title}}</a></span>
           </div>
-          <div class="case-cat"><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->industry->name}}</a></div>
+          <div class="case-cat">
+              <a href="{{route('project.detail',['slug'=>$project->slug])}}">
+                <span class="text-dark">
+                    {{$project->industry->name}}
+                </span>
+                </a></div>
           <div class="case-desc">
              <p>
                 {{$project->short_description}}

@@ -21,7 +21,7 @@ class Project extends Model
     public function getThumbnailAttribute($value)
     {
         if(!empty($value))
-        return asset('/images/projects/'.$value);
+        return asset('assets/images/projects/'.$value);
         else
         return $value;
     }

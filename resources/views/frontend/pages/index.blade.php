@@ -330,7 +330,7 @@
           <div class="col-12 col-lg-6 offset-lg-1">
              <div class="about-img abput-img-text">
                 <div class="about-img-warp">
-                   <div class="bg-section"><img class="img-fluid" src="assets/images/about/2.jpg" alt="about Image"></div>
+                   <div class="bg-section"><img class="img-fluid" src="assets/images/about/1.jpg" alt="about Image"></div>
                 </div>
                 <div class="about-card">
                    <h6>Flexibile, Improved & Accelerated Solutions!</h6>
@@ -376,28 +376,30 @@
              <div class="col-12 col-lg-6">
                 <div class="action-panel">
                    <div class="action-panel-img">
-                      <div class="bg-section"><img src="{{asset('assets/images/cta/2.png')}}" alt="image"></div>
+                      <div class="bg-section"><img src="{{asset('assets/images/cta/2.jpg')}}" alt="image"></div>
                    </div>
                    <div class="action-panel-content">
-                      <div class="panel-icon"><i class="flaticon-015-scale"></i></div>
+                      {{-- <div class="panel-icon">
+                          <i class="flaticon-015-scale"></i></div> --}}
                       <div class="panel-heading">
                          <h3>Lahore Orange Line Metro </h3>
                       </div>
-                      <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
+                      {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
                 </div>
              </div>
              <div class="col-12 col-lg-6">
                 <div class="action-panel">
                    <div class="action-panel-img">
-                      <div class="bg-section"><img src="{{asset('assets/images/cta/9.png')}}" alt="Image"></div>
+                      <div class="bg-section"><img src="{{asset('assets/images/cta/9.jpg')}}" alt="Image"></div>
                    </div>
                    <div class="action-panel-content inverted">
-                      <div class="panel-icon"><i class="flaticon-017-pallet"></i></div>
+                      {{-- <div class="panel-icon"><i class="flaticon-017-pallet"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>China Power Hub Genration Company</h3>
+                         <h3>Sinotrans Logistics Team
+                        </h3>
                       </div>
-                      <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a>
+                      {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
                 </div>
              </div>
