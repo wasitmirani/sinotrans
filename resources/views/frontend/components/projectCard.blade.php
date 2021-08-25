@@ -1,4 +1,19 @@
-<div class="case-item">
+
+@push('styles')
+<style type="text/css">
+.cases-standard .carousel-navs .owl-nav .owl-prev {
+    left: -45px;
+    display: none;
+}
+.cases-standard .carousel-navs .owl-nav .owl-next {
+    right: -45px;
+    display: none;
+
+}
+</style>
+
+@endpush
+<div class="case-item ">
     <div class="case-item-warp">
        <div class="case-img">
            <img src="{{$project->thumbnail}}" alt="{{$project->slug}}" style="    height: 212px;

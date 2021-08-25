@@ -10,7 +10,7 @@
     min-height: 86vh;
 }
  .case-study.case-study-2 {
-    padding-top: 1px;
+    padding-top: 40px;
     padding-bottom: 100px;
 }
 </style>

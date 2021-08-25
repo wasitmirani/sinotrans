@@ -31,7 +31,7 @@
         <div class="col-12 col-lg-5">
         <div class="heading heading-9">
         <p class="heading-subtitle">Providing Full Range Of Transportation .</p>
-        <h2 class="heading-title">Why Sinotrans Limited?</h2>
+        <h2 class="heading-title">Why Sinotrans</h2>
         </div>
         <div class="about-block">
         <div class="block-left">

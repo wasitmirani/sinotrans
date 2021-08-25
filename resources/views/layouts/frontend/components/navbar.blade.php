@@ -8,47 +8,48 @@
                 <li class="nav-item {{request()->routeIs('index') ? 'active' : ''}}">
                    <a class="dropdown-toggle" href="{{route('index')}}" ><span>Home</span></a>
                 </li>
+                <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
+                    <a class="dropdown-toggle" href="{{route('services.all')}}" data-toggle="dropdown"><span>services</span></a>
+                    <ul class="dropdown-menu">
+                       <li>
+                          <div class="row">
+                             <div class="col col-md-6">
+                                <h5 class="menu-head">Services</h5>
+                                <ul>
+                                   <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freight</span></a></li>
+                                   <li class="nav-item {{request()->routeIs('services.ship.agency') ? 'current' : ''}}"><a href="{{route('services.ship.agency')}}"><span>Ship Agency</span></a></li>
+                                   <li class="nav-item {{request()->routeIs('services.custom.clearance') ? 'current' : ''}}"><a href="{{route('services.custom.clearance')}}"><span>Custom Clearance</span></a></li>
+                                   <li class="nav-item {{request()->routeIs('services.road.transport') ? 'current' : ''}}"><a href="{{route('services.road.transport')}}"><span>Road Transport</span></a></li>
+                                   <li class="nav-item {{request()->routeIs('services.ware.house') ? 'current' : ''}}"><a href="{{route('services.ware.house')}}"><span>Warehousing</span></a></li>
+                                </ul>
+                             </div>
+                             <div class="col col-md-6">
+                                <h5 class="menu-head">industry solutions</h5>
+                                <ul>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>automative</span></a></li>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>chemicals</span></a></li>
+                                   <li class="nav-item"><a href="javascript:void(0)"><span>events</span></a></li>
+                                  <li class="nav-item"><a href="javascript:void(0)"><span>construction</span></a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </li>
+                    </ul>
+                 </li>
                 <li class="nav-item has-dropdown  {{request()->routeIs('company*') ? 'active' : ''}}">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>company</span></a>
                    <ul class="dropdown-menu">
                       <li class="nav-item   {{request()->routeIs('company.about-us') ? 'current' : ''}} "><a href="{{route('company.about-us')}}"><span>about us</span></a></li>
-                      <li class="nav-item {{request()->routeIs('company.why-sinotrans') ? 'current' : ''}} "><a href="{{route('company.why-sinotrans')}}"><span>Why Sinotrans Limited? </span></a></li>
+                      <li class="nav-item {{request()->routeIs('company.why-sinotrans') ? 'current' : ''}} "><a href="{{route('company.why-sinotrans')}}"><span>Why Sinotrans  </span></a></li>
                       <li class="nav-item {{request()->routeIs('company.our.strength') ? 'current' : ''}}"><a href="{{route('company.our.strength')}}"><span>Our Strength</span></a></li>
                       <li class="nav-item {{request()->routeIs('map') ? 'current' : ''}}"><a href="{{route('map')}}"><span>map location</span></a></li>
                       {{-- <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li> --}}
                    </ul>
                 </li>
-                <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
-                   <a class="dropdown-toggle" href="{{route('services.all')}}" data-toggle="dropdown"><span>services</span></a>
-                   <ul class="dropdown-menu">
-                      <li>
-                         <div class="row">
-                            <div class="col col-md-6">
-                               <h5 class="menu-head">Services</h5>
-                               <ul>
-                                  <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freight</span></a></li>
-                                  <li class="nav-item {{request()->routeIs('services.ship.agency') ? 'current' : ''}}"><a href="{{route('services.ship.agency')}}"><span>Ship Agency</span></a></li>
-                                  <li class="nav-item {{request()->routeIs('services.custom.clearance') ? 'current' : ''}}"><a href="{{route('services.custom.clearance')}}"><span>Custom Clearance</span></a></li>
-                                  <li class="nav-item {{request()->routeIs('services.road.transport') ? 'current' : ''}}"><a href="{{route('services.road.transport')}}"><span>Road Transport</span></a></li>
-                                  <li class="nav-item {{request()->routeIs('services.ware.house') ? 'current' : ''}}"><a href="{{route('services.ware.house')}}"><span>Warehousing</span></a></li>
-                               </ul>
-                            </div>
-                            <div class="col col-md-6">
-                               <h5 class="menu-head">industry solutions</h5>
-                               <ul>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>automative</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>chemicals</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>events</span></a></li>
-                                 <li class="nav-item"><a href="javascript:void(0)"><span>construction</span></a></li>
-                               </ul>
-                            </div>
-                         </div>
-                      </li>
-                   </ul>
-                </li>
+
                 {{-- <li class="nav-item has-dropdown">
                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>news &amp; media</span></a>
                    <ul class="dropdown-menu">
@@ -58,7 +59,7 @@
                    </ul>
                 </li> --}}
                 <li class="nav-item ">
-                    <a class="dropdown-toggle" href="#" ><span>case studies</span></a>
+                    <a class="dropdown-toggle" href="{{route('projects')}}" ><span>case studies</span></a>
                  </li>
 
                 {{-- <li class="nav-item has-dropdown">

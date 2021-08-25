@@ -161,70 +161,30 @@
              <div class="contact-panel">
                 <div class="contact-types">
                     <a class="button quote-btn active" href="javascript:void(0)" data-form="quoteFormActive"> <i class="flaticon-020-order"> </i><span>get in touch</span></a>
-                    <a class="button track-btn " href="javascript:void(0)" data-form="trackFormActive"> <i class="flaticon-009-shipping-1"> </i><span>track &amp; trace</span></a></div>
+                    <a class="button track-btn " href="javascript:void(0)" data-form="trackFormActive"> <i class="flaticon-009-shipping-1"> </i><span>Join Us</span></a></div>
                 <div class="contact-card">
                    <div class="contact-body quoteFormActive">
                       <div class="row">
-                         <div class="col-12 col-lg-12">
+                         <div class="col-12 col-lg-8">
 
                             @livewire('contactus')
 
                             <form class="contactForm track-form mb-0" method="post" action="assets/php/contact.php">
-                               <h5 class="card-heading">personal data</h5>
-                               <div class="row">
-                                  <div class="col-12">
-                                     <div class="select-container">
-                                        <select class="form-control">
-                                           <option value="default">shipment type</option>
-                                           <option value="AL">type 1</option>
-                                           <option value="AK">type 2</option>
-                                        </select>
-                                     </div>
-                                  </div>
-                               </div>
-                               <h5 class="card-heading">tracking number</h5>
-                               <div class="row">
-                                  <div class="col-12">
-                                     <textarea class="form-control" name="contact-tracking-number" cols="30" rows="2" placeholder="You can enter up to a maximum of 10 airway bill numbers for tracking." required=""></textarea>
-                                  </div>
-                                  <div class="col-12">
-                                     <div class="custom-radio-group">
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline5" name="customRadioInline2">
-                                           <label for="customRadioInline5">fragile</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline6" name="customRadioInline2">
-                                           <label for="customRadioInline6">express delivery</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline7" name="customRadioInline2">
-                                           <label for="customRadioInline7">insurance</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                           <input class="custom-control-input" type="radio" id="customRadioInline8" name="customRadioInline2">
-                                           <label for="customRadioInline8">packaging</label>
-                                        </div>
-                                     </div>
-                                  </div>
-                                  <div class="col-12">
-                                     <input class="btn btn--secondary btn--block" type="submit" value="Track &amp; Trace">
-                                  </div>
-                               </div>
+                                @livewire('contactus')
                             </form>
                          </div>
 
 
-                         {{-- <div class="col-12 col-lg-4">
+                     <div class="col-12 col-lg-4">
                             <div class="apply-card widget widget-reservation">
                                <img src="assets/images/contact/1.jpg" alt="Background Image">
                                <div class="widget-content">
-                                  <h5>take your carreer to next level</h5>
+                                  <h5>Download Company Profile</h5>
                                   <p>We pride ourselves on providing the best transport & shipping services available all over the world and there is no one comes close to us. </p>
-                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>apply now!</a>
+                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download now!</a>
                                </div>
                             </div>
-                         </div> --}}
+                         </div>
                       </div>
                    </div>
                 </div>
@@ -376,13 +336,13 @@
              <div class="col-12 col-lg-6">
                 <div class="action-panel">
                    <div class="action-panel-img">
-                      <div class="bg-section"><img src="{{asset('assets/images/cta/2.jpg')}}" alt="image"></div>
+                      <div class="bg-section"><img src="{{asset('assets/images/cta/DSC_8271.jpg')}}" alt="image"></div>
                    </div>
                    <div class="action-panel-content">
                       {{-- <div class="panel-icon">
                           <i class="flaticon-015-scale"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>Lahore Orange Line Metro </h3>
+                         <h3>Our role in CPEC</h3>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
@@ -427,13 +387,13 @@
           </div>
        </div>
     </div>
-    {{-- <div class="clients clients-carousel clients-1 pt-0">
+    <div class="clients clients-carousel clients-1 pt-0">
        <div class="container">
           <div class="row">
              <div class="col-12 col-lg-8 offset-lg-2">
                 <div class="heading heading-5 text-center">
                    <p class="heading-subtitle">join us today</p>
-                   <h2 class="heading-title">our partners</h2>
+                   <h2 class="heading-title">Our Memberships & Affiliations</h2>
                    <p class="heading-desc">Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, {{config('app.name')}} drives sustainable competitive advantages to some of Australia's largest companies.</p>
                 </div>
              </div>
@@ -441,17 +401,17 @@
           <div class="row">
              <div class="col-12">
                 <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
-                   <div class="client"><img src="assets/images/clients/1.png" alt="client"></div>
-                   <div class="client"><img src="assets/images/clients/2.png" alt="client"></div>
-                   <div class="client"><img src="assets/images/clients/3.png" alt="client"></div>
-                   <div class="client"><img src="assets/images/clients/4.png" alt="client"></div>
-                   <div class="client"><img src="assets/images/clients/5.png" alt="client"></div>
-                   <div class="client"><img src="assets/images/clients/6.png" alt="client"></div>
+                   <div class="client"><img src="assets/images/clients/FIATA-logo.png" alt="FIATA-logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                   <div class="client"><img src="assets/images/clients/Pakistan_Customs_Seal.png" alt="Pakistan_Customs clearnes logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                   <div class="client"><img src="assets/images/clients/apsalogo.png" alt="apsa pakistan logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                 <div class="client"><img src="assets/images/clients/pifa.png" alt="client" style="height: 90px;   filter: grayscale(100%);"></div>
+                   {{-- <div class="client"><img src="assets/images/clients/5.png" alt="client" style="height: 90px;"></div> --}}
+                   {{-- <div class="client"><img src="assets/images/clients/6.png" alt="client" style="height: 90px;"></div> --}}
                 </div>
              </div>
           </div>
        </div>
-    </div> --}}
+    </div>
  </section>
  <section class="testimonial testimonial-3 bg-overlay bg-overlay-theme">
     <div class="bg-section"> <img src="assets/images/background/2.png" alt="background-img"></div>

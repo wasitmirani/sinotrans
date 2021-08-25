@@ -5,37 +5,30 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+
+.footer .footer-top {
+    padding-top: 32px !important;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #292929;
+}
+
+.footer .footer-center {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+}
 </style>
 
 @endpush
 
 <footer class="footer footer-1">
-    <div class="footer-top">
-       <div class="container">
-          <div class="row">
-             <div class="col-12 col-lg-3 col-xl-4">
-                <div class="footer-logo" ><img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo"></div>
-             </div>
-             <div class="col-12 col-lg-9 col-xl-8">
-                <div class="widget-newsletter">
-                   <div class="widget-content">
-                      <p>Sign up for industry alerts,<br>insights from sinotrans.</p>
-                      <form class="form-newsletter mailchimp">
-                         <input class="form-control" type="email" name="email" placeholder="Your Email Address">
-                         <input class="btn btn--primary" type="submit" value="sign up!">
-                         <div class="subscribe-alert"></div>
-                      </form>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
+
     <div class="footer-center">
        <div class="container">
           <div class="row">
+
              <div class="col-sm-6 col-md-6 col-lg-3 footer-widget widget-about">
                 <div class="footer-widget-title">
+                    <img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo">
                    <h5>about</h5>
                 </div>
                 <div class="widget-content">
