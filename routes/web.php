@@ -47,9 +47,6 @@ Route::prefix('services')->name('services.')->group(function () {
 
 Route::get('projects',[CaseStudiesController::class,'index'])->name('projects');
 Route::get('project/{slug?}',[CaseStudiesController::class,'projectDetail'])->name('project.detail');
-
-
-
 Route::prefix('dashboard')->name('dashboard.')->group(function () {
     Route::get('/',[DashboardController::class,'index'])->name('home');
     Route::get('/projects',[ProjectController::class,'projects'])->name('projects');
