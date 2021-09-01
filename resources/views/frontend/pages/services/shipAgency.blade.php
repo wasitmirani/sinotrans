@@ -20,7 +20,7 @@
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title" style="padding-top: 42px;">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/serivice5.png')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/services/serivice5.png')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
        <div class="col-12 col-lg-6">
@@ -68,7 +68,7 @@
                       <h5>Ship Agency Service</h5>
                       <p>Working with established vessel principals and service providers means benefitting from flexible, fully integrated multi-model logistic solutions that allow for quick transit times.</p>
                       <p>The experience and dedication of the team provides outstanding handling of all types of cargoes, including heavy lifts and oversized project cargo, along with communication, knowledge and compliance requirements at all Pakistan ports. Success has always come from the ability to anticipate and adapt, allowing the company to keep up the pace with customers’ needs and demands.</p>
-             
+
                    </div>
 
 
