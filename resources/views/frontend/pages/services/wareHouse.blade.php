@@ -7,11 +7,15 @@
 #wrapperParallax {
     position: relative;
     z-index: 1060;
-    min-height: 86vh;
+    min-height: 50vh;
 }
  .case-study.case-study-2 {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+}
+.case-study.case-study-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
 }
 </style>
 @endpush
@@ -25,7 +29,7 @@
                 {{-- <p>Dedicated Customer Teams &amp; An Agile Services</p> --}}
              </div>
              <div class="title-heading">
-                <h1>Warehouse Service</h1>
+                <h1>Warehousing Service</h1>
              </div>
              @component('frontend.components.Breadcam',
              ['back_link'=>'Services','back_url'=>route('services.all'),'active_link'=>'Warehouse Service'])
@@ -61,10 +65,10 @@
              <div class="case-study-entry">
                 <div class="entry-content">
                    <div class="entry-bio">
-                      <h5>Warehouse Service</h5>
-                      <p>When it comes to the movement of goods across suppliers, vendors, and customers, efficiency and traceability are of vital importance.</p>
-                      <p>That’s why our flexible warehousing and distribution solutions offer real-time cargo track and trace along with dedicated, shared, and refer warehousing and distribution facilities. In addition, all our warehouses are equipped with leading edge warehouse management systems, making it easier for real time cargo track and trace.</p>
-
+                      <h5>Warehousing Service</h5>
+                      <p>
+                        When it comes to the movement of goods across suppliers, vendors and customers, efficiency and traceability are of vital importance. Which is why Sinotrans’ flexible warehousing and distribution solutions offer real-time cargo track-and-trace, along with dedicated, shared, and refer warehousing and distribution facilities. In addition, all warehouses are equipped with a leading-edge management system, making real-time cargo track-and-trace easier than ever.
+                      </p>
                    </div>
 
 

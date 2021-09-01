@@ -7,11 +7,15 @@
 #wrapperParallax {
     position: relative;
     z-index: 1060;
-    min-height: 90vh;
+    min-height: 50vh;
 }
  .case-study.case-study-2 {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+}
+.case-study.case-study-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
 }
 </style>
 @endpush
@@ -64,7 +68,8 @@
                     <div class="entry-content">
                        <div class="entry-bio">
                           <h5>Services</h5>
-                          <p class="text-justify">Sinotrans Logistics Pakistan is a holistic logistic solutions provider, aiming to provide door to-door services to meet every one of our customers’ logistical needs; All as part of the group recognized  for its portfolio of high-profile clients, projects and offering 360-degree services. Our extensive network of cargo agents expertly handles air and ocean cargo in one seamless transaction. Our range of services includes.</p>
+                          <p class="text-justify">Sinotrans Logistics Pakistan is a holistic logistics solution provider, aiming to provide door-to-door services to meet the customers’ logistical needs. The group is now recognized worldwide for its portfolio of high-profile clients, projects, and 360-degree services. The extensive network of cargo agents expertly handle air and ocean cargo in one seamless transaction.
+                            </p>
 
                        </div>
                        <section class="features" id="features-1" style="padding-top: 0px;padding-bottom: 0px;">
@@ -75,9 +80,9 @@
                                   @component('frontend.components.serviceCard',
                                   [
                                       'icon'=>'flaticon-010-cargo',
-                                      'name'=>'ocean freigh',
+                                      'name'=>'ocean freight',
                                       'link'=>route('services.ocean.freigh'),
-                                      'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
+                                      'short_description'=>'Sinotrans works with leading carriers and uses an expanding network of agents, partners, as well as its own offices around the world, enabling the company to provide global services,  led by the extensive expertise of the local teams.'
                                   ])
                                   @endcomponent
                                 </div>
@@ -87,7 +92,7 @@
                                         'icon'=>'flaticon-010-cargo',
                                         'name'=>'Ship Agency',
                                         'link'=>route('services.ship.agency'),
-                                        'short_description'=>'Working with us vessel principals and service providers means benefitting from our flexible, fully integrated multi-model logistic solutions and quick transit times.'
+                                        'short_description'=>'Working with established vessel principals and service providers means benefitting from flexible, fully integrated multi-model logistic solutions that allow for quick transit times.'
                                     ])
                                     @endcomponent
                                 </div>
@@ -128,6 +133,7 @@
                            </div>
 
                        </section>
+
                        <div class="entry-bio enty-bio-3">
                           <h5>Life At Sinotrans</h5>
                           <p class="text-justify">At Sinotrans Pakistan, our commitment to creating a diverse and inclusive workplace, as well as provide handsomely for our people, means they not only work, but have the opportunity to learn and grow with us as well. At Sinotrans Pakistan we aim to change lives we strongly believe in the constant growth of each individual.</p>

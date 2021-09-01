@@ -1,7 +1,16 @@
 
 @extends('layouts.frontend.master')
 @section('content')
-
+@push('styles')
+<style>
+  .about.about-2 {
+        padding-top: 50px !important;
+    }
+    .about.about-5 {
+    padding-bottom: 20px;
+}
+</style>
+@endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
     <div class="bg-section"><img src="{{asset('assets/images/page-titles/15.jpg')}}" alt="Background"></div>
     <div class="container">
@@ -42,17 +51,14 @@
         </div>
         </div>
         <div class="signature-block">
-        <div class="signature-body">
-        <span>{{config('app.name')}}</span>
 
-        </div><img style="width: 80px;" src="{{asset('/assets/images/logo/logo-dark.png')}}" alt="{{config('app.name')}}">
         </div>
         </div>
 
         <div class="col-12 col-lg-6 offset-lg-1">
         <div class="about-img abput-img-text">
         <div class="about-img-warp">
-        <div class="bg-section"><img class="img-fluid" src="{{asset('/assets/images/about/2.jpg')}}" alt="about Image"></div>
+        <div class="bg-section"><img class="img-fluid" src="{{asset('/assets/images/about/why.png')}}" alt="about Image"></div>
         </div>
         <div class="about-card">
         <h6>Flexibile, Improved & Accelerated Solutions!</h6>

@@ -4,7 +4,7 @@
           <div class="col-12 col-lg-5">
              <div class="about-img about-img-left">
                 <div class="about-img-warp bg-overlay">
-                   <div class="bg-section"><img src="{{asset('assets/images/about/1.jpg')}}" alt="about Image"></div>
+                   <div class="bg-section"><img src="{{asset('assets/images/about/about.png')}}" alt="about Image"></div>
                 </div>
                 <div class="counter">
                    <div class="counter-icon"> <i class="flaticon-018-packaging"></i></div>
@@ -27,17 +27,19 @@
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="block-left">
-                         <p class="">{{config('app.name')}} is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
+                         <p class="">{{config('app.name')}} is a joint venture company between Sinotrans Limited, the largest integrated logistic group in China, and the Transhold Group, one of Pakistan's oldest and most esteemed logistics group.</p>
                          @if(!request()->routeIs('company.about-us'))
-                         <p class="">
-                            Since 2014 Sinotrans Pakistan, offers road transportation, heavy lifting, and oversize transport, customs clearance, ship agency, owners’ husbandry, warehousing, Containerised and breakbulk as well ocean freight booking services to trade points such as Karachi Port, Port Qasim and Gwadar.
+                         <p >
 
+                            Since its launch in Pakistan in 2014, Sinotrans has and continues to offer road transportation, heavy lifting, and oversize transportation, along with customs clearance, shipping agency, owners’ husbandry, warehousing, containerized, breakbulk and ocean freight booking
+                            services to and from Pakistan’s major trade points: Karachi Port, Port Qasim and Port Gwadar.
                         </p>
                         @else
-                        <p class="">
-                            Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.
-                            Since 2014 Sinotrans Pakistan, offers road transportation, heavy lifting, and oversize transport, customs clearance, ship agency, owners’ husbandry, warehousing, Containerised and breakbulk as well ocean freight booking services to trade points such as Karachi Port, Port Qasim and Gwadar.
-                            The unbeatable dependability and timeliness of our services to all destinations for a wide and diverse customer base has made us a leading integrated logistics service provider in Pakistan. It also means we play a significant role in a diverse array of projects that contribute to the country’s national wealth, security, and environmental well-being: From the Hub Power Project to equipment transport of the storied Orange Line Metro Lahore, to the K2 And K3 Nuclear Power Plant Karachi , we proudly help deliver prosperity and progress.
+                        <p>
+                            Since its launch in Pakistan in 2014, Sinotrans has and continues to offer road transportation, heavy lifting, and oversize transportation, along with customs clearance, shipping agency, owners’ husbandry, warehousing, containerized, breakbulk and ocean freight booking services to and from Pakistan’s major trade points: Karachi Port, Port Qasim and Port Gwadar.
+
+                            The dependability and timeliness of services provided to all destinations, along with a wide and diverse customer base, has made Sinotrans Pakistan the leading integrated logistics service provider in the country. Playing a significant role in contributing to the country’s national wealth, security and environmental well-being, from the Hub Power Project and equipment transport of the storied Orange Line Metro Lahore to the K2 And K3 Nuclear Power Plant Karachi, Sinotrans promises to deliver prosperity and progress with every project it undertakes.
+
                         </p>
                         @endif
                         @if(!request()->routeIs('company.about-us'))
@@ -49,11 +51,11 @@
                       <div class="block-right">
                          <div class="detail">
                             <h6>Corporate Vision </h6>
-                            <p>To become one of the leading integrated logistics services corporations in Pakistan.</p>
+                            <p>To become the leading integrated logistics services corporation in the country, offering unparalleled services across multiple sectors in Pakistan.</p>
                          </div>
                          <div class="detail">
-                            <h6>corporate mission</h6>
-                            <p>To continuously create business and social value, through provision of the best solutions and services, with an unrelenting focus on customer needs.</p>
+                            <h6>Corporate Mission</h6>
+                            <p>To continuously create business, social and environmental value, through consistent provision of the best solutions and services, with an unrelenting focus on customer needs and demands.</p>
                          </div>
 
                       </div>

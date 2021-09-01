@@ -18,6 +18,7 @@
     display: none;
 
 }
+
 </style>
 
 @endpush
@@ -44,13 +45,13 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('assets/images/sliders/2.jpg')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('assets/images/sliders/slider2.png')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">innovation sea<br>transportation!</h2>
+                         <h2 class="slide-headline">innovation <br>transportation!</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -61,7 +62,7 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('assets/images/sliders/3.jpg')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('assets/images/sliders/slider3.png')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -103,21 +104,21 @@
         <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
             <i class="thumb-icon flaticon-010-cargo"> </i>
             <div class="thumb-body">
-               <p>innovative</p>
+               <p>Reliable</p>
                <h3> <a href="{{route('services.ocean.freigh')}}">Ocean Freight services</a></h3>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 services-bar-card ">
             <i class="thumb-icon flaticon-010-cargo"> </i>
             <div class="thumb-body">
-               <p>innovative</p>
+               <p>Efficient</p>
                <h3> <a href="{{route('services.ship.agency')}}">Ship Agency services</a></h3>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 services-bar-card">
             <i class="thumb-icon flaticon-033-checklist"></i>
             <div class="thumb-body">
-               <p>flexible</p>
+               <p>Speed </p>
                <h3> <a href="{{route('services.custom.clearance')}}">Custom clearance</a></h3>
             </div>
          </div>
@@ -290,7 +291,7 @@
           <div class="col-12 col-lg-6 offset-lg-1">
              <div class="about-img abput-img-text">
                 <div class="about-img-warp">
-                   <div class="bg-section"><img class="img-fluid" src="assets/images/about/1.jpg" alt="about Image"></div>
+                   <div class="bg-section"><img class="img-fluid" src="{{asset('assets/images/about/why.png')}}" alt="whyus Image"></div>
                 </div>
                 <div class="about-card">
                    <h6>Flexibile, Improved & Accelerated Solutions!</h6>
@@ -321,12 +322,13 @@
           <div class="col-12 col-lg-10 offset-lg-1">
             <div class="prief-set">
                 <ul class="advantages-list">
-                   <li><i class="fas fa-check-circle"></i> Sinotrans Group’s global footprint, knowledge and impeccable reputation</li>
-                   <li><i class="fas fa-check-circle"></i> Our ability to provide a one window solution and manage all operations in house, keeping a high service level</li>
-                   <li><i class="fas fa-check-circle"></i> Extensive experience with project operations</li>
-                   <li><i class="fas fa-check-circle"></i> Unmatched local team and partners, including our teams from China</li>
-                   <li><i class="fas fa-check-circle"></i> Our proprietary team of highly experienced drivers and modern equipment</li>
-                   <li><i class="fas fa-check-circle"></i> Strong customer service orientation</li>
+                   <li><i class="fas fa-check-circle"></i> Sinotrans Group’s global footprint, vast knowledge, and impeccable reputation.</li>
+                   <li><i class="fas fa-check-circle"></i> The ability to provide one-window solutions and manage all operations in-house,     adhering to a service level of the highest quality.</li>
+                   <li><i class="fas fa-check-circle"></i> Extensive experience with all project operations.</li>
+                   <li><i class="fas fa-check-circle"></i> Unmatched local teams and partners, including the home-grown teams from China.</li>
+                   <li><i class="fas fa-check-circle"></i> A proprietary team of highly experienced drivers and modern equipment.</li>
+                   <li><i class="fas fa-check-circle"></i> Strong customer service orientation.</li>
+                   <li><i class="fas fa-check-circle"></i> A profound knowledge of policies and regulations, plus a team well-versed in all relevant nuances.</li>
                 </ul>
              </div>
           </div>
@@ -336,13 +338,13 @@
              <div class="col-12 col-lg-6">
                 <div class="action-panel">
                    <div class="action-panel-img">
-                      <div class="bg-section"><img src="{{asset('assets/images/cta/DSC_8271.jpg')}}" alt="image"></div>
+                      <div class="bg-section"><img src="{{asset('assets/images/cta/cpec.png')}}" alt="image"></div>
                    </div>
                    <div class="action-panel-content">
                       {{-- <div class="panel-icon">
                           <i class="flaticon-015-scale"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>Our role in CPEC</h3>
+                         <h3>Our Role In CPEC</h3>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
@@ -351,13 +353,12 @@
              <div class="col-12 col-lg-6">
                 <div class="action-panel">
                    <div class="action-panel-img">
-                      <div class="bg-section"><img src="{{asset('assets/images/cta/9.jpg')}}" alt="Image"></div>
+                      <div class="bg-section"><img src="{{asset('assets/images/cta/team.png')}}" alt="Image"></div>
                    </div>
                    <div class="action-panel-content inverted">
                       {{-- <div class="panel-icon"><i class="flaticon-017-pallet"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>Sinotrans Logistics Team
-                        </h3>
+                         <h3>Sinotrans Logistics Team</h3>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
@@ -401,10 +402,10 @@
           <div class="row">
              <div class="col-12">
                 <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
-                   <div class="client"><img src="assets/images/clients/FIATA-logo.png" alt="FIATA-logo" style="height: 90px;   filter: grayscale(100%);"></div>
-                   <div class="client"><img src="assets/images/clients/Pakistan_Customs_Seal.png" alt="Pakistan_Customs clearnes logo" style="height: 90px;   filter: grayscale(100%);"></div>
-                   <div class="client"><img src="assets/images/clients/apsalogo.png" alt="apsa pakistan logo" style="height: 90px;   filter: grayscale(100%);"></div>
-                 <div class="client"><img src="assets/images/clients/pifa.png" alt="client" style="height: 90px;   filter: grayscale(100%);"></div>
+                   <div class="client"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                   <div class="client"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                   <div class="client"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter: grayscale(100%);"></div>
+                 <div class="client"><img src="{{asset('assets/images/clients/pifa.png')}}" alt="client" style="height: 90px;   filter: grayscale(100%);"></div>
                    {{-- <div class="client"><img src="assets/images/clients/5.png" alt="client" style="height: 90px;"></div> --}}
                    {{-- <div class="client"><img src="assets/images/clients/6.png" alt="client" style="height: 90px;"></div> --}}
                 </div>
@@ -414,7 +415,7 @@
     </div>
  </section>
  <section class="testimonial testimonial-3 bg-overlay bg-overlay-theme">
-    <div class="bg-section"> <img src="assets/images/background/2.png" alt="background-img"></div>
+    <div class="bg-section"> <img src="{{asset('assets/images/background/bgtitle.png')}}" alt="background-img"></div>
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-6">
@@ -423,7 +424,9 @@
                 <h2 class="heading-title">
                     Latest Equipment
                 </h2>
-                <p class="heading-desc">Having proprietary equipment give us huge advantage over other players, reducing dependency on other links in the chain, a value Chinese client particularly appreciate.  It also it allows us to provide an unmatched level of service control by offering us near total command of projects logistics thanks our team of experts.</p>
+                <p class="heading-desc">
+                    Having proprietary equipment at hand creates a huge advantage over other players in the market, reducing dependency on other links in the chain - a value Chinese clients deeply appreciate. This advantage allows the organization to provide an unmatched level of service and a near-total command of project logistics, all thanks to the growing team of experts.
+                </p>
                 <a class="btn btn--transparent btn--inverse" href="{{route('services.all')}}">our services</a>
              </div>
           </div>

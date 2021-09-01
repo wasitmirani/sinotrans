@@ -7,16 +7,20 @@
 #wrapperParallax {
     position: relative;
     z-index: 1060;
-    min-height: 86vh;
+    min-height: 50vh;
 }
  .case-study.case-study-2 {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+}
+.case-study.case-study-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
 }
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/16.jpg')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/page-titles/service2.png')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
        <div class="col-12 col-lg-6">
@@ -62,7 +66,7 @@
                 <div class="entry-content">
                    <div class="entry-bio">
                       <h5>Custom Clearance Service</h5>
-                      <p>To ensure timely commitment and safe delivery of the cargo, our top in-house custom clearance department has hands-on experience in handling every aspect of the customs clearance processes, be it communicating with the custom officials or offering consultancy services.</p>
+                      <p>To ensure timely commitment and safe delivery of all cargo, the in-house customs clearance department offers hands-on experience in handling every aspect of the clearance processes, be it communicating with officials or offering consultancy services.</p>
 
 
                    </div>
@@ -83,7 +87,7 @@
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Project Cargo'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Re-export'])
+                              @component('frontend.components.pointsList',['title'=>'Re-Export'])
                               @endcomponent
                       </div>
                      </div>

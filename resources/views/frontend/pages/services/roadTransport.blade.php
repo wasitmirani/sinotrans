@@ -7,11 +7,15 @@
 #wrapperParallax {
     position: relative;
     z-index: 1060;
-    min-height: 86vh;
+    min-height: 50vh;
 }
  .case-study.case-study-2 {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+}
+.case-study.case-study-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
 }
 </style>
 @endpush
@@ -64,8 +68,12 @@
                     <div class="entry-content">
                        <div class="entry-bio">
                           <h5>Road Transport</h5>
-                          <p>Our experience as a road logistics specialist, in combination with an efficient transport network is what makes us a major global intermodal player.</p>
-                          <p>We offer effective and reliable transportation solutions ranging from a Containerised breakbulk and heavy lift, full truckload, and Less-Than-Truckload movement. Furthermore, with a proprietary fleet of specialized extendible trailers for heavy and oversized movement we can ensure that even your heaviest cargo can be moved quickly and safely, no matter the dimension and bulk. In addition, having an inhouse workshop and maintenance experts allows us to provide on location repair and maintenance services, significantly reducing lead time and extending adaptability.</p>
+                          <p>
+                            Having a world of experience as road logistics specialists, combined with an efficient transport network, is what makes Sinotrans a major global intermodal player. The company offers effective and reliable transportation solutions, ranging from containerized breakbulk and heavy lift, full truckload, and less than truckload movements.
+                          </p>
+                          <p>
+                            Furthermore, with a proprietary fleet of specialized extendable trailers for heavy and oversized movement, Sinotrans ensures that even the heaviest cargo can be moved quickly and safely, regardless of its dimension and bulk. In addition, having an in-house workshop and maintenance experts allows on-location repairs and maintenance services, significantly reducing lead time and extending adaptability when needed.
+                          </p>
 
                        </div>
 
@@ -77,7 +85,7 @@
 
                           </div>
                           <div class="row">
-                              @component('frontend.components.pointsList',['title'=>'Containerised'])
+                              @component('frontend.components.pointsList',['title'=>'Containerized'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Break Bulk'])
                               @endcomponent

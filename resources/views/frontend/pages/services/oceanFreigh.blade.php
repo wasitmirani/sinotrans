@@ -7,14 +7,21 @@
 #wrapperParallax {
     position: relative;
     z-index: 1060;
-    min-height: 86vh;
+    min-height: 50vh;
 }
  .case-study.case-study-2 {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
 }
+.case-study.case-study-2 {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+}
+
+
 </style>
 @endpush
+
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
     <div class="bg-section"><img src="{{asset('assets/images/page-titles/15.jpg')}}" alt="Background"></div>
     <div class="container">
@@ -61,9 +68,9 @@
                     <div class="entry-content">
                        <div class="entry-bio">
                           <h5>Ocean Freight</h5>
-                          <p>We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.</p>
-                          <p>Working with us means benefitting from our flexible, fully integrated multi-model logistic solutions, competitive rates and quick transit times. Our all-inclusive ocean freight service utilizes the most efficient routes to ensure your cargo reaches its destination safely and on time.</p>
-                          <p>We also provide full cargo routing proposals, including advice on cargo stowage, and securing for out of gauge, heavy and otherwise ‘exceptional’ cargoes. We also offer comprehensive route surveys for complex movements where necessary. </p>
+                          <p>Sinotrans works with leading carriers and uses an expanding network of agents, partners, as well as its own offices around the world, enabling the company to provide global services,  led by the extensive expertise of the local teams.</p>
+                          <p>Working with Sinotrans means benefitting from the flexible, fully integrated multi-model logistic solutions, competitive rates, and quick transit times. The all-inclusive ocean freight service utilizes the most efficient routes to ensure all cargo reaches its destination, timely and safely.</p>
+                          <p>Apart from freight and handling, the company also offers full cargo routing proposals, including advice on cargo stowage, securing out of gauge, heavy and otherwise ‘exceptional’ cargoes. Plus, comprehensive route surveys for complex movements where necessary are also part of the services offered.</p>
                        </div>
 
 
@@ -74,9 +81,9 @@
 
                           </div>
                           <div class="row">
-                              @component('frontend.components.pointsList',['title'=>'Conventional shipping'])
+                              @component('frontend.components.pointsList',['title'=>'Conventional Shipping'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Ro-Ro services '])
+                              @component('frontend.components.pointsList',['title'=>'Ro-Ro Services Worldwide'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'FCL/LCL Service'])
                               @endcomponent

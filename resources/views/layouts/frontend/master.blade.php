@@ -15,10 +15,11 @@
       <link href="{{asset('/assets/css/vendor.min.css')}}" rel="stylesheet">
       <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
         @stack("styles")
+
       @livewireStyles
    </head>
    <body>
-
+   
       <div class="wrapper clearfix" id="wrapperParallax">
 
         @include('layouts.frontend.components.navbar')
