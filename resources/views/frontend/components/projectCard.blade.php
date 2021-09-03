@@ -28,9 +28,12 @@
                     {{$project->industry->name}}
                 </span>
                 </a></div>
+                <div class="case-cat">
+                    <a href="javascript:void(0)">{{$project->destination}}</a>
+                </div>
           <div class="case-desc">
              <p>
-                {{$project->short_description}}
+                {{ Str::limit($project->short_description,120,"...")}}
              </p>
           </div>
           <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>

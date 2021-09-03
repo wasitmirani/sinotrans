@@ -1,9 +1,16 @@
 @extends('layouts.frontend.master')
 @section('content')
 
-
+@push('styles')
+<style type="text/css">
+    .case-study.case-study-2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+</style>
+@endpush
 <section class="page-title page-title-12 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="assets/images/page-titles/4.jpg" alt="Background"></div>
+    <div class="bg-section"><img src="{{$project->thumbnail}}" alt="Background"></div>
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-10 offset-lg-1">
@@ -29,22 +36,24 @@
              <div class="sidebar sidebar-case-study">
                 <div class="widget widget-categories">
                    <div class="widget-title">
-                      <h5>Our Services</h5>
+                      <h5>Our Industries</h5>
                    </div>
                    <div class="widget-content">
                       <ul class="list-unstyled">
-                        @component('frontend.components.servicesList')
+                          @foreach ($industries as $item)
 
-                        @endcomponent
+                    <li ><a href="{{route('projects',['query'=>$item->slug])}}">{{$item->name}}</a></li>
+                          @endforeach
+
                       </ul>
                    </div>
                 </div>
                 <div class="widget widget-reservation">
                    <img src="assets/images/blog/sidebar/reservation.jpg" alt="Background Image">
                    <div class="widget-content">
-                      <h5>Dedicated Customer Teams & Agile Services</h5>
-                      <p>Our worldwide presence ensures the timeliness, cost efficiency compliance adherence required to ensure your production timelines are met.</p>
-                      <a class="btn btn--transparent btn--inverse btn--block" href="javascript:void(0)">Schedule An Appointment</a>
+                      <h5>Services Provided</h5>
+                      <p>{{$project->services_provided}}</p>
+                      <a class="btn btn--transparent btn--inverse btn--block" href="{{route('contact')}}">Schedule An Appointment</a>
                    </div>
                 </div>
                 <div class="widget widget-download">
@@ -53,8 +62,7 @@
                    </div>
                    <div class="widget-content">
                       <ul class="list-unstyled">
-                         <li><a href="javascript:void(0)"> <span>company report 2019</span><span class="icon">pdf</span></a></li>
-                         <li><a href="javascript:void(0)"> <span>company brochure</span><span class="icon">pdf</span></a></li>
+                         <li><a href="javascript:void(0)"> <span>company profile</span><span class="icon">pdf</span></a></li>
                       </ul>
                    </div>
                 </div>

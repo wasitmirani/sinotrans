@@ -20,7 +20,9 @@ class CaseStudiesController extends Controller
 
     public function projectDetail(Request $request){
         $project=Project::where('slug',$request->slug)->first();
-        return view('frontend.pages.projects.detail',compact('project'));
+
+        $industries=Industry::whereNotIn('id',[$project->industry_id])->get();
+        return view('frontend.pages.projects.detail',compact('project','industries'));
     }
 
     public function setSeo($title=null,$description){

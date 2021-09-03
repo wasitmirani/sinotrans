@@ -17,6 +17,15 @@ class Project extends Model
     public function industry(){
         return $this->belongsTo(Industry::class, 'industry_id', 'id');
     }
+    /**
+     * Get all of the comments for the Project
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function projectSections()
+    {
+        return $this->hasMany(ProjectSection::class, 'project_id', 'id');
+    }
 
     public function getThumbnailAttribute($value)
     {

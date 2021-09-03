@@ -14,7 +14,8 @@ class FrontEndController extends Controller
         $title="Sinotrans";
         $des="Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.";
         $this->setSeo( $title, $des);
-        $projects=Project::with('industry')->take(9)->get();
+        $projects=Project::with(['industry','projectSections'])->take(9)->get();
+
         return view('frontend.pages.index',compact('projects'));
     }
     public function mapPak(){
