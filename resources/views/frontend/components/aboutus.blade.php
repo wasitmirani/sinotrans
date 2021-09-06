@@ -3,8 +3,8 @@
        <div class="row">
           <div class="col-12 col-lg-5">
              <div class="about-img about-img-left">
-                <div class="about-img-warp bg-overlay">
-                   <div class="bg-section"><img src="{{asset('assets/images/about/about.png')}}" alt="about Image"></div>
+                <div class="about-img-warp">
+                   <div class="bg-section"><img src="{{asset('assets/images/about/about.jpg')}}" alt="about Image"></div>
                 </div>
                 <div class="counter">
                    <div class="counter-icon"> <i class="flaticon-018-packaging"></i></div>

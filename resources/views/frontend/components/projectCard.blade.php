@@ -10,6 +10,13 @@
     display: none;
 
 }
+.cases-standard .case-item .case-content {
+    padding-top: 33px;
+    padding-bottom: 28px;
+    height: 320px;
+    position: sticky;
+    background-color: #fff;
+}
 </style>
 
 @endpush
@@ -20,11 +27,13 @@
            "></div>
        <div class="case-content">
           <div class="case-title">
-             <span><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->title}}</a></span>
+             <h5><a href="{{route('project.detail',['slug'=>$project->slug])}}">
+                {{$project->title}}
+             </a></h5>
           </div>
-          <div class="case-cat">
+          <div class="case-title">
               <a href="{{route('projects',['query'=>$project->industry->slug])}}">
-                <span class="text-dark">
+                <span class="text-info " style="font-size:18px;">
                     {{$project->industry->name}}
                 </span>
                 </a></div>
@@ -33,7 +42,7 @@
                 </div>
           <div class="case-desc">
              <p>
-                {{ Str::limit($project->short_description,120,"...")}}
+                {{ Str::limit($project->short_description,100,"...")}}
              </p>
           </div>
           <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>

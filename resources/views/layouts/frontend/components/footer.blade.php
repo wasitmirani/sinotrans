@@ -13,23 +13,25 @@
 }
 
 .footer .footer-center {
-    padding-top: 30px !important;
+    padding-top: 50px !important;
     padding-bottom: 10px !important;
+}
+.footer .footer-center {
+    padding-top: 26px;
 }
 </style>
 
 @endpush
-
 <footer class="footer footer-1">
 
     <div class="footer-center">
        <div class="container">
           <div class="row">
 
-             <div class="col-sm-6 col-md-6 col-lg-3 footer-widget widget-about">
+             <div class="col-sm-6 col-md-6 col-lg-5 footer-widget widget-about">
                 <div class="footer-widget-title">
                     <img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo">
-                   <h5>about</h5>
+                   <h5>About <strong>{{config('app.name')}}</strong> </h5>
                 </div>
                 <div class="widget-content">
                    <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
@@ -39,7 +41,7 @@
                        <a class="share-twitter" href="https://pk.linkedin.com/company/sinotrans-logistics-pakistan-pvt-ltd"><i class="fab fa-linkedin"></i></a></div>
                 </div>
              </div>
-             <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-2 footer-widget widget-links">
+             <div class="col-sm-6 col-md-6 col-lg-2 footer-widget widget-links">
                 <div class="footer-widget-title">
                    <h5>services</h5>
                 </div>
@@ -61,13 +63,13 @@
                 <div class="widget-content">
                    <ul>
 
-                      <li ><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
+                      {{-- <li ><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
                       <li ><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
                       <li ><a href="javascript:void(0)"><span>automative</span></a></li>
                       <li ><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
                       <li ><a href="javascript:void(0)"><span>chemicals</span></a></li>
                       <li ><a href="javascript:void(0)"><span>events</span></a></li>
-                     <li ><a href="javascript:void(0)"><span>construction</span></a></li>
+                     <li ><a href="javascript:void(0)"><span>construction</span></a></li> --}}
                    </ul>
                 </div>
              </div>
@@ -75,7 +77,7 @@
                 <div class="footer-widget-title">
                    <h5>quick contact</h5>
                 </div>
-                <div class="widget-content">o contact with our team.</p>
+                <div class="widget-content">to contact with our team.</p>
                    <ul>
                       <li class="phone text-light"><a href="tel:+92(021) 35642730"><i class="fas fa-phone-alt"></i> +92(021) 35642730</a></li>
                       <li class="address"><a href="javascript:void(0)">3rd Floor, Bahria Complex 3, Lalazar, MT Khan Road, Service Road, Naval Officers Residential Estate 1 Naval Officers Colony, Karachi, Karachi City, Sindh,Pakistan.</a></li>

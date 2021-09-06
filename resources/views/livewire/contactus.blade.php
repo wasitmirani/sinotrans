@@ -16,7 +16,7 @@
         <div class="row">
 
            <div class="col-12">
-            <textarea class="form-control" name="contact-tracking-number" cols="30" rows="2" placeholder="Message..." required=""></textarea>
+            <textarea class="form-control" name="contact-tracking-number" cols="30" rows="3" placeholder="Message..." required=""></textarea>
            </div>
            <div class="col-12">
               <input class="btn btn--secondary btn--block" type="submit" value="Submit">

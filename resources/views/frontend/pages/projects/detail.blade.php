@@ -43,7 +43,7 @@
              <div class="sidebar sidebar-case-study">
                 <div class="widget widget-categories">
                    <div class="widget-title">
-                      <h5>Our Industries</h5>
+                      <h5>Industries</h5>
                    </div>
                    <div class="widget-content">
                       <ul class="list-unstyled">
@@ -58,9 +58,9 @@
                 <div class="widget widget-reservation">
                    <img src="{{$project->thumbnail}}" alt="Background Image">
                    <div class="widget-content">
-                      <h5>Other Info</h5>
+                      <h5>Services Provided</h5>
                       <p>{{$project->other_details}}</p>
-                      <a class="btn btn--transparent btn--inverse btn--block" href="{{route('contact')}}">Schedule An Appointment</a>
+                      <a class="btn btn--transparent btn--inverse btn--block" href="{{route('contact')}}">Contact Us</a>
                    </div>
                 </div>
                 <div class="widget widget-download">
@@ -111,7 +111,7 @@
                                <div class="case-img"><img src="{{$item->thumbnail}}" alt="{{$item->slug}}"></div>
                                <div class="case-content">
                                   <div class="case-title">
-                                     <h4><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->title}}</a></h4>
+                                     <h4><a href="javascript:void(0)">{{$item->title}}</a></h4>
                                   </div>
                                   <div class="case-cat"><a href="javascript:void(0)">{{$item->destination}}</a></div>
                                </div>

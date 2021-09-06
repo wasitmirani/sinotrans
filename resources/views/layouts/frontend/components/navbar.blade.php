@@ -18,36 +18,15 @@
                        {{-- <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li> --}}
                     </ul>
                  </li>
-                <li class="nav-item has-dropdown mega-dropdown {{request()->routeIs('services*') ? 'active' : ''}}">
+                <li class="nav-item has-dropdown  {{request()->routeIs('services*') ? 'active' : ''}}">
                     <a class="dropdown-toggle" href="{{route('services.all')}}" data-toggle="dropdown"><span>services</span></a>
-                    <ul class="dropdown-menu">
-                       <li>
-                          <div class="row">
-                             <div class="col col-md-6">
-                                <h5 class="menu-head">Services</h5>
-                                <ul>
+                        <ul class="dropdown-menu">
                                    <li class="nav-item {{request()->routeIs('services.ocean.freigh') ? 'current' : ''}} "><a href="{{route('services.ocean.freigh')}}"><span>Ocean Freight</span></a></li>
                                    <li class="nav-item {{request()->routeIs('services.ship.agency') ? 'current' : ''}}"><a href="{{route('services.ship.agency')}}"><span>Ship Agency</span></a></li>
                                    <li class="nav-item {{request()->routeIs('services.custom.clearance') ? 'current' : ''}}"><a href="{{route('services.custom.clearance')}}"><span>Custom Clearance</span></a></li>
                                    <li class="nav-item {{request()->routeIs('services.road.transport') ? 'current' : ''}}"><a href="{{route('services.road.transport')}}"><span>Road Transport</span></a></li>
                                    <li class="nav-item {{request()->routeIs('services.ware.house') ? 'current' : ''}}"><a href="{{route('services.ware.house')}}"><span>Warehousing</span></a></li>
                                 </ul>
-                             </div>
-                             <div class="col col-md-6">
-                                <h5 class="menu-head">industry solutions</h5>
-                                <ul>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>automative</span></a></li>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>chemicals</span></a></li>
-                                   <li class="nav-item"><a href="javascript:void(0)"><span>events</span></a></li>
-                                  <li class="nav-item"><a href="javascript:void(0)"><span>construction</span></a></li>
-                                </ul>
-                             </div>
-                          </div>
-                       </li>
-                    </ul>
                  </li>
 
 

@@ -15,11 +15,19 @@
       <link href="{{asset('/assets/css/vendor.min.css')}}" rel="stylesheet">
       <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
         @stack("styles")
-
+        <style>
+            .footer .footer-center {
+    padding-top: 50px !important;
+    padding-bottom: 10px !important;
+}
+.footer .footer-center {
+    padding-top: 26px;
+}
+        </style>
       @livewireStyles
    </head>
    <body>
-   
+
       <div class="wrapper clearfix" id="wrapperParallax">
 
         @include('layouts.frontend.components.navbar')

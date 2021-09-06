@@ -18,7 +18,63 @@
     display: none;
 
 }
+.heading.heading-3 {
+    margin-bottom: 10px;
+}
 
+.cta {
+    overflow: visible;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.widget-reservation {
+    position: relative;
+    overflow: hidden;
+    padding-top: 19px;
+}
+.about.about-2 {
+    padding-top: 51px;
+}
+.cta.cta-3 {
+    padding-top: 50px;
+}
+.cta.cta-3 .action-panels {
+    padding-top: 12px;
+    -webkit-transform: translateY(245px);
+    -ms-transform: translateY(245px);
+    transform: translateY(245px);
+    margin-top: -245px;
+}
+.cta .action-panel .action-panel-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #e11d07;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    padding: 35px 40px;
+    border-radius: 0 4px 0 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 230px;
+    height: 92px;
+    z-index: 99;
+}
+.heading .heading-subtitle {
+    font-family: roboto,sans-serif;
+    text-transform: capitalize;
+    color: #e11d07;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: -71px;
+}
 </style>
 
 @endpush
@@ -26,7 +82,7 @@
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('/assets/images/sliders/1.jpg')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('/assets/images/sliders/serivice.png')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -102,7 +158,8 @@
     <div class="container">
        <div class="row no-gutters">
         <div class="col-12 col-md-6 col-lg-3 services-bar-card active">
-            <i class="thumb-icon flaticon-010-cargo"> </i>
+
+            <i class="thumb-icon flaticon-019-box-2"> </i>
             <div class="thumb-body">
                <p>Reliable</p>
                <h3> <a href="{{route('services.ocean.freigh')}}">Ocean Freight services</a></h3>
@@ -171,7 +228,7 @@
                             @livewire('contactus')
 
                             <form class="contactForm track-form mb-0" method="post" action="assets/php/contact.php">
-                                @livewire('contactus')
+                             @livewire('contactus')
                             </form>
                          </div>
 
@@ -358,7 +415,7 @@
                    <div class="action-panel-content inverted">
                       {{-- <div class="panel-icon"><i class="flaticon-017-pallet"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>Sinotrans Logistics Team</h3>
+                         <h6 class="text-light">Sinotrans Logistics Team</h6>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
@@ -401,7 +458,7 @@
           </div>
           <div class="row">
              <div class="col-12">
-                <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
+                <div class="carousel owl-carousel" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="true" data-space="0" data-loop="true" data-speed="3000">
                    <div class="client"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;   filter: grayscale(100%);"></div>
                    <div class="client"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;   filter: grayscale(100%);"></div>
                    <div class="client"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter: grayscale(100%);"></div>
