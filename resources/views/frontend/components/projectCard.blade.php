@@ -23,7 +23,7 @@
              <span><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->title}}</a></span>
           </div>
           <div class="case-cat">
-              <a href="{{route('project.detail',['slug'=>$project->slug])}}">
+              <a href="{{route('projects',['query'=>$project->industry->slug])}}">
                 <span class="text-dark">
                     {{$project->industry->name}}
                 </span>
