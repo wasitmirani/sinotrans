@@ -58,7 +58,7 @@
              </div>
              <div class="col-sm-6 col-md-6 col-lg-2 footer-widget widget-links">
                 <div class="footer-widget-title">
-                   <h5>industries</h5>
+                   <h5>Case Studies</h5>
                 </div>
                 <div class="widget-content">
                    <ul>
