@@ -7,6 +7,12 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+.case-item .case-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 184px;
+}
 
 </style>
 @endpush
@@ -102,7 +108,7 @@
                         @foreach ($projects as $item)
                         <div class="case-item">
                             <div class="case-item-warp">
-                               <div class="case-img"><img src="{{$item->thumbnail}}" alt="work Item Image"></div>
+                               <div class="case-img"><img src="{{$item->thumbnail}}" alt="{{$item->slug}}"></div>
                                <div class="case-content">
                                   <div class="case-title">
                                      <h4><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->title}}</a></h4>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 use Artesaos\SEOTools\Facades\SEOTools;
 
@@ -12,7 +13,8 @@ class ServicesController extends Controller
     $title="Services";
     $des="Sinotrans Logistics Pakistan is a holistic logistic solutions provider, aiming to provide door to-door services to meet every one of our customers’ logistical needs; All as part of the group recognized  for its portfolio of high-profile clients, projects and offering 360-degree services. Our extensive network of cargo agents expertly handles air and ocean cargo in one seamless transaction. Our range of services includes";
     $this->setSeo($title,$des);
-    return view('frontend.pages.services.index');
+    $projects=Project::latest()->with('industry')->take(8)->get();
+    return view('frontend.pages.services.index',compact('projects'));
     }
     public function oceanFreigh(){
         $title="Ocean Freight";

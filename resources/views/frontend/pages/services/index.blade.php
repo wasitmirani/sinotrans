@@ -17,6 +17,12 @@
     padding-top: 40px !important;
     padding-bottom: 30px !important;
 }
+.case-item .case-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 184px;
+}
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
@@ -171,72 +177,20 @@
                              <h4 class="heading-title">case studies </h4>
                           </div>
                           <div class="carousel owl-carousel" data-slide="2" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="false" data-space="30" data-loop="true" data-speed="800">
-                             <div class="case-item">
+                            @foreach ($projects as $item)
+                            <div class="case-item">
                                 <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/1.jpg" alt="work Item Image"></div>
+                                   <div class="case-img"><img src="{{$item->thumbnail}}" alt="{{$item->slug}}"></div>
                                    <div class="case-content">
                                       <div class="case-title">
-                                         <h4><a href="case-study-single.html">floride chemical factory</a></h4>
+                                         <h4><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->title}}</a></h4>
                                       </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">analytics</a><a href="javascript:void(0)">optimization</a></div>
+                                      <div class="case-cat"><a href="javascript:void(0)">{{$item->destination}}</a></div>
                                    </div>
                                 </div>
                              </div>
-                             <div class="case-item">
-                                <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/2.jpg" alt="work Item Image"></div>
-                                   <div class="case-content">
-                                      <div class="case-title">
-                                         <h4><a href="case-study-single.html">warehouse inventory</a></h4>
-                                      </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">warehousing</a><a href="javascript:void(0)">distrbution</a></div>
-                                   </div>
-                                </div>
-                             </div>
-                             <div class="case-item">
-                                <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/3.jpg" alt="work Item Image"></div>
-                                   <div class="case-content">
-                                      <div class="case-title">
-                                         <h4><a href="case-study-single.html">Minimize Manufacturing</a></h4>
-                                      </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">logistics</a><a href="javascript:void(0)">analytics</a></div>
-                                   </div>
-                                </div>
-                             </div>
-                             <div class="case-item">
-                                <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/4.jpg" alt="work Item Image"></div>
-                                   <div class="case-content">
-                                      <div class="case-title">
-                                         <h4><a href="case-study-single.html">floride chemical factory</a></h4>
-                                      </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">analytics</a><a href="javascript:void(0)">optimization</a></div>
-                                   </div>
-                                </div>
-                             </div>
-                             <div class="case-item">
-                                <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/5.jpg" alt="work Item Image"></div>
-                                   <div class="case-content">
-                                      <div class="case-title">
-                                         <h4><a href="case-study-single.html">warehouse inventory</a></h4>
-                                      </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">warehousing</a><a href="javascript:void(0)">distrbution</a></div>
-                                   </div>
-                                </div>
-                             </div>
-                             <div class="case-item">
-                                <div class="case-item-warp">
-                                   <div class="case-img"><img src="assets/images/work/grid/6.jpg" alt="work Item Image"></div>
-                                   <div class="case-content">
-                                      <div class="case-title">
-                                         <h4><a href="case-study-single.html">Minimize Manufacturing</a></h4>
-                                      </div>
-                                      <div class="case-cat"><a href="javascript:void(0)">logistics</a><a href="javascript:void(0)">analytics</a></div>
-                                   </div>
-                                </div>
-                             </div>
+                            @endforeach
+
                           </div>
                        </div>
                     </div>

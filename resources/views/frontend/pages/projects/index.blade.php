@@ -83,7 +83,7 @@
                       </a></div>
                 <div class="case-desc">
                    <p>
-                    {{ Str::limit($project->short_description,120,"...")}}
+                    {{ Str::limit($project->short_description,110,"...")}}
                    </p>
                 </div>
                 <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>
