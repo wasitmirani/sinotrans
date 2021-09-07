@@ -14,7 +14,7 @@
                        <li class="nav-item   {{request()->routeIs('company.about-us') ? 'current' : ''}} "><a href="{{route('company.about-us')}}"><span>about us</span></a></li>
                        <li class="nav-item {{request()->routeIs('company.why-sinotrans') ? 'current' : ''}} "><a href="{{route('company.why-sinotrans')}}"><span>Why Sinotrans  </span></a></li>
                        <li class="nav-item {{request()->routeIs('company.our.strength') ? 'current' : ''}}"><a href="{{route('company.our.strength')}}"><span>Our Strength</span></a></li>
-                       <li class="nav-item {{request()->routeIs('map') ? 'current' : ''}}"><a href="{{route('map')}}"><span>map location</span></a></li>
+                       {{-- <li class="nav-item {{request()->routeIs('map') ? 'current' : ''}}"><a href="{{route('map')}}"><span>map location</span></a></li> --}}
                        {{-- <li class="nav-item"><a href="page-careers.html"><span>careers</span></a></li> --}}
                     </ul>
                  </li>

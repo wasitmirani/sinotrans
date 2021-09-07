@@ -1,6 +1,8 @@
 <div>
-    <form class="contactForm quote-form mb-0" method="post" action="#">
-        <h5 class="card-heading">Details</h5>
+
+    <div class="form-heading">
+        <h5>Contact Us</h5>
+        </div>
         <div class="row">
            <div class="col-12 col-md-12 col-lg-4">
               <input class="form-control" type="text" name="contact-name" placeholder="Name" required="">
@@ -25,5 +27,5 @@
               <div class="contact-result"></div>
            </div>
         </div>
-     </form>
+
 </div>

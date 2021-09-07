@@ -40,7 +40,7 @@
     align-items: center;
 }
 .contact-types .button.active {
-    background-color: #114b89;
+    background-color: #e11d07;
 }
 .about .about-img .about-card {
     background-color: #114b89;
@@ -58,7 +58,7 @@
     z-index: 99;
 }
 .bg-theme {
-    background-color: #114b89!important;
+    background-color: #e11d07!important;
 }
 .footer .widget-links ul li a {
     color: #ffffff;
@@ -96,6 +96,9 @@
     background-color: #114b89;
     opacity: 0.9;
 }
+.cta .action-panel .action-panel-content.inverted {
+    background-color: #114b89;
+}
 .widget-reservation::before {
     top: 0;
     left: 0;
@@ -107,6 +110,27 @@
     -ms-transform: translateX(0);
     transform: translateX(0);
     z-index: 2;
+}
+.cta .action-panel .action-panel-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #114b89;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    padding: 35px 40px;
+    border-radius: 0 4px 0 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 344px;
+    height: 106px;
+    z-index: 99;
 }
         </style>
       @livewireStyles

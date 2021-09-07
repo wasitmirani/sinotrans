@@ -60,16 +60,16 @@
                 <div class="footer-widget-title">
                    <h5>Case Studies</h5>
                 </div>
+                @php
+                    $industries=getCaseStudies();
+
+                @endphp
                 <div class="widget-content">
                    <ul>
+                    @foreach ($industries as $item)
+                    <li ><a href="{{route('projects',['query'=>$item->slug])}}"><span>{{$item->name}}</span></a></li>
+                    @endforeach
 
-                      {{-- <li ><a href="javascript:void(0)"><span>consumer &amp; retail</span></a></li>
-                      <li ><a href="javascript:void(0)"><span>oil &amp; energy</span></a></li>
-                      <li ><a href="javascript:void(0)"><span>automative</span></a></li>
-                      <li ><a href="javascript:void(0)"><span>communications &amp; hightech</span></a></li>
-                      <li ><a href="javascript:void(0)"><span>chemicals</span></a></li>
-                      <li ><a href="javascript:void(0)"><span>events</span></a></li>
-                     <li ><a href="javascript:void(0)"><span>construction</span></a></li> --}}
                    </ul>
                 </div>
              </div>
