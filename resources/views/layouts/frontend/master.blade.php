@@ -132,7 +132,17 @@
     height: 106px;
     z-index: 99;
 }
-        </style>
+.brands-images:hover {
+  -webkit-filter: none !important;
+  filter: none !important;
+
+}
+
+.brands-images {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+  </style>
       @livewireStyles
    </head>
    <body>
