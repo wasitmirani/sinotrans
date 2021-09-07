@@ -1,7 +1,7 @@
 @push('styles')
 <style>
     .footer {
-    background-color: #00003f;
+    background-color: #114b89;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -9,7 +9,7 @@
 .footer .footer-top {
     padding-top: 32px !important;
     padding-bottom: 26px;
-    border-bottom: 2px solid #292929;
+    border-bottom: 2px solid #114b89;
 }
 
 .footer .footer-center {
@@ -77,10 +77,12 @@
                 <div class="footer-widget-title">
                    <h5>quick contact</h5>
                 </div>
-                <div class="widget-content">to contact with our team.</p>
+                <div class="widget-content" style="color:white;">
                    <ul>
-                      <li class="phone text-light"><a href="tel:+92(021) 35642730"><i class="fas fa-phone-alt"></i> +92(021) 35642730</a></li>
-                      <li class="address"><a href="javascript:void(0)">3rd Floor, Bahria Complex 3, Lalazar, MT Khan Road, Service Road, Naval Officers Residential Estate 1 Naval Officers Colony, Karachi, Karachi City, Sindh,Pakistan.</a></li>
+                      <li class="phone " ><a href="tel:+92(021) 35642730"><i class="fas fa-phone-alt"></i> +92(021) 35642730</a></li>
+                      <li class="address">
+                    <span >3rd Floor, Bahria Complex 3, Lalazar, MT Khan Road, Service Road, Naval Officers Residential Estate 1 Naval Officers Colony, Karachi, Karachi City, Sindh,Pakistan.</span>
+                        </li>
                    </ul>
                 </div>
              </div>

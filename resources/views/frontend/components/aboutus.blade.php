@@ -20,7 +20,7 @@
           </div>
           <div class="col-12 col-lg-7">
              <div class="heading heading-3">
-                <p class="heading-subtitle">Providing Full Range Of Transportation.</p>
+
                 <h2 class="heading-title">ABOUT SINOTRANS</h2>
              </div>
              <div class="about-block">

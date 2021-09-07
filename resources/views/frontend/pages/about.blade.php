@@ -1,7 +1,17 @@
 
 @extends('layouts.frontend.master')
 @section('content')
+@push('styles')
+<style type="text/css">
+.about.about-2 {
+    padding-top: 51px;
+}
+.heading.heading-3 {
+    margin-bottom: 14px;
+}
+</style>
 
+@endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
     <div class="bg-section"><img src="{{asset('assets/images/page-titles/1.png')}}" alt="Background"></div>
     <div class="container">
