@@ -20,7 +20,7 @@
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title" style="padding-top: 42px;">
-    <div class="bg-section"><img src="{{asset('assets/images/services/serivice5.png')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/services/serivice.png')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
        <div class="col-12 col-lg-6">
@@ -75,8 +75,7 @@
 
                    <div class="entry-why">
                       <div class="entry-bio">
-                         <h6>Our services include</h6>
-
+                         <span style="font-size:18px; color:black"><strong>Our Services include</strong> </span>
                       </div>
                       <div class="row">
                         @component('frontend.components.pointsList',['title'=>'Agency Services'])

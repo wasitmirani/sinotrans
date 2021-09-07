@@ -104,7 +104,7 @@
                       <div class="heading">
                          <h4 class="heading-title">case studies </h4>
                       </div>
-                      <div class="carousel owl-carousel" data-slide="2" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="false" data-space="30" data-loop="true" data-speed="800">
+                      <div class="carousel owl-carousel" data-slide="2" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="false" data-space="30" data-loop="false" data-speed="800">
                         @foreach ($projects as $item)
                         <div class="case-item">
                             <div class="case-item-warp">

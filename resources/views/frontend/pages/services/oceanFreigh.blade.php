@@ -23,7 +23,7 @@
 @endpush
 
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/15.jpg')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/page-titles/8.png')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
        <div class="col-12 col-lg-6">
@@ -77,8 +77,7 @@
 
                        <div class="entry-why">
                           <div class="entry-bio">
-                             <h6>Our services include</h6>
-
+                            <span style="font-size:18px; color:black"><strong>Our Services include</strong> </span>
                           </div>
                           <div class="row">
                               @component('frontend.components.pointsList',['title'=>'Conventional Shipping'])

@@ -75,8 +75,7 @@
 
                    <div class="entry-why">
                       <div class="entry-bio">
-                         <h6>Our services include</h6>
-
+                        <span style="font-size:18px; color:black"><strong>Our Services include</strong> </span>
                       </div>
                       <div class="row">
                         @component('frontend.components.pointsList',['title'=>'Containerised'])

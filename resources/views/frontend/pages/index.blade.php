@@ -415,7 +415,7 @@
                    <div class="action-panel-content inverted">
                       {{-- <div class="panel-icon"><i class="flaticon-017-pallet"></i></div> --}}
                       <div class="panel-heading">
-                         <h6 class="text-light">Sinotrans Logistics Team</h6>
+                         <span class="text-light"><strong>Sinotrans Logistics Team</strong> </span>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
@@ -458,7 +458,7 @@
           </div>
           <div class="row">
              <div class="col-12">
-                <div class="carousel owl-carousel" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="true" data-space="0" data-loop="true" data-speed="3000">
+                <div class="carousel owl-carousel" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="true" data-space="0" data-loop="false" data-speed="3000">
                    <div class="client"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;   filter: grayscale(100%);"></div>
                    <div class="client"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;   filter: grayscale(100%);"></div>
                    <div class="client"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter: grayscale(100%);"></div>
