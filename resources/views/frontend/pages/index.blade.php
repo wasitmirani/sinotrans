@@ -403,7 +403,7 @@
                       {{-- <div class="panel-icon">
                           <i class="flaticon-015-scale"></i></div> --}}
                       <div class="panel-heading">
-                         <h3>Our Role In CPEC</h3>
+                         <h3><strong>Our Role In CPEC</strong> </h3>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
