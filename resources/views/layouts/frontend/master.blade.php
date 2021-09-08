@@ -92,10 +92,7 @@
     font-family: rubik,sans-serif;
     font-size: 22px;
 }
-.bg-overlay-theme:before {
-    background-color: #114b89;
-    opacity: 0.9;
-}
+
 .cta .action-panel .action-panel-content.inverted {
     background-color: #114b89;
 }
@@ -142,6 +139,11 @@
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+.cta .action-panel .action-panel-content:hover {
+    background-color: #e11d07;
+}
+
+
   </style>
       @livewireStyles
    </head>
