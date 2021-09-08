@@ -3,7 +3,14 @@
 
 @extends('layouts.frontend.master')
 @section('content')
-
+@push('styles')
+<style type="text/css">
+    .case-study.case-study-2 {
+    padding-top: 57px;
+    padding-bottom: 100px;
+}
+</style>
+@endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
     <div class="bg-section"><img src="{{asset('assets/images/page-titles/serivice3.png')}}" alt="Background"></div>
     <div class="container">
@@ -30,24 +37,7 @@
     <section class="service-single case-study case-study-2 pb-70" id="service-single">
         <div class="container">
            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-0">
-                 <div class="sidebar sidebar-case-study">
-                    <div class="widget widget-categories">
-                       <div class="widget-title">
-                          <h5> services</h5>
-                       </div>
-                       <div class="widget-content">
-                          <ul class="list-unstyled">
-                            @component('frontend.components.servicesList')
 
-                            @endcomponent
-                          </ul>
-                       </div>
-                    </div>
-
-
-                 </div>
-              </div>
               <div class="col-sm-12 col-md-12 col-lg-8">
                  <div class="case-study-entry">
                     <div class="entry-content">

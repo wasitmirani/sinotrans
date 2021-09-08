@@ -31,19 +31,19 @@
              <div class="col-sm-6 col-md-6 col-lg-5 footer-widget widget-about">
                 <div class="footer-widget-title">
                     <img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo">
-                   <h5>About <strong>{{config('app.name')}}</strong> </h5>
+                   <h5><strong> About {{config('app.name')}}</strong> </h5>
                 </div>
                 <div class="widget-content">
                    <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
                    <div class="module module-social">
                        <a class="share-facebook" href="https://www.facebook.com/sinotranspak/"><i class="fab fa-facebook-f"> </i></a>
-
+                       <a class="share-intagram" href="https://www.instagram.com/sinotranspak/?hl=en"><i class="fab fa-instagram"></i></a>
                        <a class="share-twitter" href="https://pk.linkedin.com/company/sinotrans-logistics-pakistan-pvt-ltd"><i class="fab fa-linkedin"></i></a></div>
                 </div>
              </div>
              <div class="col-sm-6 col-md-6 col-lg-2 footer-widget widget-links">
                 <div class="footer-widget-title">
-                   <h5>services</h5>
+                   <h5><strong>Services</strong> </h5>
                 </div>
                 <div class="widget-content">
                    <ul>
@@ -58,7 +58,7 @@
              </div>
              <div class="col-sm-6 col-md-6 col-lg-2 footer-widget widget-links">
                 <div class="footer-widget-title">
-                   <h5>Case Studies</h5>
+                   <h5><strong>Case Studies</strong></h5>
                 </div>
                 @php
                     $industries=getCaseStudies();
@@ -75,7 +75,7 @@
              </div>
              <div class="col-sm-6 col-md-6 col-lg-3 footer-widget widget-contact">
                 <div class="footer-widget-title">
-                   <h5>quick contact</h5>
+                   <h5><strong>quick contact</strong></h5>
                 </div>
                 <div class="widget-content" style="color:white;">
                    <ul>

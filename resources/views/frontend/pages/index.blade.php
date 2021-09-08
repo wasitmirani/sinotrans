@@ -82,7 +82,7 @@
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('/assets/images/sliders/silder1.jpg')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('/assets/images/sliders/slider1.jpg')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -270,7 +270,7 @@
                 <div class="case-item-warp">
             @component('frontend.components.serviceCard',
             [
-                'icon'=>'flaticon-010-cargo',
+                'icon'=>'flaticon-019-box-2',
                 'name'=>'ocean Freight',
                 'link'=>route('services.ocean.freigh'),
                 'short_description'=>'We work with leading carriers and use an expanding network of agents, partners, as well as our own offices around the world.  This enables us to give you global service backed by the extensive expertise of our local teams.'
@@ -381,13 +381,13 @@
           <div class="col-12 col-lg-10 offset-lg-1">
             <div class="prief-set">
                 <ul class="advantages-list">
-                   <li><i class="fas fa-check-circle"></i> Sinotrans Group’s global footprint, vast knowledge, and impeccable reputation.</li>
-                   <li><i class="fas fa-check-circle"></i> The ability to provide one-window solutions and manage all operations in-house,     adhering to a service level of the highest quality.</li>
-                   <li><i class="fas fa-check-circle"></i> Extensive experience with all project operations.</li>
-                   <li><i class="fas fa-check-circle"></i> Unmatched local teams and partners, including the home-grown teams from China.</li>
-                   <li><i class="fas fa-check-circle"></i> A proprietary team of highly experienced drivers and modern equipment.</li>
-                   <li><i class="fas fa-check-circle"></i> Strong customer service orientation.</li>
-                   <li><i class="fas fa-check-circle"></i> A profound knowledge of policies and regulations, plus a team well-versed in all relevant nuances.</li>
+                   <li><i class="fas fa-check-circle"></i> <p>Sinotrans Group’s global footprint, vast knowledge, and impeccable reputation.</p> </li>
+                   <li><i class="fas fa-check-circle"></i> <p>The ability to provide one-window solutions and manage all operations in-house,     adhering to a service level of the highest quality.</small></li>
+                   <li><i class="fas fa-check-circle"></i> <p>Extensive experience with all project operations.</small></li>
+                   <li><i class="fas fa-check-circle"></i> <p>Unmatched local teams and partners, including the home-grown teams from China.</small></li>
+                   <li><i class="fas fa-check-circle"></i> <p>A proprietary team of highly experienced drivers and modern equipment.</small></li>
+                   <li><i class="fas fa-check-circle"></i> <p>Strong customer service orientation.</small></li>
+                   <li><i class="fas fa-check-circle"></i> <p>A profound knowledge of policies and regulations, plus a team well-versed in all relevant nuances.</small></li>
                 </ul>
              </div>
           </div>

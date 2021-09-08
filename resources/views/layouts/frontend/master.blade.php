@@ -142,8 +142,31 @@
 .cta .action-panel .action-panel-content:hover {
     background-color: #e11d07;
 }
-
-
+.cta .prief-set p {
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #f9f9f9;
+    margin-bottom: 42px;
+}
+.cta .prief-set p {
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #f9f9f9;
+    margin-bottom: 16px;
+}
+.footer .footer-widget .footer-widget-title h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-family: rubik,sans-serif;
+    margin-bottom: 8px;
+}
   </style>
       @livewireStyles
    </head>

@@ -21,7 +21,7 @@
           <div class="col-12 col-lg-7">
              <div class="heading heading-3">
 
-                <h2 class="heading-title">ABOUT SINOTRANS</h2>
+                <h2 class="heading-title"><strong>ABOUT SINOTRANS</strong> </h2>
              </div>
              <div class="about-block">
                 <div class="row">

@@ -33,12 +33,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-12">
                    <div class="opening-hours">
-                      <h6>opening hours</h6>
-                      <ul class="list-unstyled">
-                         <li> <span>Monday-friday</span><span>9:00AM - 06:00PM</span></li>
-                         <li> <span>Saturday</span><span>closed</span></li>
-                         <li> <span>Sunday</span><span>closed</span></li>
-                      </ul>
+
                    </div>
                 </div>
              </div>

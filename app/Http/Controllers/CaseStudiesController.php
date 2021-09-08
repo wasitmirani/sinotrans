@@ -24,7 +24,7 @@ class CaseStudiesController extends Controller
         else {
         $industries=Project::latest()->groupBy('industry_id')->pluck('industry_id');
         $industries=Industry::whereIn('id',$industries)->select('id','name')->get();
-        $projects=Project::with('industry')->take(9)->get();
+        $projects=Project::with('industry')->take(20)->get();
         }
 
         return view('frontend.pages.projects.index',compact('industries','projects'));
@@ -32,9 +32,9 @@ class CaseStudiesController extends Controller
 
     public function projectDetail(Request $request){
         $project=Project::where('slug',$request->slug)->with('projectSections')->first();
-        
+
         $this->setSeo($project->title,$project->description);
-        $projects=Project::where('industry_id',$project->industry_id)->with('industry')->take(8)->get();
+        $projects=Project::where('industry_id',$project->industry_id)->whereNotIn('id',[$project->id])->with('industry')->take(8)->get();
         $industries=Industry::whereNotIn('id',[$project->industry_id])->get();
         return view('frontend.pages.projects.detail',compact('project','industries','projects'));
     }

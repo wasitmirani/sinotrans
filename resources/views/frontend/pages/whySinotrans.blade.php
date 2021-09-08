@@ -12,7 +12,7 @@
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/service2.png')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/page-titles/serivice4.png')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
     <div class="col-12 col-lg-6">

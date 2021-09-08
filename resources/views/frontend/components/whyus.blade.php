@@ -1,6 +1,6 @@
 <div class="heading heading-9">
     <p class="heading-subtitle">full sustainable cargo solutions!</p>
-    <h5 class="heading-title">WHY CHOOSE SINOTRANS LIMITED</h5>
+    <h5 class="heading-title"><strong>WHY CHOOSE SINOTRANS LIMITED</strong></h5>
  </div>
  <div class="about-block">
     <div class="block-left">
