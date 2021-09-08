@@ -73,7 +73,8 @@
                <div class="case-img"><img src="{{$project->thumbnail}}" alt="{{$project->slug}}"></div>
                <div class="case-content">
                   <div class="case-title">
-                     <h5><a href="{{route('project.detail',['slug'=>$project->slug])}}">{{$project->title}}</a></h5>
+                     <h5><a href="{{route('project.detail',['slug'=>$project->slug])}}">
+                        {{Str::limit($project->title,20,'....')}}</a></h5>
                   </div>
                   <div class="case-cat">
                     <a href="{{route('projects',['query'=>$project->industry->slug])}}">
