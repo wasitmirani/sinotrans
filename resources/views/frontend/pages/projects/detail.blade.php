@@ -84,7 +84,7 @@
                    </div>
                    <div class="video bg-overlay bg-overlay-dark" id="video1">
                       <div class="bg-section"><img src="{{$project->thumbnail}}" alt="background"></div>
-                      <div class="player"><a class="popup-video" href="https://www.youtube.com/watch?v=iKO3TcdWppg"> <i class="fas fa-play"></i></a></div>
+                      <div class="player"><a class="popup-video" href="{{$project->video_link}}"> <i class="fas fa-play"></i></a></div>
                    </div>
                    <div class="entry-bio">
                       <h5>Services Provided</h5>
