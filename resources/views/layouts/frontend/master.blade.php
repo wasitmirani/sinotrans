@@ -125,7 +125,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-width: 344px;
+
     height: 106px;
     z-index: 99;
 }
