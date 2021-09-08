@@ -63,7 +63,7 @@
                           <div class="row">
                               @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house, keeping a high service level'])
+                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house,     keeping a high &nbsp;&nbsp;&nbsp;  service level'])
                               @endcomponent
                               @component('frontend.components.pointsList',['col'=>12,'title'=>'Extensive experience with project operations'])
                               @endcomponent

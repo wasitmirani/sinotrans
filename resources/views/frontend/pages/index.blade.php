@@ -82,7 +82,7 @@
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('/assets/images/sliders/serivice.png')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('/assets/images/sliders/silder1.jpg')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
@@ -454,21 +454,22 @@
                 <div class="heading heading-5 text-center">
                    <p class="heading-subtitle">join us today</p>
                    <h2 class="heading-title">Our Memberships & Affiliations</h2>
-                   <p class="heading-desc">Our skilled personnel, utilising the latest communications, tracking and processing software, combined with decades of experience! Through integrated supply chain solutions, {{config('app.name')}} drives sustainable competitive advantages to some of Australia's largest companies.</p>
+                   <p class="heading-desc">We take pride in affiliating ourselves with leading regulatory bodies related to our industry, we enforce best practices and the highest standards in every segment of our business.</p>
                 </div>
              </div>
           </div>
           <div class="row">
              <div class="col-12 ">
-                <div class="carousel owl-carousel" data-slide="5" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="true" data-space="0" data-loop="false" data-speed="3000">
+                <div class="carousel owl-carousel" data-slide="4" data-slide-rs="4" data-autoplay="true" data-nav="false" data-dots="true" data-space="2" data-loop="false" data-speed="3000">
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;  "></div>
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;"></div>
-                   <div class="clien brands-imagest"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter:grayscale(100%) "></div>
+
                  <div class="client brands-images"><img src="{{asset('assets/images/clients/pifa.png')}}" alt="client" style="height: 90px;   "></div>
                   <div class="client brands-images"><img src="{{asset('assets/images/clients/iso1.png')}}" alt="iso" style="height: 90px; "></div>
                   <div class="client brands-images"><img src="{{asset('assets/images/clients/iso2.png')}}" alt="iso" style="height: 90px;"></div>
                   <div class="client brands-images"><img src="{{asset('assets/images/clients/iso3.png')}}" alt="iso" style="height: 90px;"></div>
-                </div>
+                 <div class="clien brands-imagest"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter:grayscale(100%) "></div>
+               </div>
              </div>
           </div>
        </div>
