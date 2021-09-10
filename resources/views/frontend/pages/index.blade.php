@@ -88,7 +88,7 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h1 class="slide-headline">full sustainable<br>cargo solutions!</h1>
+                         <h1 class="slide-headline">full sustainable<br>cargo solutions</h1>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
 
 
@@ -107,7 +107,7 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">innovation <br>transportation!</h2>
+                         <h2 class="slide-headline">innovation <br>transportation</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -124,7 +124,7 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">your flexible<br>road directions!</h2>
+                         <h2 class="slide-headline">your flexible<br>road directions</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -141,7 +141,7 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">your flexible<br>road directions!</h2>
+                         <h2 class="slide-headline">your flexible<br>road directions</h2>
                          <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
                          @component('frontend.components.silderLinks')
 
@@ -205,7 +205,7 @@
           <div class="col-12 col-lg-6">
              <div class="heading heading-2 heading-light">
                 <p class="heading-subtitle">Dedicated Customer Teams & An Agile Services</p>
-                <h2 class="heading-title">Global Logistics Partner To World’s Famous Brands!</h2>
+                <h2 class="heading-title">Global Logistics Partner To World’s Famous Brands</h2>
              </div>
           </div>
           <div class="col-12 col-lg-6">
@@ -241,7 +241,7 @@
                                <div class="widget-content">
                                   <h5>Download Company Profile</h5>
                                   <p>We pride ourselves on providing the best transport & shipping services available all over the world and there is no one comes close to us. </p>
-                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download now!</a>
+                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download now</a>
                                </div>
                             </div>
                          </div>
@@ -258,7 +258,7 @@
        <div class="heading heading-4">
           <div class="row">
              <div class="col-12 col-lg-6">
-                <p class="heading-subtitle">Safe & Reliable Cargo Solutions! </p>
+                <p class="heading-subtitle">Safe & Reliable Cargo Solutions </p>
                 <h1>Our Services</h1>
              </div>
 
@@ -353,7 +353,7 @@
                    <div class="bg-section"><img class="img-fluid" src="{{asset('assets/images/about/why.png')}}" alt="whyus Image"></div>
                 </div>
                 <div class="about-card">
-                   <h6>Flexibile, Improved & Accelerated Solutions!</h6>
+                   <h6>Flexibile, Improved & Accelerated Solutions</h6>
                    <p>Providing full range of service in the sphere transportation .</p>
                    <a href="{{route('services.all')}}"><i class="icon-arrow-right"></i> our services</a>
                 </div>
@@ -368,7 +368,7 @@
        <div class="row justify-content-center">
           <div class="col-12 col-lg-12">
              <div class="heading heading-2 heading-light">
-                <p class="heading-subtitle">Directions, That Matter!</p>
+                <p class="heading-subtitle">Directions, That Matter</p>
                 <h2 class="heading-title">What Gives Us Our Strength?</h2>
              </div>
           </div>
@@ -460,7 +460,7 @@
           </div>
           <div class="row">
              <div class="col-12 ">
-                <div class="carousel owl-carousel" data-slide="4" data-slide-rs="4" data-autoplay="true" data-nav="false" data-dots="true" data-space="2" data-loop="false" data-speed="3000">
+                <div class="carousel owl-carousel" data-slide="4" data-slide-rs="0" data-autoplay="true" data-nav="false" data-dots="true" data-space="2" data-loop="true" data-speed="1000">
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;  "></div>
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;"></div>
 
