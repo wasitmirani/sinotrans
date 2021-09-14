@@ -56,6 +56,7 @@
     flex-direction: column;
     max-width: 330px;
     z-index: 99;
+    opacity: 0.9;
 }
 .bg-theme {
     background-color: #e11d07!important;
@@ -166,6 +167,30 @@
     text-transform: capitalize;
     font-family: rubik,sans-serif;
     margin-bottom: 8px;
+}
+.counter {
+    background-color: #114b89;
+    color: #fff;
+    border-radius: 4px;
+    padding: 25px 40px 30px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.footer-copyright {
+    padding: -1px 0 40px !important;
+    font-size: 13px;
+    font-family: rubik,sans-serif;
+    color: #9b9b9b;
 }
   </style>
       @livewireStyles

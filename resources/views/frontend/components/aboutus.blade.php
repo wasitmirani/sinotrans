@@ -7,7 +7,10 @@
                    <div class="bg-section"><img src="{{asset('assets/images/about/about.jpg')}}" alt="about Image"></div>
                 </div>
                 <div class="counter">
-                   <div class="counter-icon"> <i class="flaticon-018-packaging"></i></div>
+                   <div class="counter-icon">
+                    <i class="thumb-icon flaticon-004-trailer-1"></i>
+                    {{-- <img src="{{ asset('assets/images/page-titles/projects.png')}}" width="100px"></img> --}}
+                </div>
                    <div class="counter-num">
                       <span ></span>
                       <p>85+</p>
