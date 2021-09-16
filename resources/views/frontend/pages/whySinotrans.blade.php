@@ -9,10 +9,16 @@
     .about.about-5 {
     padding-bottom: 20px;
 }
+.bg-overlay-dark:before {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(40 40 40 / 0%)),color-stop(90%,rgb(27 26 26 / 0%)));
+    background-image: -o-linear-gradient(top,#1B1A1A 0%,rgba(27,26,26,0) 90%);
+    background-image: linear-gradient(
+180deg,rgb(40 40 40 / 0%) 0%,rgba(27,26,26,0) 90%);
+}
 </style>
 @endpush
 <section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/team.jpeg')}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{asset('assets/images/page-titles/teamabout.jpg')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
     <div class="col-12 col-lg-6">
