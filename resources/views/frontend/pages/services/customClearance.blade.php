@@ -65,7 +65,7 @@
              <div class="case-study-entry">
                 <div class="entry-content">
                    <div class="entry-bio">
-                      <h5>Custom Clearance Service</h5>
+                      <h5><strong>Custom Clearance Service</strong> </h5>
                       <p>To ensure timely commitment and safe delivery of all cargo, the in-house customs clearance department offers hands-on experience in handling every aspect of the clearance processes, be it communicating with officials or offering consultancy services.</p>
 
 

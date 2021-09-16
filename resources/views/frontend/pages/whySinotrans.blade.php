@@ -27,7 +27,7 @@
     {{-- <p>Dedicated Customer Teams &amp; An Agile Services</p> --}}
     </div>
     <div class="title-heading">
-    <h1>Why Sinotrans</h1>
+    <h1><strong>Why Sinotrans</strong> </h1>
     </div>
         @component('frontend.components.Breadcam',['back_link'=>'Company','active_link'=>'Why Sinotrans'])
         @endcomponent
@@ -46,7 +46,7 @@
         <div class="col-12 col-lg-5">
         <div class="heading heading-9">
         <p class="heading-subtitle">Providing Full Range Of Transportation .</p>
-        <h2 class="heading-title">Why Sinotrans</h2>
+        <h2 class="heading-title"><strong>Why Sinotrans</strong></h2>
         </div>
         <div class="about-block">
         <div class="block-left">

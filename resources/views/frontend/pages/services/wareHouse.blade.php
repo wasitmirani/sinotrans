@@ -65,7 +65,8 @@
              <div class="case-study-entry">
                 <div class="entry-content">
                    <div class="entry-bio">
-                      <h5>Warehousing Service</h5>
+                      <h5><strong>  Warehousing Service</strong>
+                        </h5>
                       <p>
                         When it comes to the movement of goods across suppliers, vendors and customers, efficiency and traceability are of vital importance. Which is why Sinotrans’ flexible warehousing and distribution solutions offer real-time cargo track-and-trace, along with dedicated, shared, and refer warehousing and distribution facilities. In addition, all warehouses are equipped with a leading-edge management system, making real-time cargo track-and-trace easier than ever.
                       </p>

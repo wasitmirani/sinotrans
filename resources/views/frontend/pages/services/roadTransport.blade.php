@@ -67,7 +67,7 @@
                  <div class="case-study-entry">
                     <div class="entry-content">
                        <div class="entry-bio">
-                          <h5>Road Transport</h5>
+                          <h5><strong>Road Transport</strong> </h5>
                           <p>
                             Having a world of experience as road logistics specialists, combined with an efficient transport network, is what makes Sinotrans a major global intermodal player. The company offers effective and reliable transportation solutions, ranging from containerized breakbulk and heavy lift, full truckload, and less than truckload movements.
                           </p>
