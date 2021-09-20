@@ -31,7 +31,7 @@
              <div class="col-sm-6 col-md-6 col-lg-5 footer-widget widget-about">
                 <div class="footer-widget-title">
                     <img class="footer-logo"  src="{{asset('assets/images/logo/logo-light.png')}}" alt="logo">
-                   <h5><strong> About {{config('app.name')}}</strong> </h5>
+                   <h5><strong>  {{config('app.name')}}</strong> </h5>
                 </div>
                 <div class="widget-content">
                    <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
