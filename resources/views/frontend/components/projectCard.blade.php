@@ -21,6 +21,7 @@
 
 @endpush
 <div class="case-item ">
+    <a href="{{route('project.detail',['slug'=>$project->slug])}}">
     <div class="case-item-warp">
        <div class="case-img">
            <img src="{{$project->thumbnail}}" alt="{{$project->slug}}" style="    height: 212px;
@@ -48,4 +49,5 @@
           <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>
        </div>
     </div>
+    </a>
  </div>

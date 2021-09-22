@@ -13,7 +13,16 @@
     border-radius: 4px;
     height: 184px;
 }
-
+.bg-section {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+}
 </style>
 @endpush
 <section class="page-title page-title-12 bg-overlay bg-overlay-dark bg-parallax" id="page-title">

@@ -69,6 +69,7 @@
 
            @forelse ($projects as $project)
            <div class="case-item col-sm-6 col-md-6 col-lg-4  filter-{{$project->industry_id}}" style="position: absolute; left: 359.988px; top: 0px;">
+            <a href="{{route('project.detail',['slug'=>$project->slug])}}">
             <div class="case-item-warp">
                <div class="case-img"><img src="{{$project->thumbnail}}" alt="{{$project->slug}}"></div>
                <div class="case-content">
@@ -90,6 +91,7 @@
                 <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>
                </div>
             </div>
+            </a>
          </div>
 
 

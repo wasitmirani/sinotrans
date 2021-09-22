@@ -17,10 +17,20 @@
     padding-top: 40px !important;
     padding-bottom: 30px !important;
 }
+.bg-section {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+}
 </style>
 @endpush
-<section class="page-title page-title-4 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{asset('assets/images/page-titles/custom.png')}}" alt="Background"></div>
+<section class="page-title page-title-4 bg-overlay  bg-parallax" id="page-title">
+    <div class="bg-section"><img src="{{asset('assets/images/page-titles/customclear.jpg')}}" alt="Background"></div>
     <div class="container">
     <div class="row">
        <div class="col-12 col-lg-6">
