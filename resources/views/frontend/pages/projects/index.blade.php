@@ -73,9 +73,10 @@
             <div class="case-item-warp">
                <div class="case-img"><img src="{{$project->thumbnail}}" alt="{{$project->slug}}"></div>
                <div class="case-content">
-                  <div class="case-title">
-                     <h5><a href="{{route('project.detail',['slug'=>$project->slug])}}">
-                        {{Str::limit($project->title,20,'....')}}</a></h5>
+                  <div class="case-title" style="font-size:17px;font-weight:700;">
+                     <span >
+                        <a href="{{route('project.detail',['slug'=>$project->slug])}}">
+                        {{$project->title}}</a></span>
                   </div>
                   <div class="case-cat">
                     <a href="{{route('projects',['query'=>$project->industry->slug])}}">
