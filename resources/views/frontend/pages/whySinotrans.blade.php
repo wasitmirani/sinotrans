@@ -10,10 +10,10 @@
     padding-bottom: 20px;
 }
 .bg-overlay-dark:before {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(40 40 40 / 0%)),color-stop(90%,rgb(27 26 26 / 0%)));
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#1B1A1A),color-stop(90%,rgba(27,26,26,0)));
     background-image: -o-linear-gradient(top,#1B1A1A 0%,rgba(27,26,26,0) 90%);
     background-image: linear-gradient(
-180deg,rgb(40 40 40 / 0%) 0%,rgba(27,26,26,0) 90%);
+177deg,#1B1A1A 0%,rgba(27,26,26,0) 50%);
 }
 </style>
 @endpush

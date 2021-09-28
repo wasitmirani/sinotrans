@@ -4,6 +4,22 @@
 
 @extends('layouts.frontend.master')
 @section('content')
+@push('styles')
+<style type="text/css">
+    .navbar .navbar-nav>li>a {
+    font-family: roboto,sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 100px;
+    color: #114b89;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+</style>
+
+@endpush
 <section class="map map-2">
 
     <iframe

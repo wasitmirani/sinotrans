@@ -73,7 +73,7 @@
             <div class="case-item-warp">
                <div class="case-img"><img src="{{$project->thumbnail}}" alt="{{$project->slug}}"></div>
                <div class="case-content">
-                  <div class="case-title" style="font-size:17px;font-weight:700;">
+                  <div class="case-title" style="font-size:13.5px;font-weight:700;">
                      <span >
                         <a href="{{route('project.detail',['slug'=>$project->slug])}}">
                         {{$project->title}}</a></span>
@@ -86,7 +86,7 @@
                       </a></div>
                 <div class="case-desc">
                    <p>
-                    {{ Str::limit($project->short_description,110,"...")}}
+                    {{ Str::limit($project->short_description,100,"...")}}
                    </p>
                 </div>
                 <div class="case-more"><a href="{{route('project.detail',['slug'=>$project->slug])}}"><i class="icon-arrow-right"></i> explore case study</a></div>
