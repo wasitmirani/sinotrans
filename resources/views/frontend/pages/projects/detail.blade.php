@@ -115,17 +115,21 @@
                       </div>
                       <div class="carousel owl-carousel" data-slide="2" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="false" data-space="30" data-loop="false" data-speed="800">
                         @foreach ($projects as $item)
+
                         <div class="case-item">
+                            <a href="{{route('project.detail',['slug'=>$item->slug])}}">
                             <div class="case-item-warp">
                                <div class="case-img"><img src="{{$item->thumbnail}}" alt="{{$item->slug}}"></div>
                                <div class="case-content">
                                   <div class="case-title">
-                                     <h4><a href="javascript:void(0)">{{$item->title}}</a></h4>
+                                     <h4><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->title}}</a></h4>
                                   </div>
-                                  <div class="case-cat"><a href="javascript:void(0)">{{$item->destination}}</a></div>
+                                  <div class="case-cat"><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->destination}}</a></div>
                                </div>
                             </div>
+                        </a>
                          </div>
+
                         @endforeach
                       </div>
                    </div>
