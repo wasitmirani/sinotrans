@@ -27,7 +27,7 @@
 </style>
 
 @endpush
-<section class="map map-2 bg-overlay bg-overlay-dark bg-parallax">
+<section class="map map-2 bg-overlay bg-overlay-dark bg-parallax" style="    margin-top: 100px;">
 
     <iframe
     width="600"

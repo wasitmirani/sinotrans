@@ -54,7 +54,7 @@
     <div class="container">
        <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-0">
-             <div class="sidebar sidebar-case-study">
+             <div class="sidebar sidebar-case-study" style="margin-top:50px;">
                 <div class="widget widget-categories">
                    <div class="widget-title">
                       <h5> services</h5>

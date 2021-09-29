@@ -40,7 +40,7 @@
 
     </section>
 
-    <section class="about about-2 about-5" id="about-5">
+    <section class="about about-2 about-5" id="about-5" >
         <div class="container">
         <div class="row">
         <div class="col-12 col-lg-5">
@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-12 col-lg-6 offset-lg-1">
-        <div class="about-img abput-img-text">
+        <div class="about-img abput-img-text" style="margin-top: 200px;">
         <div class="about-img-warp">
         <div class="bg-section"><img class="img-fluid" src="{{asset('/assets/images/about/why.png')}}" alt="about Image"></div>
         </div>

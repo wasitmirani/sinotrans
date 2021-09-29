@@ -1,7 +1,13 @@
 <header class="header header-1 header-transparent" id="navbar-spy">
-    <nav class="navbar navbar-expand-lg  navbar-bordered navbar-sticky   " id="primary-menu">
+    <nav class="navbar navbar-expand-lg  navbar-bordered navbar-sticky {{request()->routeIs('contact') ? 'navbar-fixed' : ''}}   " id="primary-menu">
        <div class="container">
-          <a class="navbar-brand" href="{{route('index')}}"><img class="logo logo-light" style="max-width:100%;width: 260px;" src="{{asset('assets/images/logo/logo-light.png')}}"  alt="{{config('app.name')}} Logo"><img class="logo logo-dark" style="max-width:100%;width: 250px;" src="{{asset('assets/images/logo/logo-dark.png')}}"   alt="{{config('app.name')}} Logo"></a>
+          <a class="navbar-brand" href="{{route('index')}}">
+            @if(request()->routeIs('contact'))
+            <img class="logo logo-light" style="max-width:100%;width: 260px;" src="{{asset('assets/images/logo/logo-dark.png')}}"  alt="{{config('app.name')}} Logo">
+            @else
+            <img class="logo logo-light" style="max-width:100%;width: 260px;" src="{{asset('assets/images/logo/logo-light.png')}}"  alt="{{config('app.name')}} Logo">
+            @endif
+            <img class="logo logo-dark" style="max-width:100%;width: 250px;" src="{{asset('assets/images/logo/logo-dark.png')}}"   alt="{{config('app.name')}} Logo"></a>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarContent">
              <ul class="navbar-nav ml-auto">
