@@ -14,6 +14,19 @@ section {
     padding: 31px 0;
     overflow: hidden;
 }
+.about .about-img .counter {
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 1;
+}
+.about .about-img.about-img-left .about-img-warp {
+    right: auto;
+    left: 0;
+    /* height: 318px; */
+    margin-top: 130px;
+}
 </style>
 
 @endpush

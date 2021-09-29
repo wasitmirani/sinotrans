@@ -1,3 +1,7 @@
+@push('styles')
+
+
+@endpush
 <section class="about pt-70" id="about-1">
     <div class="container">
        <div class="row">

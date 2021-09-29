@@ -460,15 +460,15 @@
           </div>
           <div class="row">
              <div class="col-12 ">
-                <div class="carousel owl-carousel" data-slide="4" data-slide-rs="1" data-autoplay="true" data-nav="false" data-dots="true" data-space="2" data-loop="true" data-speed="500">
+                <div class="carousel owl-carousel" data-slide="6" data-slide-rs="0.5" data-autoplay="true" data-nav="false" data-dots="true" data-space="0.8" data-loop="true" data-speed="500">
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/FIATA-logo.png')}}" alt="FIATA-logo" style="height: 90px;  "></div>
                    <div class="client brands-images"><img src="{{asset('assets/images/clients/Pakistan_Customs_Seal.png')}}" alt="Pakistan_Customs clearnes logo" style="height: 90px;"></div>
 
-                 <div class="client brands-images"><img src="{{asset('assets/images/clients/pifa.png')}}" alt="client" style="height: 90px;   "></div>
-                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso1.png')}}" alt="iso" style="height: 90px; "></div>
-                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso2.png')}}" alt="iso" style="height: 90px;"></div>
-                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso3.png')}}" alt="iso" style="height: 90px;"></div>
-                 <div class="clien brands-imagest"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height: 90px;   filter:grayscale(100%) "></div>
+                 <div class="client brands-images"><img src="{{asset('assets/images/clients/pifa.png')}}" alt="client" style="height:90px; padding: 10px 10px 10px; "></div>
+                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso1.png')}}" alt="iso" style="height:90px;  padding: 10px 10px 10px;"></div>
+                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso2.png')}}" alt="iso" style="height:90px;  padding: 10px 10px 10px;"></div>
+                  <div class="client brands-images"><img src="{{asset('assets/images/clients/iso3.png')}}" alt="iso" style="height:90px;  padding: 10px 10px 10px;"></div>
+                 <div class="client brands-images"><img src="{{asset('assets/images/clients/apsalogo.png')}}" alt="apsa pakistan logo" style="height:90px; "></div>
                </div>
              </div>
           </div>

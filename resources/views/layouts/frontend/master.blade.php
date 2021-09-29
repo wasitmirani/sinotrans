@@ -192,6 +192,8 @@
     font-family: rubik,sans-serif;
     color: #9b9b9b;
 }
+
+
   </style>
       @livewireStyles
    </head>

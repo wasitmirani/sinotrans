@@ -12,20 +12,27 @@
     text-transform: capitalize;
     font-weight: 700;
     line-height: 100px;
-    color: #114b89;
+    color: #000000;
     padding: 0;
     position: relative;
     display: block;
 }
+
+.bg-overlay-dark:before {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#1B1A1A),color-stop(90%,rgba(27,26,26,0)));
+    background-image: -o-linear-gradient(top,#1B1A1A 0%,rgba(27,26,26,0) 90%);
+    background-image: linear-gradient(
+177deg,#1B1A1A 0%,rgba(27,26,26,0) 50%);
+}
 </style>
 
 @endpush
-<section class="map map-2">
+<section class="map map-2 bg-overlay bg-overlay-dark bg-parallax">
 
     <iframe
     width="600"
     height="450"
-    style="border:0"
+    style="border:1"
     loading="lazy"
     allowfullscreen
     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxcHXNubtbDr4mHGqxlCSvni-UQBmqkXY
