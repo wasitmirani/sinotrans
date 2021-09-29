@@ -18,9 +18,14 @@
             <div class="select-container">
             <select class="form-control" style="display: none;">
             <option value="default">Select Department</option>
-            <option value="IT">IT Department</option>
-            <option value="Business">Business Development</option>
-            <option value="Sales">Sales Department</option>
+            <option value="Transport">Transport</option>
+            <option value="Projects">Projects</option>
+            <option value="Shipping">Shipping</option>
+            <option value="Cleaning">Cleaning</option>
+            <option value="Commercial">Commercial</option>
+            <option value="Admin">Admin</option>
+            <option value="Hr">Hr</option>
+            <option value="IT">IT</option>
             </select>
             </div>
 
