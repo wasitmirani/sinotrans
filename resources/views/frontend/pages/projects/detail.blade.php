@@ -65,7 +65,6 @@
                    <div class="widget-content">
                       <ul class="list-unstyled">
                           @foreach ($industries as $item)
-
                     <li ><a href="{{route('projects',['query'=>$item->slug])}}">{{$item->name}}</a></li>
                           @endforeach
 

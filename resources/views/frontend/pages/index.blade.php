@@ -75,10 +75,19 @@
     line-height: 1;
     margin-bottom: -71px;
 }
+.slider .slide .slide-content .slide-headline {
+    font-family: rubik,sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 80px;
+    color: #fff;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
 </style>
 
 @endpush
-<section class="slider slider-1" id="slider-1">
+<section class="slider slider-1" id="slider-1" >
     <div class="container-fluid pr-0 pl-0">
        <div class="carousel owl-carousel custom-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800" data-slider-id="#custom-carousel">
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
@@ -88,8 +97,8 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h1 class="slide-headline">full sustainable<br>cargo solutions</h1>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
+                         <h1 class="slide-headline">Sustainable  <br>Cargo handling</h1>
+                         {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
 
 
                         @component('frontend.components.silderLinks')
@@ -107,8 +116,8 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">innovation <br>transportation</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
+                         <h2 class="slide-headline">culture that <br> produce leaders</h2>
+                         {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
@@ -124,8 +133,8 @@
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">your flexible<br>road directions</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
+                         <h3 class="slide-headline">Innovative  <br>Transportation solutions</h3>
+                         {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
@@ -134,15 +143,15 @@
                 </div>
              </div>
           </div>
-          <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="assets/images/sliders/4.png" alt="Background"></div>
+          <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark" style="background-position:center bottom;">
+             <div class="bg-section"><img src="assets/images/sliders/slide4.jpeg" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">your flexible<br>road directions</h2>
-                         <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p>
+                         <h2 class="slide-headline">Un Parallel <br>team work</h2>
+                         {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
                          @endcomponent
