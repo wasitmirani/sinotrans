@@ -76,10 +76,10 @@
                 <div class="widget widget-reservation">
                    <img src="{{$project->thumbnail}}" alt="Background Image">
                    <div class="widget-content">
-                    <h5 class="mt-2">Insides</h5>
+                    <h5>Insides</h5>
                     <p>{{$project->other_details}}</p>
                     <hr>
-                      <h5>Services Provided</h5>
+                      <h5  class="mt-2">Services Provided</h5>
                       <p>{{$project->services_provided}}</p>
 
 
