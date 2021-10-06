@@ -101,7 +101,7 @@
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('assets/images/sliders/slider2.png')}}" alt="Background"></div>
+             <div class="bg-section"><img src="{{asset('assets/images/sliders/slide2.png')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
                    <div class="col-12 col-lg-7">

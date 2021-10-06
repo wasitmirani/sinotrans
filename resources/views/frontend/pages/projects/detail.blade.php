@@ -23,6 +23,14 @@
     width: 100%;
     height: 100%;
 }
+.widget-reservation .widget-content p {
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f9f9f9;
+    margin-bottom: 17px;
+}
 </style>
 @endpush
 <section class="page-title page-title-12 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
@@ -64,26 +72,43 @@
                       </ul>
                    </div>
                 </div>
+
                 <div class="widget widget-reservation">
                    <img src="{{$project->thumbnail}}" alt="Background Image">
                    <div class="widget-content">
                       <h5>Services Provided</h5>
+                      <p>{{$project->services_provided}}</p>
+                      <hr>
+                      <h5 class="mt-2">Insides</h5>
                       <p>{{$project->other_details}}</p>
+
                       <a class="btn btn--transparent btn--inverse btn--block" href="{{route('contact')}}">Contact Us</a>
                    </div>
                 </div>
+
+                @if(!empty($project->projectSections[2]))
                 <div class="widget widget-download">
-                   <div class="widget-title">
-                      <h5>download</h5>
-                   </div>
-                   <div class="widget-content">
-                      <ul class="list-unstyled">
-                         <li><a href="javascript:void(0)"> <span>company profile</span><span class="icon">pdf</span></a></li>
-                      </ul>
-                   </div>
-                </div>
+                    <div class="widget-title">
+                       <h5>{{$project->projectSections[2]->title}}</h5>
+                    </div>
+                    <div class="widget-content">
+                       <span class="text-dark">{{$project->projectSections[2]->description}}</span>
+                    </div>
+                  </div>
+                  @endif
+                  <div class="widget widget-download">
+                    <div class="widget-title">
+                       <h5>download</h5>
+                    </div>
+                    <div class="widget-content">
+                       <ul class="list-unstyled">
+                          <li><a href="javascript:void(0)"> <span>company profile</span><span class="icon">pdf</span></a></li>
+                       </ul>
+                    </div>
+                 </div>
              </div>
           </div>
+
           <div class="col-sm-12 col-md-12 col-lg-8">
              <div class="case-study-entry">
                 <div class="entry-content">
@@ -96,8 +121,8 @@
                       <div class="player"><a class="popup-video" href="{{$project->video_link}}"> <i class="fas fa-play"></i></a></div>
                    </div>
                    <div class="entry-bio">
-                      <h5>Services Provided</h5>
-                      <p>{{$project->services_provided}}</p>
+                      {{-- <h5>Services Provided</h5>
+                      <p>{{$project->services_provided}}</p> --}}
                    </div>
                    <div class="entry-topics">
                    @foreach ($project->projectSections as $item)
@@ -105,6 +130,9 @@
                     <h5>{{$item->title}} </h5>
                         <p>{{$item->description}}</p>
                      </div>
+                     @if($loop->iteration==2)
+                     @break
+                     @endif
                    @endforeach
 
                    </div>
@@ -117,7 +145,7 @@
                         @foreach ($projects as $item)
 
                         <div class="case-item">
-                            <a href="{{route('project.detail',['slug'=>$item->slug])}}">
+                          <a href="{{route('project.detail',['slug'=>$item->slug])}}">
                             <div class="case-item-warp">
                                <div class="case-img"><img src="{{$item->thumbnail}}" alt="{{$item->slug}}"></div>
                                <div class="case-content">
@@ -127,8 +155,8 @@
                                   <div class="case-cat"><a href="{{route('project.detail',['slug'=>$item->slug])}}">{{$item->destination}}</a></div>
                                </div>
                             </div>
-                        </a>
-                         </div>
+                          </a>
+                        </div>
 
                         @endforeach
                       </div>
