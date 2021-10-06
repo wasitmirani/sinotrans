@@ -76,11 +76,13 @@
                 <div class="widget widget-reservation">
                    <img src="{{$project->thumbnail}}" alt="Background Image">
                    <div class="widget-content">
+                    <h5 class="mt-2">Insides</h5>
+                    <p>{{$project->other_details}}</p>
+                    <hr>
                       <h5>Services Provided</h5>
                       <p>{{$project->services_provided}}</p>
-                      <hr>
-                      <h5 class="mt-2">Insides</h5>
-                      <p>{{$project->other_details}}</p>
+
+
 
                       <a class="btn btn--transparent btn--inverse btn--block" href="{{route('contact')}}">Contact Us</a>
                    </div>
