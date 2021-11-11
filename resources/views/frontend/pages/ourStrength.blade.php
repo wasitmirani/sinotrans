@@ -9,6 +9,12 @@
     padding-top: 57px;
     padding-bottom: 100px;
 }
+.about.about-2 {
+    padding-top: 31px;
+}
+.about.about-5 {
+    padding-bottom: 22px;
+}
 .bg-section {
     position: relative;
     overflow: hidden;
@@ -37,55 +43,50 @@
         @endcomponent
 
     </div>
-
     </div>
-
     </div>
-
     </section>
 
-    <section class="service-single case-study case-study-2 pb-70" id="service-single">
+     <section class="about about-2 about-5" id="about-5" >
         <div class="container">
-           <div class="row">
-
-              <div class="col-sm-12 col-md-12 col-lg-8">
-                 <div class="case-study-entry">
-                    <div class="entry-content">
-
-
-
-
-                       <div class="entry-why">
-                          <div class="entry-bio">
-                             <h6>What Gives Us Our Strength?</h6>
-
-                          </div>
-                          <div class="row">
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house,     keeping a high &nbsp;&nbsp;&nbsp;  service level'])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Extensive experience with project operations'])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Unmatched local team and partners, including our teams from China'])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Our proprietary team of highly experienced drivers and modern equipment'])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Strong customer service orientation '])
-                              @endcomponent
-                              @component('frontend.components.pointsList',['col'=>12,'title'=>'Well versed in policies & regulations'])
-                              @endcomponent
-
-                         </div>
-
-
-                    </div>
-                 </div>
-              </div>
+        <div class="row">
+        <div class="col-12 col-lg-5">
+        <div class="heading heading-9">
+   
+        <h2 class="heading-title"><strong>  What Gives Us Our Strength?</strong></h2>
+        </div>
+        <div class="about-block">
+        <div class="block-left">
+            <div class="row" style="text-align: justify;">
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house,     keeping a high &nbsp;&nbsp;&nbsp;  service level'])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Extensive experience with project operations'])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Unmatched local team and partners, including our teams from China'])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our proprietary team of highly experienced drivers and modern equipment'])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Strong customer service orientation '])
+                @endcomponent
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Well versed in policies & regulations'])
+                @endcomponent
            </div>
         </div>
         </div>
+        <div class="signature-block">
 
-     </section>
+        </div>
+        </div>
+
+        <div class="col-12 col-lg-6 offset-lg-1 " style="margin-top:50px;">
+       
+            <img class="img-fluid" style="widht:100%; height:100%;"  src="{{asset('/assets/images/about/map.png')}}" alt="about Image">
+        </div>
+
+        </div>
+
+        </section>
 
 @endsection

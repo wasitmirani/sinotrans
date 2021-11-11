@@ -13,7 +13,7 @@
        <div class="row">
           <div class="col-12 col-lg-4">
              <div class="accordion accordion-4" id="accordion01">
-                <h4 class="panel"> location</h4>
+              
                 <div class="card">
                    <div class="card-heading"><a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01" href="#collapse01-1">Headoffice</a></div>
                    <div class="collapse show" id="collapse01-1" data-parent="#accordion01">

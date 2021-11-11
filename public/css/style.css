@@ -4,7 +4,7 @@
     Name                 : TRAVL
     Author               : DexignLab
     Author Portfolio     : https://themeforest.net/user/dexignlab/portfolio
-    
+
 
 
     Table of Sass Contents
@@ -16,7 +16,7 @@
         _mixin
         _variable
 
-    2. bootstrap 
+    2. bootstrap
         -Here goes all official bootstrap scss files
 
     3. Global/Base
@@ -5808,7 +5808,7 @@ textarea.form-control-lg {
   text-transform: uppercase !important; }
 
 .text-capitalize {
-  text-transform: capitalize !important; }
+  text-transform: initial !important; }
 
 .text-start {
   text-align: left !important; }
@@ -15152,7 +15152,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_2"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_2"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15321,7 +15321,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_3"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_3"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15490,7 +15490,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_4"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_4"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15659,7 +15659,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_5"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_5"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15828,7 +15828,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_6"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_6"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15997,7 +15997,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_7"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_7"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16166,7 +16166,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_8"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_8"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16335,7 +16335,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_9"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_9"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16504,7 +16504,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_10"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_10"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16673,7 +16673,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_11"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_11"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16842,7 +16842,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_12"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_12"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -17011,7 +17011,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_13"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_13"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -17180,7 +17180,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_14"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_14"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -17349,7 +17349,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   	.dlabnav .metismenu > li.mm-active > a,
   	.dlabnav .metismenu > li:hover > a{
   			background:transparent;
-  	}	
+  	}
   } */ }
   [data-sibebarbg="color_15"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_15"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -24142,7 +24142,7 @@ button {
     font-size: 1.25rem;
     font-weight: 500;
     color: #000;
-    text-transform: capitalize; }
+    text-transform: initial; }
     .card-title--large {
       font-size: 1.5rem; }
     .card-title--medium {
@@ -26082,7 +26082,7 @@ code {
     width: 3.75rem; }
   .table thead th {
     border-bottom: 0.0625rem solid #EEEEEE;
-    text-transform: capitalize;
+    text-transform: initial;
     font-size: 1.125rem;
     white-space: nowrap;
     font-weight: 500;

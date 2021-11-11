@@ -66,7 +66,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 33px;
-    text-transform: capitalize;
+    text-transform: initial;
     font-family: roboto,sans-serif;
 }
 
@@ -164,7 +164,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-transform: capitalize;
+    text-transform: initial;
     font-family: rubik,sans-serif;
     margin-bottom: 8px;
 }

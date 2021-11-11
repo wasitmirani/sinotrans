@@ -9,7 +9,7 @@
     .navbar .navbar-nav>li>a {
     font-family: roboto,sans-serif;
     font-size: 15px;
-    text-transform: capitalize;
+    text-transform: initial;
     font-weight: 700;
     line-height: 100px;
     color: #000000;

@@ -66,9 +66,21 @@
     height: 92px;
     z-index: 99;
 }
+.cta .prief-set p {
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+        text-transform: initial;
+    color: #f9f9f9;
+    margin-bottom: 42
+px
+;
+    text-transform: initial;
+}
 .heading .heading-subtitle {
     font-family: roboto,sans-serif;
-    text-transform: capitalize;
+    text-transform: initial;
     color: #e11d07;
     font-size: 15px;
     font-weight: 700;
@@ -82,7 +94,7 @@
     line-height: 80px;
     color: #fff;
     margin-bottom: 25px;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 </style>
 
@@ -96,8 +108,8 @@
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
-                         <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h1 class="slide-headline">Sustainable  <br>Cargo handling</h1>
+                         <p class="slide-subheadline"></p>
+                         <h1 class="slide-headline">Sustainable <br>Cargo handling</h1>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
 
 
@@ -115,8 +127,8 @@
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
-                         <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
-                         <h2 class="slide-headline">culture that <br> produce leaders</h2>
+                         <p class="slide-subheadline"></p>
+                         <h2 class="slide-headline">Exceptional teamwork    <br> </h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -132,7 +144,7 @@
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
-                         <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
+                         <p class="slide-subheadline"></p>
                          <h3 class="slide-headline">Innovative  <br>Transportation solutions</h3>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
@@ -149,7 +161,7 @@
                 <div class="row">
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
-                         <p class="slide-subheadline">Flexibile, Improved And accelerated Solutions</p>
+                         <p class="slide-subheadline"></p>
                          <h2 class="slide-headline">Un Parallel <br>team work</h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
@@ -213,7 +225,7 @@
        <div class="row">
           <div class="col-12 col-lg-6">
              <div class="heading heading-2 heading-light">
-                <p class="heading-subtitle">Dedicated Customer Teams & An Agile Services</p>
+                <p class="heading-subtitle">Dedicated customer teams & an agile services</p>
                 <h2 class="heading-title">Global Logistics Partner To World’s Famous Brands</h2>
              </div>
           </div>
@@ -249,8 +261,8 @@
                                <img src="assets/images/contact/1.jpg" alt="Background Image">
                                <div class="widget-content">
                                   <h5>Download Company Profile</h5>
-                                  <p>We pride ourselves on providing the best transport & shipping services available all over the world and there is no one comes close to us. </p>
-                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download now</a>
+                                  <p>Can convert this text into: We pride ourselves on providing the best logistics services all over the world. </p>
+                                  <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download</a>
                                </div>
                             </div>
                          </div>
@@ -377,7 +389,7 @@
        <div class="row justify-content-center">
           <div class="col-12 col-lg-12">
              <div class="heading heading-2 heading-light">
-                <p class="heading-subtitle">Directions, That Matter</p>
+                <p class="heading-subtitle"></p>
                 <h2 class="heading-title">What Gives Us Our Strength?</h2>
              </div>
           </div>
@@ -440,7 +452,7 @@
     <div class="cases-standard">
        <div class="container">
           <div class="heading text-center">
-             <p class="heading-subtitle">Explore Recent Works</p>
+             <p class="heading-subtitle">Explore Recent Work</p>
              <h2 class="heading-title">featured projects</h2>
           </div>
           <div class="row">

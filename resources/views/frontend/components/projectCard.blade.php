@@ -34,7 +34,7 @@
           </div>
           <div class="case-title">
               <a href="{{route('projects',['query'=>$project->industry->slug])}}">
-                <span class="text-info " style="font-size:18px;">
+                <span  style="font-size:18px; color:#114b89">
                     {{$project->industry->name}}
                 </span>
                 </a></div>
