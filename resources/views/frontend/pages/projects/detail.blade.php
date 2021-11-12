@@ -31,6 +31,10 @@
     color: #f9f9f9;
     margin-bottom: 17px;
 }
+.case-study.case-study-2 {
+    padding-top:50px;
+    padding-bottom:10px;
+}
 </style>
 @endpush
 <section class="page-title page-title-12 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
