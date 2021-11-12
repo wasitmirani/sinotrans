@@ -96,6 +96,14 @@ px
     margin-bottom: 25px;
     text-transform: initial;
 }
+.about.about-5 {
+    padding-bottom: 49px;
+}
+section {
+    background-color: #fff;
+    padding: 69px 0;
+    overflow: hidden;
+}
 </style>
 
 @endpush
@@ -261,7 +269,7 @@ px
                                <img src="assets/images/contact/1.jpg" alt="Background Image">
                                <div class="widget-content">
                                   <h5>Download Company Profile</h5>
-                                  <p>Can convert this text into: We pride ourselves on providing the best logistics services all over the world. </p>
+                                  <p>We pride ourselves on providing the best logistics services all over the world. </p>
                                   <a class="btn btn--white" href="javascript:void(0)"><i class="icon-arrow-right"></i>Download</a>
                                </div>
                             </div>
