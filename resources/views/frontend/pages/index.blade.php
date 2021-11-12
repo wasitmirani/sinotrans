@@ -128,7 +128,7 @@ px
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline">Exceptional teamwork    <br> </h2>
+                         <h2 class="slide-headline"> A Culture <br> of Growth</h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -162,7 +162,7 @@ px
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline">Un Parallel <br>team work</h2>
+                         <h2 class="slide-headline">Exceptional  <br> teamwork </h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 

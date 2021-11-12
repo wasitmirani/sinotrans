@@ -38,7 +38,7 @@
 </style>
 @endpush
 <section class="page-title page-title-12 bg-overlay bg-overlay-dark bg-parallax" id="page-title">
-    <div class="bg-section"><img src="{{$project->thumbnail}}" alt="Background"></div>
+    <div class="bg-section"><img src="{{$project->thumbnail}}" alt="Background"/></div>
     <div class="container">
        <div class="row">
           <div class="col-12 col-lg-10 offset-lg-1">
