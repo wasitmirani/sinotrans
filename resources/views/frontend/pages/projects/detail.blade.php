@@ -107,7 +107,7 @@
                     </div>
                     <div class="widget-content">
                        <ul class="list-unstyled">
-                          <li><a href="{{url('/assets/profile/profile.php')}}" download> <span>company profile</span><span class="icon">pdf</span></a></li>
+                          <li><a href="{{url('/assets/profile/profile.pdf')}}" download> <span>company profile</span><span class="icon">pdf</span></a></li>
                        </ul>
                     </div>
                  </div>

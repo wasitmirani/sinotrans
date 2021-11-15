@@ -270,7 +270,7 @@ section {
                                <div class="widget-content">
                                   <h5>Download Company Profile</h5>
                                   <p>We pride ourselves on providing the best logistics services all over the world. </p>
-                                  <a class="btn btn--white" href="{{url('/assets/profile/profile.php')}}" download><i class="icon-arrow-right"></i>Download</a>
+                                  <a class="btn btn--white" href="{{url('/assets/profile/profile.pdf')}}" download><i class="icon-arrow-right"></i>Download</a>
                                </div>
                             </div>
                          </div>
