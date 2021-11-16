@@ -57,6 +57,8 @@
         <div class="about-block">
         <div class="block-left">
             <div class="row" style="text-align: justify;">
+                <ul class="advantages-list">
+
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house,     keeping a high &nbsp;&nbsp;&nbsp;  service level'])
@@ -71,6 +73,8 @@
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Well versed in policies & regulations'])
                 @endcomponent
+            </ul>
+       
            </div>
         </div>
         </div>

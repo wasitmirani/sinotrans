@@ -1,6 +1,6 @@
-<div class="col-12 {{!empty($col) ? 'col-lg-12' : 'col-lg-4' }} ">
+<div class="col-12 {{!empty($col) ? 'col-lg-12' : 'col-lg-4' }} " style="word-wrap:break-word;display:block;">
 
-          <p style="margin: 0 0 1px;"><span class="text-danger" style="font-size: 50px;   ">.</span> <span style="margin-left:10px;">{!!$title!!}</span> </p>
+          <p><i class="fas fa-check-circle text-danger"></i> <span style="margin-left:5px;">{!!$title!!}.</span> </p>
 
  </div>
-
+<br>
