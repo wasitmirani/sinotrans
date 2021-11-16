@@ -83,7 +83,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-lg-5 " style="margin-top:50px;">
+        <div class="col-12 col-lg-5 " >
 
             <img class="img-fluid" style="height:100%;"  src="{{asset('/assets/images/about/map.png')}}" alt="about Image">
         </div>

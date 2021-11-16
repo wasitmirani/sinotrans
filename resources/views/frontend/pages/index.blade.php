@@ -287,7 +287,7 @@ section {
        <div class="heading heading-4">
           <div class="row">
              <div class="col-12 col-lg-6">
-                <p class="heading-subtitle">Safe & Reliable Cargo Solutions </p>
+                <p class="heading-subtitle">Safe & reliable cargo solutions </p>
                 <h1>Our Services</h1>
              </div>
 
@@ -446,7 +446,7 @@ section {
                    <div class="action-panel-content inverted">
                       {{-- <div class="panel-icon"><i class="flaticon-017-pallet"></i></div> --}}
                       <div class="panel-heading">
-                         <h6 class="text-light"><strong>Sinotrans Logistics Team</strong> </h6>
+                         <h6 class="text-light">Sinotrans Logistics Team </h6>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>
