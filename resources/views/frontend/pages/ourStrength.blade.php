@@ -49,7 +49,7 @@
      <section class="about about-2 about-5" id="about-5" >
         <div class="container">
         <div class="row">
-        <div class="col-12 col-lg-5">
+        <div class="col-12 col-lg-7">
         <div class="heading heading-9">
 
         <h2 class="heading-title"><strong>  What Gives Us Our Strength?</strong></h2>
@@ -61,7 +61,7 @@
 
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
                 @endcomponent
-                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house, keeping a high &nbsp; service level'])
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house'])
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Extensive experience with project operations'])
                 @endcomponent
@@ -83,9 +83,9 @@
         </div>
         </div>
 
-        <div class="col-12 col-lg-6 offset-lg-1 " style="margin-top:50px;">
+        <div class="col-12 col-lg-5 " style="margin-top:50px;">
 
-            <img class="img-fluid" style="widht:100%; height:100%;"  src="{{asset('/assets/images/about/map.png')}}" alt="about Image">
+            <img class="img-fluid" style="height:100%;"  src="{{asset('/assets/images/about/map.png')}}" alt="about Image">
         </div>
 
         </div>
