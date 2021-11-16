@@ -136,7 +136,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline"> A Culture <br> of Growth</h2>
+                         <h2 class="slide-headline">  Culture which  <br> Promotes growth</h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -170,7 +170,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline">Exceptional  <br> teamwork </h2>
+                         <h2 class="slide-headline">Exceptional  <br> Teamwork </h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -432,7 +432,7 @@ section {
                       {{-- <div class="panel-icon">
                           <i class="flaticon-015-scale"></i></div> --}}
                       <div class="panel-heading">
-                         <h3><strong>Our Role In CPEC</strong> </h3>
+                         <h6 class="text-light">Our Role In CPEC</h6>
                       </div>
                       {{-- <a href="javascript:void(0)"><i class="icon-arrow-right"></i></a> --}}
                    </div>

@@ -36,7 +36,7 @@
        <div class="col-12 col-lg-6">
           <div class="title text-lg-left">
              <div class="title-sub-heading">
-                <p>Dedicated customer teams &amp; An agile services</p>
+                <p>Dedicated customer teams &amp; an agile services</p>
              </div>
              <div class="title-heading">
                 <h1>Ship Agency Service</h1>

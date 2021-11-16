@@ -29,7 +29,7 @@
        <div class="case-content">
           <div class="case-title">
              <h5><a href="{{route('project.detail',['slug'=>$project->slug])}}">
-                {{ Str::limit($project->title,30,'...')}}
+                {{ Str::limit($project->title,26,'...')}}
              </a></h5>
           </div>
           <div class="case-title">

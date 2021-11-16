@@ -33,8 +33,7 @@
     <div class="row">
     <div class="col-12 col-lg-6">
     <div class="title text-lg-left">
-    <div class="title-sub-heading">
-    {{-- <p>Dedicated Customer Teams &amp; An Agile Services</p> --}}
+    <div class="title-sub-heading">  <p style="text-transform:initial !important;">Dedicated customer teams &amp; an agile services</p>
     </div>
     <div class="title-heading">
     <h1> Our Strength</h1>
@@ -52,7 +51,7 @@
         <div class="row">
         <div class="col-12 col-lg-5">
         <div class="heading heading-9">
-   
+
         <h2 class="heading-title"><strong>  What Gives Us Our Strength?</strong></h2>
         </div>
         <div class="about-block">
@@ -81,7 +80,7 @@
         </div>
 
         <div class="col-12 col-lg-6 offset-lg-1 " style="margin-top:50px;">
-       
+
             <img class="img-fluid" style="widht:100%; height:100%;"  src="{{asset('/assets/images/about/map.png')}}" alt="about Image">
         </div>
 

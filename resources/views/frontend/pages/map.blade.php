@@ -70,7 +70,7 @@ div {
     <div class="col-12 col-lg-6">
     <div class="title text-lg-left">
     <div class="title-sub-heading">
-    {{-- <p>Dedicated Customer Teams &amp; An Agile Services</p> --}}
+    {{-- <p>Dedicated customer teams &amp; an agile services</p> --}}
     </div>
     <div class="title-heading">
     <h1>Map</h1>
