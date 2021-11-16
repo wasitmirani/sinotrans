@@ -49,7 +49,7 @@
                  <div class="sidebar sidebar-case-study" style="margin-top:50px;">
                     <div class="widget widget-categories">
                        <div class="widget-title">
-                          <h5> services</h5>
+                          <h5><strong>services</strong> </h5>
                        </div>
                        <div class="widget-content">
                           <ul class="list-unstyled">
