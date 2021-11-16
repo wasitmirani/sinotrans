@@ -117,7 +117,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h1 class="slide-headline">Sustainable <br>Cargo handling</h1>
+                         <h1 class="slide-headline">Sustainable <br>cargo handling</h1>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
 
 
@@ -136,7 +136,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline">  Culture which  <br> Promotes growth</h2>
+                         <h2 class="slide-headline">  Culture which  <br> promotes growth</h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -153,7 +153,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h3 class="slide-headline">Innovative  <br>Transportation solutions</h3>
+                         <h3 class="slide-headline">Innovative  <br>transportation solutions</h3>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 
@@ -170,7 +170,7 @@ section {
                    <div class="col-12 col-lg-7">
                       <div class="slide-content">
                          <p class="slide-subheadline"></p>
-                         <h2 class="slide-headline">Exceptional  <br> Teamwork </h2>
+                         <h2 class="slide-headline">Exceptional  <br>teamwork </h2>
                          {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
                          @component('frontend.components.silderLinks')
 

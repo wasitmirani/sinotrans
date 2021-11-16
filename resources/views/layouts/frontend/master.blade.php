@@ -190,7 +190,7 @@
     padding: -1px 0 40px !important;
     font-size: 13px;
     font-family: rubik,sans-serif;
-    color: #9b9b9b;
+    color: #6f7374;
 }
 
 
