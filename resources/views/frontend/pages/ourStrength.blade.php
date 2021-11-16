@@ -61,7 +61,7 @@
 
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Sinotrans Group’s global footprint, knowledge and impeccable reputation'])
                 @endcomponent
-                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house,     keeping a high &nbsp;&nbsp;&nbsp;  service level'])
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Our ability to provide a one window solution and manage all operations in house, keeping a high &nbsp; service level'])
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Extensive experience with project operations'])
                 @endcomponent
@@ -74,7 +74,7 @@
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Well versed in policies & regulations'])
                 @endcomponent
             </ul>
-       
+
            </div>
         </div>
         </div>
