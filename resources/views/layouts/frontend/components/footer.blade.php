@@ -75,7 +75,7 @@
              </div>
              <div class="col-sm-6 col-md-6 col-lg-3 footer-widget widget-contact">
                 <div class="footer-widget-title">
-                   <h5><strong>quick contact</strong></h5>
+                   <h5><strong>Quick Contact</strong></h5>
                 </div>
                 <div class="widget-content" style="color:white;">
                    <ul>
@@ -93,7 +93,7 @@
     <div class="footer-bottom">
        <div class="row">
           <div class="col-md-12 col-md-12 text--center footer-copyright">
-             <div class="copyright"><span>&copy; {{date('Y')}}  {{config('app.name')}}  All Rights Reserved </span><a href="#"></a></div>
+             <div class="copyright text-light" ><span>&copy; {{date('Y')}}  {{config('app.name')}}  All Rights Reserved </span><a href="#"></a></div>
           </div>
        </div>
     </div>
