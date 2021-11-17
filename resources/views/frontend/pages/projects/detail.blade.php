@@ -121,14 +121,10 @@
                       <h5>overview</h5>
                       <p>{{$project->description}}</p>
                    </div>
-                   <div class="video bg-overlay bg-overlay-dark" id="video1">
-                      <div class="bg-section"><img src="{{$project->thumbnail}}" alt="background"></div>
-                      <div class="player"><a class="popup-video" href="{{$project->video_link}}"> <i class="fas fa-play"></i></a></div>
-                   </div>
-                   <div class="entry-bio">
-                      {{-- <h5>Services Provided</h5>
-                      <p>{{$project->services_provided}}</p> --}}
-                   </div>
+
+
+
+
                    <div class="entry-topics">
                    @foreach ($project->projectSections as $item)
                    <div class="entry-bio entry-topic">
