@@ -18,6 +18,9 @@
     border-radius: 4px;
     height: 185px;
 }
+.cases-standard {
+    padding: 30px 0 6px !important;
+}
 .bg-overlay-dark:before {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#1B1A1A),color-stop(90%,rgba(27,26,26,0)));
     background-image: -o-linear-gradient(top,#1B1A1A 0%,rgba(27,26,26,0) 90%);

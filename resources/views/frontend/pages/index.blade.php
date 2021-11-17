@@ -481,7 +481,7 @@ section {
           <div class="row">
              <div class="col-12 col-lg-8 offset-lg-2">
                 <div class="heading heading-5 text-center">
-                   <p class="heading-subtitle">join us today</p>
+                   <p class="heading-subtitle">Join us today</p>
                    <h2 class="heading-title">Our Memberships & Affiliations</h2>
                    <p class="heading-desc">We take pride in affiliating ourselves with leading regulatory bodies related to our industry, we enforce best practices and the highest standards in every segment of our business.</p>
                 </div>

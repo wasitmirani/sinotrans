@@ -36,9 +36,9 @@
                 <div class="widget-content mt-1">
                    <p> Sinotrans is the largest integrated logistics integrator in China and has gone on to co-found, along with Transhold Ltd, Sinotrans Logistics Pakistan Pvt. Ltd., a group company of one of Pakistan's oldest & respected international freight forwarding organizations.</p>
                    <div class="module module-social">
-                       <a class="share-facebook" href="https://www.facebook.com/sinotranspak/"><i class="fab fa-facebook-f"> </i></a>
-                       <a class="share-intagram" href="https://www.instagram.com/sinotranspak/?hl=en"><i class="fab fa-instagram"></i></a>
-                       <a class="share-twitter" href="https://pk.linkedin.com/company/sinotrans-logistics-pakistan-pvt-ltd"><i class="fab fa-linkedin"></i></a></div>
+                       <a class="share-facebook" href="https://www.facebook.com/sinotranspak/"><i class="fab fa-facebook-f text-light"> </i></a>
+                       <a class="share-intagram" href="https://www.instagram.com/sinotranspak/?hl=en"><i class="fab fa-instagram text-light"></i></a>
+                       <a class="share-twitter" href="https://pk.linkedin.com/company/sinotrans-logistics-pakistan-pvt-ltd"><i class="fab fa-linkedin text-light"></i></a></div>
                 </div>
              </div>
              <div class="col-sm-6 col-md-6 col-lg-2 footer-widget widget-links">

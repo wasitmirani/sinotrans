@@ -13,6 +13,7 @@
     font-weight: 700;
     line-height: 100px;
     color: #000000;
+    text-transform: capitalize;
     padding: 0;
     position: relative;
     display: block;

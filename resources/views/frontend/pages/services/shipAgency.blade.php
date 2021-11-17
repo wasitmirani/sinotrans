@@ -85,7 +85,7 @@
 
                    <div class="entry-why">
                       <div class="entry-bio">
-                         <span style="font-size:18px; color:black"><strong>Our Services include</strong> </span>
+                         <span style="font-size:18px; color:black"><strong>Our services include</strong> </span>
                       </div>
                       <div class="row">
                         @component('frontend.components.pointsList',['title'=>'Agency Services'])
