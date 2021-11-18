@@ -91,7 +91,7 @@
                       <div class="row">
                         @component('frontend.components.pointsList',['title'=>'Palletized'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Open Storage'])
+                              @component('frontend.components.pointsList',['title'=>'Open storage'])
                               @endcomponent
 
                       </div>

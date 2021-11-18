@@ -483,7 +483,7 @@ section {
                 <div class="heading heading-5 text-center">
                    <p class="heading-subtitle">Join us today</p>
                    <h2 class="heading-title">Our Memberships & Affiliations</h2>
-                   <p class="heading-desc">We take pride in affiliating ourselves with leading regulatory bodies related to our industry, we enforce best practices and the highest standards in every segment of our business.</p>
+                   <p class="heading-fdesc">We take pride in affiliating ourselves with leading regulatory bodies related to our industry, we enforce best practices and the highest standards in every segment of our business.</p>
                 </div>
              </div>
           </div>

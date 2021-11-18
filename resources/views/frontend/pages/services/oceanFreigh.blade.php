@@ -80,17 +80,17 @@
                             <span style="font-size:18px; color:black"><strong>Our services include</strong> </span>
                           </div>
                           <div class="row">
-                              @component('frontend.components.pointsList',['title'=>'Conventional Shipping'])
+                              @component('frontend.components.pointsList',['title'=>'conventional shipping'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Ro-Ro Services Worldwide'])
+                              @component('frontend.components.pointsList',['title'=>'Ro-Ro services worldwide'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'FCL/LCL Service'])
+                              @component('frontend.components.pointsList',['title'=>'FCL/LCL service'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Heavy Lift and Oversized Cargo'])
+                              @component('frontend.components.pointsList',['title'=>'Heavy lift and oversized cargo'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Stevedoring Services'])
+                              @component('frontend.components.pointsList',['title'=>'Stevedoring services'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Potline Giver Service'])
+                              @component('frontend.components.pointsList',['title'=>'Potline giver service'])
                               @endcomponent
 
                          </div>

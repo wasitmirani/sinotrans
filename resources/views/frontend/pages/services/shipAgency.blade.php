@@ -88,15 +88,15 @@
                          <span style="font-size:18px; color:black"><strong>Our services include</strong> </span>
                       </div>
                       <div class="row">
-                        @component('frontend.components.pointsList',['title'=>'Agency Services'])
+                        @component('frontend.components.pointsList',['title'=>'Agency services'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Stevedoring'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Owner’s Husbandry'])
+                              @component('frontend.components.pointsList',['title'=>'Owner’s husbandry'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Provisions'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Ship Spares'])
+                              @component('frontend.components.pointsList',['title'=>'Ship spares'])
                               @endcomponent
                       </div>
                      </div>

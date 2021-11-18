@@ -97,13 +97,13 @@
                           <div class="row">
                               @component('frontend.components.pointsList',['title'=>'Containerized'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Break Bulk'])
+                              @component('frontend.components.pointsList',['title'=>'Break bulk'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Heavy Lift/Over-Dimension'])
+                              @component('frontend.components.pointsList',['title'=>'Heavy lift/over-dimension'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Full Truck Load '])
+                              @component('frontend.components.pointsList',['title'=>'Full truck load '])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Less Than Truck Load'])
+                              @component('frontend.components.pointsList',['title'=>'Less than truck load'])
                               @endcomponent
 
 

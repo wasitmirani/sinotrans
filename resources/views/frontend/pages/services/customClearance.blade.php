@@ -90,11 +90,11 @@
                       <div class="row">
                         @component('frontend.components.pointsList',['title'=>'Containerised'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Break Bulk'])
+                              @component('frontend.components.pointsList',['title'=>'Break bulk'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Bulk Commodity'])
+                              @component('frontend.components.pointsList',['title'=>'Bulk commodity'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Project Cargo'])
+                              @component('frontend.components.pointsList',['title'=>'Project cargo'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Re-Export'])
                               @endcomponent
