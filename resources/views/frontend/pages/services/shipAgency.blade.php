@@ -76,7 +76,7 @@
                 <div class="entry-content">
                    <div class="entry-bio">
                       <h5><strong>Ship Agency Service</strong> </h5>
-                      <p>Working with established vessel principals and service providers means benefitting from flexible, fully integrated multi-model logistic solutions that allow for quick transit times.</p>
+                      <p>Working with established vessel principals and service providers means benefitting from flexible, fully integrated Multimodal logistics solutions that allow for quick transit times.</p>
                       <p>The experience and dedication of the team provides outstanding handling of all types of cargoes, including heavy lifts and oversized project cargo, along with communication, knowledge and compliance requirements at all Pakistan ports. Success has always come from the ability to anticipate and adapt, allowing the company to keep up the pace with customers’ needs and demands.</p>
 
                    </div>

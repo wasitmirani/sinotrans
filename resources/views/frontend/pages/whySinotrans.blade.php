@@ -50,9 +50,9 @@
         </div>
         <div class="about-block">
         <div class="block-left">
-        <p>Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services.  Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.</p>
+        <p>Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services. Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.</p>
         <p>The unbeatable combination of our technology, service and people for our diverse customer base has made us a leading integrated logistics service provider in Pakistan with a reputation for multi-modal project cargo success backed by proven innovative logistics solutions and service excellence.</p>
-        <p>In 7 short years, we have accomplished over 50 large projects, equalling over 1.5 million tons of cargo, thanks to our ever expanding team: Thanks to their extensive knowledge base and rich experience, unwavering adaptability as well as unrelenting commitment to success, we’re certain to achieve much more. We also equip them with state-of-the-art tools and equipment to help empower lasting business relationships and sustained success.</p>
+        <p>In 7 short years, we have accomplished over 50 large projects, equalling over 1.5 million tons of cargo, thanks to our ever expanding team. Thanks to their extensive knowledge base and rich experience, unwavering adaptability as well as unrelenting commitment to success, we’re certain to achieve much more. We also equip them with state-of-the-art tools and equipment to help empower lasting business relationships and sustained success.</p>
         <p>This also means we play a significant role in a diverse array of projects that contribute to the country’s national wealth, security, and environmental well-being: From wind, solar, and hydropower setups to equipment transport for the overall revamp of Pakistan’s national grid, shifting over 7500+ TEU’s, we proudly help deliver prosperity and progress.</p>
         </div>
         </div>
@@ -67,7 +67,7 @@
         <div class="bg-section"><img class="img-fluid" src="{{asset('/assets/images/about/why.png')}}" alt="about Image"></div>
         </div>
         <div class="about-card">
-        <h6>Flexibile, Improved & Accelerated Solutions!</h6>
+        <h6>Flexible, Improved & Accelerated Solutions!</h6>
         <p>Strong customer service orientation.</p><a href="{{route('services.all')}}"><i class="icon-arrow-right"></i> our services</a>
         </div>
         </div>

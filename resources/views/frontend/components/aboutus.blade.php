@@ -45,7 +45,7 @@
                         <p>
                             Since its launch in Pakistan in 2014, Sinotrans has and continues to offer road transportation, heavy lifting, and oversize transportation, along with customs clearance, shipping agency, owners’ husbandry, warehousing, containerized, breakbulk and ocean freight booking services to and from Pakistan’s major trade points: Karachi Port, Port Qasim and Port Gwadar.
 
-                            The dependability and timeliness of services provided to all destinations, along with a wide and diverse customer base, has made Sinotrans Pakistan the leading integrated logistics service provider in the country. Playing a significant role in contributing to the country’s national wealth, security and environmental well-being, from the Hub Power Project and equipment transport of the storied Orange Line Metro Lahore to the K2 And K3 Nuclear Power Plant Karachi, Sinotrans promises to deliver prosperity and progress with every project it undertakes.
+                            The dependability and timeliness of services provided to all destinations, along with a wide and diverse customer base, has made Sinotrans Pakistan the leading integrated logistics service provider in the country. Playing a significant role in contributing to the country’s national wealth, security and environmental well-being, from the Hub Power Project and equipment transport of the storied Orange Line Metro Lahore to the K2 And K3 Nuclear Power Plant Karachi. Sinotrans promises to deliver prosperity and progress with every project it undertakes.
 
                         </p>
                         @endif

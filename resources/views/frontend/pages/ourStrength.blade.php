@@ -69,7 +69,7 @@
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Our proprietary team of highly experienced drivers and modern equipment'])
                 @endcomponent
-                @component('frontend.components.pointsList',['col'=>12,'title'=>'Strong customer service orientation '])
+                @component('frontend.components.pointsList',['col'=>12,'title'=>'Strong customer service orientation'])
                 @endcomponent
                 @component('frontend.components.pointsList',['col'=>12,'title'=>'Well versed in policies & regulations'])
                 @endcomponent

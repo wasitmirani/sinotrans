@@ -101,7 +101,7 @@
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Heavy lift/over-dimension'])
                               @endcomponent
-                              @component('frontend.components.pointsList',['title'=>'Full truck load '])
+                              @component('frontend.components.pointsList',['title'=>'Full truck load'])
                               @endcomponent
                               @component('frontend.components.pointsList',['title'=>'Less than truck load'])
                               @endcomponent

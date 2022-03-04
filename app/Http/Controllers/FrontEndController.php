@@ -30,7 +30,7 @@ class FrontEndController extends Controller
     }
     public function whySinotrans(){
         $title="Why Sinotrans Limited";
-        $des="Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services.  Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.
+        $des="Sinotrans specializes in managing complex, high-value, heavy-lift and over-dimensional project cargo and international freight forwarding services. Customers can count on us for reliable, professional, safe, and compliant cargo handling, while remaining responsive to constantly changing market needs.
         The unbeatable combination of our technology, service and people for our diverse customer base has made us a leading integrated logistics service provider in Pakistan with a reputation for multi-modal project cargo success backed by proven innovative logistics solutions and service excellence.";
         $this->setSeo($title, $des);
         return view('frontend.pages.whySinotrans');

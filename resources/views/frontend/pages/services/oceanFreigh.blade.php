@@ -69,7 +69,7 @@
                        <div class="entry-bio">
                           <h5><strong>Ocean Freight</strong></h5>
                           <p>Sinotrans works with leading carriers and uses an expanding network of agents, partners, as well as its own offices around the world, enabling the company to provide global services,  led by the extensive expertise of the local teams.</p>
-                          <p>Working with Sinotrans means benefitting from the flexible, fully integrated multi-model logistic solutions, competitive rates, and quick transit times. The all-inclusive ocean freight service utilizes the most efficient routes to ensure all cargo reaches its destination, timely and safely.</p>
+                          <p>Working with Sinotrans means benefitting from the flexible, fully integrated Multi-Modal logistic solutions, competitive rates, and quick transit times. The all-inclusive ocean freight service utilizes the most efficient routes to ensure all cargo reaches its destination, timely and safely.</p>
                           <p>Apart from freight and handling, the company also offers full cargo routing proposals, including advice on cargo stowage, securing out of gauge, heavy and otherwise ‘exceptional’ cargoes. Plus, comprehensive route surveys for complex movements where necessary are also part of the services offered.</p>
                        </div>
 
