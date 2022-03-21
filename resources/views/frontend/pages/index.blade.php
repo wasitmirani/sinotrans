@@ -130,6 +130,23 @@ section {
              </div>
           </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
+            <div class="bg-section"><img src="{{asset('assets/images/sliders/slider3.png')}}" alt="Background"></div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 col-lg-7">
+                     <div class="slide-content">
+                        <p class="slide-subheadline"></p>
+                        <h3 class="slide-headline">Innovative  <br>transportation solutions</h3>
+                        {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
+                        @component('frontend.components.silderLinks')
+
+                        @endcomponent
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+          <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
              <div class="bg-section"><img src="{{asset('assets/images/sliders/slide2.png')}}" alt="Background"></div>
              <div class="container">
                 <div class="row">
@@ -146,23 +163,7 @@ section {
                 </div>
              </div>
           </div>
-          <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark">
-             <div class="bg-section"><img src="{{asset('assets/images/sliders/slider3.png')}}" alt="Background"></div>
-             <div class="container">
-                <div class="row">
-                   <div class="col-12 col-lg-7">
-                      <div class="slide-content">
-                         <p class="slide-subheadline"></p>
-                         <h3 class="slide-headline">Innovative  <br>transportation solutions</h3>
-                         {{-- <p class="slide-desc">Representative logistics operator providing full range of service in the sphere of customs clearance and transportation .</p> --}}
-                         @component('frontend.components.silderLinks')
 
-                         @endcomponent
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
           <div class="slide d-flex align-items-center bg-overlay bg-overlay-dark" style="background-position:center bottom;">
              <div class="bg-section"><img src="assets/images/sliders/slide4.jpeg" alt="Background"></div>
              <div class="container">
