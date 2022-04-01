@@ -6,8 +6,12 @@
                 <!-- OR -->
     {!! SEO::generate() !!}
 
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image"content="{{asset('assets/images/sliders/serivice.png')}}" />
+    <meta property="og:image"content="{{asset('assets/images/sliders/serivice.png')}}" />
+    <meta property="og:image"content="{{asset('assets/images/sliders/serivice.png')}}" />
+    <meta property="og:image"content="{{asset('assets/images/sliders/serivice.png')}}" />
+    <meta property="og:image:url"content="{{asset('assets/images/sliders/serivice.png')}}" />
 
       <link href="{{asset('/assets/images/favicon/favicon.png')}}" rel="icon">
       <link rel="preconnect" href="https://fonts.gstatic.com">
